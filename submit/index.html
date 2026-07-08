@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>投稿資源｜PhAI 資源館</title>
+<meta name="description" content="投稿你的 AI × 物理教學資源到 PhAI 資源館：填一份 Google 表單，講師群輕審核後上架，約 3-5 分鐘。" />
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4f5fb" />
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b0f1e" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%237b78ff'/%3E%3Cstop offset='1' stop-color='%232cc7d3'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%230c1027'/%3E%3Cellipse cx='32' cy='32' rx='24' ry='10' fill='none' stroke='url(%23g)' stroke-width='3' transform='rotate(-24 32 32)'/%3E%3Ccircle cx='32' cy='32' r='7' fill='url(%23g)'/%3E%3Ccircle cx='51' cy='22' r='4' fill='%23f0a11b'/%3E%3C/svg%3E" />
+<script>(function(){try{var t=localStorage.getItem('phai-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../assets/site.css" />
+<style>
+:root { --max: 980px; }
+
+.hero { border-radius: var(--r-xl); margin-top: 26px; padding: 42px 36px; }
+.eyebrow { display: inline-flex; align-items: center; gap: 9px; font-size: 12.5px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--amber); font-family: "Space Grotesk", sans-serif; }
+.eyebrow::before { content: ""; width: 26px; height: 2px; background: var(--amber); border-radius: 2px; }
+.hero h1 { position: relative; margin: 12px 0 12px; font-size: clamp(1.85rem, 4.5vw, 2.8rem); line-height: 1.2; letter-spacing: -.03em; font-weight: 900; text-wrap: balance; }
+.hero p.lead { position: relative; margin: 0; max-width: 36em; color: var(--space-muted); font-size: 1.05rem; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; position: relative; }
+.hint { position: relative; margin: 16px 0 0; color: var(--space-muted); font-size: 13.5px; }
+
+section { margin-top: 40px; }
+h2 { margin: 0 0 4px; font-size: 1.45rem; letter-spacing: -.02em; font-weight: 900; }
+.sec-sub { margin: 0 0 16px; color: var(--muted); font-size: 14.5px; }
+
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.panel h3 { display: flex; align-items: center; gap: 9px; margin-bottom: 12px; }
+.count { display: inline-grid; place-items: center; min-width: 26px; height: 26px; border-radius: 999px; background: var(--brand-soft); color: var(--brand-ink); font-size: 13px; font-weight: 700; padding: 0 8px; font-family: "Space Grotesk", sans-serif; }
+.fields { margin: 0; padding: 0; list-style: none; display: grid; gap: 9px; }
+.field { background: var(--paper-2); border: 1px solid var(--line); border-radius: var(--r-sm); padding: 11px 14px; }
+.field b { display: block; font-size: 14.5px; }
+.field span { color: var(--muted); font-size: 13.5px; }
+.mark { display: inline-flex; align-items: center; border-radius: 999px; padding: 1px 9px; font-size: 11.5px; font-weight: 700; margin-left: 7px; vertical-align: 2px; }
+.mark.multi { color: var(--brand-ink); background: var(--brand-soft); }
+
+details.fold { border: 1px solid var(--line); border-radius: var(--r-lg); background: var(--paper); box-shadow: var(--shadow-soft); }
+details.fold + details.fold { margin-top: 14px; }
+details.fold summary { cursor: pointer; padding: 17px 22px; font-weight: 700; list-style: none; display: flex; align-items: center; gap: 10px; }
+details.fold summary::-webkit-details-marker { display: none; }
+details.fold summary::after { content: "▾"; margin-left: auto; color: var(--faint); transition: rotate .2s ease; }
+details.fold[open] summary::after { rotate: 180deg; }
+details.fold .inner { padding: 0 22px 22px; display: grid; gap: 12px; }
+details.fold.admin { border-style: dashed; box-shadow: none; }
+details.fold.admin summary { color: var(--muted); }
+.form-embed { border: 1px solid var(--line); border-radius: var(--r-md); overflow: hidden; background: #fff; }
+.form-embed iframe { display: block; width: 100%; height: 1200px; border: 0; }
+.embed-note { color: var(--faint); font-size: 13px; margin: 0; }
+
+.admin-links { display: grid; gap: 9px; }
+.admin-links a { display: flex; justify-content: space-between; gap: 10px; align-items: center; text-decoration: none; background: var(--paper-2); border: 1px solid var(--line); border-radius: var(--r-sm); padding: 11px 14px; font-size: 14.5px; }
+.admin-links a:hover { border-color: var(--brand); }
+.admin-links b { font-size: 14.5px; }
+.admin-links span { color: var(--faint); font-size: 12.5px; }
+.admin-note { color: var(--muted); font-size: 13.8px; margin: 0; }
+.admin-note code { background: var(--bg-soft); border-radius: 6px; padding: 1px 7px; font-size: 12.5px; }
+
+footer.simple { margin: 50px 0 32px; text-align: center; color: var(--faint); font-size: 13.5px; }
+footer.simple a { color: var(--muted); }
+
+@media (max-width: 760px) {
+  .grid2 { grid-template-columns: 1fr; }
+  .hero { padding: 30px 22px; }
+  .form-embed iframe { height: 1400px; }
+}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <nav class="nav" aria-label="主導覽">
+    <a class="brand" href="../">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7b78ff"/><stop offset="1" stop-color="#2cc7d3"/></linearGradient></defs><rect width="64" height="64" rx="16" fill="#0c1027"/><ellipse cx="32" cy="32" rx="24" ry="10" fill="none" stroke="url(#bg1)" stroke-width="3" transform="rotate(-24 32 32)"/><circle cx="32" cy="32" r="7" fill="url(#bg1)"/><circle cx="51" cy="22" r="4" fill="#f0a11b"/></svg>
+      <span><b>PhAI 資源館</b><small>AI × 物理教學共備平台</small></span>
+    </a>
+    <div class="nav-links">
+      <a href="../">← 回資源館</a>
+    </div>
+    <button id="themeBtn" class="icon-btn" type="button" aria-label="切換深淺色模式">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
+  </nav>
+</div>
+
+<main class="shell">
+  <header class="hero space-panel">
+    <span class="eyebrow">Submit · 投稿</span>
+    <h1>把你的 AI × 物理教學資源<br />分享給更多老師</h1>
+    <p class="lead">不用等做到完美，能說清楚「這份資源可以幫老師做什麼、適合誰、是否可公開」就可以投稿。講師群會先做輕審核，再整理上架。</p>
+    <div class="hero-actions">
+      <a class="btn solid" href="https://docs.google.com/forms/d/e/1FAIpQLSeyI7vy8jpzvB1x88hP4BGxYPkE5yPxqZQiWcUspjB2gSGFHg/viewform" target="_blank" rel="noopener">開啟投稿表單 ↗</a>
+      <a class="btn space-ghost" href="#fields">先看要填什麼</a>
+    </div>
+    <p class="hint">填寫約 3-5 分鐘 · 可事後修改回覆 · 也可以直接在本頁下方填寫</p>
+  </header>
+
+  <section aria-label="投稿流程">
+    <h2>投稿之後會發生什麼？</h2>
+    <p class="sec-sub">三個步驟，讓每筆資源的連結、授權與個資邊界都清楚。</p>
+    <div class="steps three">
+      <div class="step"><span class="n">1</span><b>填寫表單</b><span>提供資源名稱、一句話介紹、連結與公開範圍。</span></div>
+      <div class="step"><span class="n">2</span><b>講師群輕審核</b><span>確認連結可開、公開範圍明確，避免個資與著作權疑慮。</span></div>
+      <div class="step"><span class="n">3</span><b>整理上架</b><span>補齊分類與標籤後上架到資源目錄，標明作者與來源。</span></div>
+    </div>
+  </section>
+
+  <section id="fields" aria-label="表單欄位預覽">
+    <h2>表單欄位預覽</h2>
+    <p class="sec-sub">先看一眼要填哪些內容，準備好連結再開表單會更快。</p>
+    <div class="grid2">
+      <div class="panel">
+        <h3>必填欄位 <span class="count">11</span></h3>
+        <ul class="fields">
+          <li class="field"><b>投稿者顯示名稱</b><span>可填真名、暱稱或學校稱呼。</span></li>
+          <li class="field"><b>是否可公開投稿者名稱 <span class="mark multi">單選</span></b><span>可公開／僅限講師群內部／匿名呈現。</span></li>
+          <li class="field"><b>資源名稱</b><span>建議 20 字內，但不強制。</span></li>
+          <li class="field"><b>一句話介紹</b><span>讓其他老師一眼知道這份資源能做什麼。</span></li>
+          <li class="field"><b>資源類型 <span class="mark multi">複選</span></b><span>探究題、素養題、模擬／互動教材、Prompt/YAML/Skill、Agent 工作流、教材／講義／簡報、錄影／教學示範、其他。</span></li>
+          <li class="field"><b>適用對象 <span class="mark multi">複選</span></b><span>國中、高中、大學基礎、教師備課、社群共學。</span></li>
+          <li class="field"><b>物理主題 <span class="mark multi">複選</span></b><span>力學、波動、光學、電磁、熱學、近代物理、探究與實作、跨領域、AI 教學工作流。</span></li>
+          <li class="field"><b>資源連結</b><span>Google Drive、GitHub Pages、YouTube 或其他公開連結。</span></li>
+          <li class="field"><b>是否允許公開展示 <span class="mark multi">單選</span></b><span>允許公開／僅限講師群內部／需先討論後再公開。</span></li>
+          <li class="field"><b>授權／使用限制</b><span>例如：可教學使用、需標註作者、不可再散布、待確認。</span></li>
+          <li class="field"><b>是否願意分享 5-10 分鐘心得 <span class="mark multi">單選</span></b><span>願意／可以再討論／暫時不方便。</span></li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>選填欄位 <span class="count">7</span></h3>
+        <ul class="fields">
+          <li class="field"><b>使用 AI 工具</b><span>例如 NotebookLM、Claude、Codex、Gemini、自製工具。</span></li>
+          <li class="field"><b>教學使用情境</b><span>課堂、作業、備課、社群共學等。</span></li>
+          <li class="field"><b>學生反應或使用結果</b><span>若涉及學生資料請先匿名。</span></li>
+          <li class="field"><b>建議搭配的課程單元</b><span>例如高一力學、電磁感應、探究與實作。</span></li>
+          <li class="field"><b>是否有範例圖片</b><span>有且可公開／有但需遮蔽／沒有。</span></li>
+          <li class="field"><b>是否有學生作品或個資需要隱去</b><span>公開前輕審核重點。</span></li>
+          <li class="field"><b>希望講師群協助改進的地方</b><span>分類、題目潤飾、互動化、授權判斷等。</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="投稿前檢查">
+    <div class="panel">
+      <h3>投稿前 30 秒檢查</h3>
+      <ul class="check-list">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>連結用無痕視窗打得開（Google Drive 記得開「知道連結的使用者」）</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>內容若含學生姓名、照片、聲音或作品，已先去識別化或在表單中說明</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>引用他人教材或圖片時，授權允許公開分享</li>
+      </ul>
+    </div>
+  </section>
+
+  <section aria-label="頁內填寫">
+    <details class="fold" id="embedFold">
+      <summary>不想開新視窗？在此頁直接填寫表單</summary>
+      <div class="inner">
+        <p class="embed-note">表單較長時建議還是用「開啟投稿表單」開新視窗填寫，比較好捲動。</p>
+        <div class="form-embed">
+          <iframe id="formFrame" title="PhAI 資源投稿表單" loading="lazy" data-src="https://docs.google.com/forms/d/e/1FAIpQLSeyI7vy8jpzvB1x88hP4BGxYPkE5yPxqZQiWcUspjB2gSGFHg/viewform?embedded=true"></iframe>
+        </div>
+      </div>
+    </details>
+
+    <details class="fold admin">
+      <summary>管理者專區（講師群用：表單後台、收件表與建置腳本）</summary>
+      <div class="inner">
+        <div class="admin-links">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeyI7vy8jpzvB1x88hP4BGxYPkE5yPxqZQiWcUspjB2gSGFHg/viewform" target="_blank" rel="noopener"><b>投稿表單（公開填寫連結）</b><span>publishedUrl ↗</span></a>
+          <a href="https://docs.google.com/forms/d/1GmBvRASxQ_FJRfhWXW9YhUPfvrJfjS23KPdE_dEHrlo/edit" target="_blank" rel="noopener"><b>表單後台（編輯題目）</b><span>editUrl ↗</span></a>
+          <a href="https://docs.google.com/spreadsheets/d/1IRqNFZGr1Pz2KC18mvMbC5Re9kbQjP7e8qcTZ6xftgc/edit" target="_blank" rel="noopener"><b>投稿收件表（審核與整理）</b><span>sheetUrl ↗</span></a>
+          <a href="../assets/create-phai-submission-form.gs" download><b>Google Form 一鍵建立腳本</b><span>Apps Script 備份 .gs</span></a>
+          <a href="../assets/submission-sheet-fields.csv" download><b>Sheet 欄位對照表</b><span>CSV</span></a>
+        </div>
+        <p class="admin-note">審核流程：在收件表把「審核狀態」改為「可上架」後，將該筆資料整理進網站的 <code>data/resources.js</code>，平台會自動長出資源卡。表單若需重建，執行 .gs 腳本中的 <code>createPhaiSubmissionForm</code> 即可。</p>
+      </div>
+    </details>
+  </section>
+
+  <footer class="simple">PhAI 共學圈 · <a href="../">回資源館首頁</a></footer>
+</main>
+
+<script>
+(function () {
+  'use strict';
+  var root = document.documentElement;
+  document.getElementById('themeBtn').addEventListener('click', function () {
+    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('phai-theme', next); } catch (e) {}
+  });
+  /* 內嵌表單：第一次展開才載入 */
+  var fold = document.getElementById('embedFold');
+  fold.addEventListener('toggle', function () {
+    var f = document.getElementById('formFrame');
+    if (fold.open && !f.src) f.src = f.dataset.src;
+  });
+})();
+</script>
+</body>
+</html>
