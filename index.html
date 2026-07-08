@@ -286,7 +286,7 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
         <select id="fTopic" aria-label="物理主題"><option value="">全部主題</option></select>
         <select id="fStatus" aria-label="收錄狀態"><option value="">全部狀態</option></select>
         <select id="fSort" aria-label="排序方式">
-          <option value="default">已公開優先</option>
+          <option value="default">每週分享優先</option>
           <option value="new">編號新 → 舊</option>
           <option value="old">編號舊 → 新</option>
         </select>
@@ -461,6 +461,10 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
   var state = { q: '', type: '全部', audience: '', topic: '', status: '', sort: 'default' };
   var types = uniq(R.map(function (r) { return r.resource_type; }));
 
+  /* 每週分享場次對照：resource_id → 場次編號（用於預設排序把每週分享放最前面） */
+  var sessionNoOf = {};
+  S.forEach(function (s) { sessionNoOf[s.resource_id] = s.no; });
+
   function readUrl() {
     var p = new URLSearchParams(location.search);
     state.q = (p.get('q') || '').toLowerCase();
@@ -624,11 +628,23 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
       '<div class="card-foot"><button type="button" class="more" data-detail="' + esc(r.id) + '">詳細資訊</button>' + open + '</div>' +
       '</article>';
   }
+  /* 預設排序分級：每週分享(已上架) → 其他已公開 → 每週分享(整理中) → 其他整理中 */
+  function defaultRank(r) {
+    var isSession = sessionNoOf[r.id] != null;
+    var pub = r.status === '已公開';
+    if (pub && isSession) return 0;
+    if (pub) return 1;
+    if (isSession) return 2;
+    return 3;
+  }
   function sortFn(a, b) {
     if (state.sort === 'new') return b.id.localeCompare(a.id);
     if (state.sort === 'old') return a.id.localeCompare(b.id);
-    var pa = a.status === '已公開' ? 0 : 1, pb = b.status === '已公開' ? 0 : 1;
-    return pa - pb || b.id.localeCompare(a.id);
+    var ra = defaultRank(a), rb = defaultRank(b);
+    if (ra !== rb) return ra - rb;
+    var sa = sessionNoOf[a.id], sb = sessionNoOf[b.id];
+    if (sa != null && sb != null) return sb - sa; // 同為每週分享：最新一週在前
+    return b.id.localeCompare(a.id);
   }
   function render() {
     var data = R.slice().sort(sortFn).filter(match);
