@@ -43,6 +43,9 @@
 .hot:hover { background: rgba(255,255,255,.13); color: #fff; }
 .orbit-wrap { display: grid; place-items: center; filter: drop-shadow(0 0 42px rgba(123, 120, 255, .22)); }
 .orbit-wrap svg { width: min(100%, 330px); height: auto; }
+.orbit-spin { transform-origin: 200px 200px; animation: spin 46s linear infinite; }
+.orbit-spin2 { transform-origin: 200px 200px; animation: spin 70s linear infinite reverse; }
+@keyframes spin { to { transform: rotate(360deg); } }
 .stats { position: relative; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; padding-bottom: 48px; }
 .stat { border: 1px solid var(--space-line); background: rgba(255, 255, 255, .055); backdrop-filter: blur(6px); border-radius: var(--r-md); padding: 15px 19px; }
 .stat b { display: block; font-size: 2rem; line-height: 1.15; letter-spacing: -.02em; font-family: "Space Grotesk", "Noto Sans TC", sans-serif; }
@@ -228,19 +231,23 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
       <svg id="heroOrbit" viewBox="0 0 400 400" fill="none">
         <!-- 靜態外圈 -->
         <ellipse cx="200" cy="200" rx="122" ry="180" stroke="#8f9bff" stroke-width="1" opacity=".25" transform="rotate(8 200 200)"/>
-        <!-- 軌道 1：電子沿橢圓路徑順向運行 -->
-        <g transform="rotate(-28 200 200)">
-          <ellipse cx="200" cy="200" rx="165" ry="66" stroke="#8f8bff" stroke-width="1.6" opacity=".65"/>
-          <circle r="8" fill="#f0a11b">
-            <animateMotion dur="17s" repeatCount="indefinite" path="M365,200 A165,66 0 1 1 35,200 A165,66 0 1 1 365,200"/>
-          </circle>
+        <!-- 軌道 1：軌道環緩慢旋轉，電子同時沿橢圓路徑運行（同座標系，永遠貼軌） -->
+        <g class="orbit-spin">
+          <g transform="rotate(-28 200 200)">
+            <ellipse cx="200" cy="200" rx="165" ry="66" stroke="#8f8bff" stroke-width="1.6" opacity=".65"/>
+            <circle r="8" fill="#f0a11b">
+              <animateMotion dur="17s" repeatCount="indefinite" path="M365,200 A165,66 0 1 1 35,200 A165,66 0 1 1 365,200"/>
+            </circle>
+          </g>
         </g>
-        <!-- 軌道 2：電子反向、不同週期 -->
-        <g transform="rotate(34 200 200)">
-          <ellipse cx="200" cy="200" rx="150" ry="58" stroke="#37d6e0" stroke-width="1.4" opacity=".55"/>
-          <circle r="6" fill="#37d6e0">
-            <animateMotion dur="12s" begin="-4s" repeatCount="indefinite" path="M50,200 A150,58 0 1 0 350,200 A150,58 0 1 0 50,200"/>
-          </circle>
+        <!-- 軌道 2：反向旋轉、電子反向運行、不同週期 -->
+        <g class="orbit-spin2">
+          <g transform="rotate(34 200 200)">
+            <ellipse cx="200" cy="200" rx="150" ry="58" stroke="#37d6e0" stroke-width="1.4" opacity=".55"/>
+            <circle r="6" fill="#37d6e0">
+              <animateMotion dur="12s" begin="-4s" repeatCount="indefinite" path="M50,200 A150,58 0 1 0 350,200 A150,58 0 1 0 50,200"/>
+            </circle>
+          </g>
         </g>
         <circle cx="200" cy="200" r="52" stroke="#8f8bff" stroke-width="1.2" opacity=".45"/>
         <circle cx="200" cy="200" r="34" fill="url(#coreGrad)"/>
