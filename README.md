@@ -14,6 +14,7 @@ data/resources.js   資料檔：所有資源卡與場次資料都在這裡
 assets/site.css     共用設計系統（色彩 tokens、深淺色、topbar、按鈕、卡片等元件）
 assets/             Google Form 建立腳本（.gs）與 Sheet 欄位對照表（.csv）
 404.html            GitHub Pages 404 頁（自動導回首頁）
+legacy/             改版前的舊版頁面存檔，保留供回顧對照（不再更新）
 ```
 
 好用的網址參數（可直接分享給老師）：
@@ -56,4 +57,4 @@ git commit -m "update resources"
 git push
 ```
 
-GitHub Pages(main branch / root)約 1-2 分鐘後生效。
+GitHub Pages（main branch / root）約 1-2 分鐘後生效。
