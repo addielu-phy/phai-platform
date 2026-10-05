@@ -187,7 +187,7 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
 </style>
 </head>
 <body>
-<a class="skip" href="#catalog">跳到資源目錄</a>
+<a class="skip" href="#sessions">跳到分享場次</a>
 
 <div class="topbar">
   <nav class="nav" aria-label="主導覽">
@@ -196,8 +196,8 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
       <span><b>PhAI 資源館</b><small>AI × 物理教學共備平台</small></span>
     </a>
     <div class="nav-links" id="navLinks">
-      <a href="#catalog">資源目錄</a>
       <a href="#sessions">分享場次</a>
+      <a href="#catalog">資源目錄</a>
       <a href="#workflow">上架流程</a>
       <a href="#about">關於</a>
     </div>
@@ -267,6 +267,18 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
 </header>
 
 <main class="shell">
+  <!-- 分享場次 -->
+  <section class="block" id="sessions">
+    <div class="sec-head">
+      <div>
+        <span class="sec-kicker">Sessions</span>
+        <h2>分享場次</h2>
+        <p class="sec-sub">PhAI 共學圈每週線上分享的主題紀錄，場次資料整理完成後會上架到資源目錄。</p>
+      </div>
+    </div>
+    <ol id="timeline" class="timeline"></ol>
+  </section>
+
   <!-- 分類導覽 -->
   <section class="block" id="browse" aria-label="依類型瀏覽">
     <div class="sec-head">
@@ -310,18 +322,6 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
     <div class="resultbar"><span id="resultText" aria-live="polite">載入中…</span></div>
     <div id="cards" class="cards"></div>
     <noscript><p style="padding:20px;color:#b00">此頁需要 JavaScript 才能顯示資源目錄。</p></noscript>
-  </section>
-
-  <!-- 分享場次 -->
-  <section class="block" id="sessions">
-    <div class="sec-head">
-      <div>
-        <span class="sec-kicker">Sessions</span>
-        <h2>分享場次</h2>
-        <p class="sec-sub">PhAI 共學圈每週線上分享的主題紀錄，場次資料整理完成後會上架到資源目錄。</p>
-      </div>
-    </div>
-    <ol id="timeline" class="timeline"></ol>
   </section>
 
   <!-- 上架流程 -->
@@ -386,8 +386,8 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
     </div>
     <div class="foot-col">
       <b>站內導覽</b>
-      <a href="#catalog">資源目錄</a>
       <a href="#sessions">分享場次</a>
+      <a href="#catalog">資源目錄</a>
       <a href="#workflow">上架流程</a>
       <a href="#about">關於我們</a>
     </div>
@@ -422,7 +422,7 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
   </div>
 </dialog>
 
-<script src="data/resources.js?v=c5a590f"></script>
+<script src="data/resources.js?v=aa9eabd-sessions-top"></script>
 <script>
 (function () {
   'use strict';
