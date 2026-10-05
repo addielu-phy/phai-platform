@@ -23,9 +23,9 @@ window.PHAI_RESOURCES = [
   {
     "id": "PHAI-0001",
     "status": "已公開",
-    "title": "Codex × Agent 協作：讓 AI 成為教學助理團隊",
+    "title": "Codex × Agent 協作——讓 AI 成為你的教學助理團隊",
     "summary": "以 Codex 與 Agent 協作示範教師如何建立可分工、可驗證的 AI 教學助理工作流",
-    "description": "公開 YouTube 影片資源，適合用於教師研習、社群共學與 AI 教學工作流入門。",
+    "description": "5/20 第一場分享：以 Codex 與 Agent 協作，讓 AI 成為你的教學助理團隊。公開 YouTube 影片與講義，適合教師研習、社群共學與 AI 教學工作流入門。",
     "author_display": "盧政良",
     "author_visibility": "可公開",
     "resource_type": [
@@ -111,9 +111,9 @@ window.PHAI_RESOURCES = [
   {
     "id": "PHAI-0003",
     "status": "已公開",
-    "title": "NotebookLM × 探究命題：科展轉探究題",
+    "title": "NotebookLM × 探究命題——科展題目轉化為符合課綱的探究題",
     "summary": "用 NotebookLM 把科展或競賽題材轉成符合課綱的探究命題",
-    "description": "整理 108 課綱、Bloom、RAG、YAML、出題指令與探究實作命題資料，協助教師快速建立探究題材與命題流程。",
+    "description": "6/3 第三場分享：整理 108 課綱、Bloom、RAG、YAML、出題指令與探究實作命題資料，協助教師快速建立探究題材與命題流程。",
     "author_display": "趙晉鴻",
     "author_visibility": "可公開",
     "resource_type": [
@@ -193,7 +193,7 @@ window.PHAI_RESOURCES = [
   {
     "id": "PHAI-0005",
     "status": "已公開",
-    "title": "本地端大模型 × Hermes 龍蝦：把 AI 教學助理裝進自己的電腦",
+    "title": "本地端大模型 × Hermes 龍蝦——把 AI 教學助理裝進自己的電腦",
     "summary": "介紹本地端大模型與 Hermes 龍蝦在教師日常工作中的應用",
     "description": "6/17 第五場分享錄影，介紹本地端大模型與 Hermes 龍蝦在教師日常工作中的應用，聚焦教材整理、評量設計、課堂素材管理與長期工作脈絡。",
     "author_display": "盧政良",
@@ -230,7 +230,7 @@ window.PHAI_RESOURCES = [
   {
     "id": "PHAI-0006",
     "status": "已公開",
-    "title": "學會模擬的下一步：如何將模擬與評量結合",
+    "title": "學會模擬的下一步——如何將模擬與評量結合",
     "summary": "把物理模擬從展示工具轉成可操作、可觀察、可評量的學習任務",
     "description": "6/24 第六場分享錄影，把物理模擬從展示工具轉成可操作、可觀察、可評量的學習任務；可發展成互動評量設計模板。",
     "author_display": "江長屹",
@@ -275,7 +275,7 @@ window.PHAI_RESOURCES = [
   {
     "id": "PHAI-0007",
     "status": "已公開",
-    "title": "Antigravity IDE 實戰入門",
+    "title": "Antigravity IDE 實戰入門——讓 AI 走進你的教材開發環境",
     "summary": "讓 AI 進入教材開發環境，管理資料、題目草稿與備課流程",
     "description": "7/1 第七場分享錄影，帶領教師以 AI IDE 整理資料、管理教材專案並建立可持續修改的備課流程。",
     "author_display": "趙晉鴻",
@@ -637,12 +637,12 @@ window.PHAI_RESOURCES = [
   },
   {
     "id": "PHAI-0017",
-    "status": "資料確認中",
-    "title": "教師個人 AI 工作流與教材專案管理",
-    "summary": "聚焦 Obsidian／Notion／AI IDE／Markdown／Skill，讓教材開發從一次性對話變成可累積工作流",
-    "description": "8/5 第十二場分享錄影（講題依講師群暫定規劃；細節待補確認），討論如何把教材開發做成可累積、可修改、可分享的個人 AI 工作流。",
-    "author_display": "待確認",
-    "author_visibility": "需確認",
+    "status": "已公開",
+    "title": "教師個人 AI 工作流與教材專案管理：從一次性對話到可累積、可版本控制的系統",
+    "summary": "聚焦 Obsidian／Notion／AI IDE／Markdown／Skill，讓教材開發從一次性對話變成可累積、可版本控制的系統",
+    "description": "8/5 第十二場分享錄影，討論如何把教材開發做成可累積、可修改、可分享的個人 AI 工作流，從一次性對話走向可版本控制的系統。",
+    "author_display": "江長屹、趙晉鴻、蔡明勳、盧政良",
+    "author_visibility": "可公開",
     "resource_type": [
       "錄影／教學示範",
       "Agent 工作流",
@@ -671,17 +671,18 @@ window.PHAI_RESOURCES = [
       "教材專案",
       "Obsidian",
       "Skill",
+      "版本控制",
       "分享錄影"
     ]
   },
   {
     "id": "PHAI-0018",
-    "status": "資料確認中",
-    "title": "週三分享（8/12）",
-    "summary": "PhAI 共學圈 8/12 週三分享錄影；講題與講者待確認",
-    "description": "8/12 週三分享錄影已掛上 Drive 連結；講題、講者與授權細節仍待確認後更新資源卡。",
-    "author_display": "待確認",
-    "author_visibility": "需確認",
+    "status": "已公開",
+    "title": "解放批改地獄——自製「PM批改精靈」",
+    "summary": "分享如何自製批改精靈，減輕教師批改負擔並提升回饋品質",
+    "description": "8/12 第十三場分享錄影：蔡明勳（小威）老師分享自製「PM批改精靈」，協助教師從批改地獄中解放出來。",
+    "author_display": "蔡明勳（小威）／南崁高中",
+    "author_visibility": "可公開",
     "resource_type": [
       "錄影／教學示範"
     ],
@@ -689,7 +690,9 @@ window.PHAI_RESOURCES = [
       "AI 教學工作流"
     ],
     "ai_tools": [
-      "Google Meet"
+      "AI Agent",
+      "批改精靈",
+      "Prompt"
     ],
     "audience": [
       "教師備課",
@@ -700,19 +703,20 @@ window.PHAI_RESOURCES = [
     "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
     "source_event": "8/12 第十三場分享",
     "tags": [
-      "週三分享",
-      "分享錄影",
-      "待確認"
+      "批改",
+      "PM批改精靈",
+      "評量回饋",
+      "分享錄影"
     ]
   },
   {
     "id": "PHAI-0019",
-    "status": "資料確認中",
-    "title": "週三分享（8/26）",
-    "summary": "PhAI 共學圈 8/26 週三分享錄影；講題與講者待確認",
-    "description": "8/26 週三分享錄影已掛上 Drive 連結；講題、講者與授權細節仍待確認後更新資源卡。",
-    "author_display": "待確認",
-    "author_visibility": "需確認",
+    "status": "已公開",
+    "title": "報告寫得很好，學生真的懂嗎？AI 讀報告、個別追問與教師評量",
+    "summary": "用 AI 讀學生報告、個別追問與協助教師評量，檢視學生是否真正理解",
+    "description": "8/26 第十四場分享錄影：江長屹老師示範以 AI 讀報告、個別追問與教師評量，檢視「報告寫得好」是否等於「學生真的懂」。",
+    "author_display": "江長屹",
+    "author_visibility": "可公開",
     "resource_type": [
       "錄影／教學示範"
     ],
@@ -720,7 +724,9 @@ window.PHAI_RESOURCES = [
       "AI 教學工作流"
     ],
     "ai_tools": [
-      "Google Meet"
+      "AI chatbot",
+      "Prompt",
+      "評量"
     ],
     "audience": [
       "教師備課",
@@ -731,19 +737,20 @@ window.PHAI_RESOURCES = [
     "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
     "source_event": "8/26 第十四場分享",
     "tags": [
-      "週三分享",
-      "分享錄影",
-      "待確認"
+      "報告評量",
+      "個別追問",
+      "理解檢核",
+      "分享錄影"
     ]
   },
   {
     "id": "PHAI-0020",
-    "status": "資料確認中",
-    "title": "週三分享（9/2）",
-    "summary": "PhAI 共學圈 9/2 週三分享錄影；講題與講者待確認",
-    "description": "9/2 週三分享錄影已掛上 Drive 連結；講題、講者與授權細節仍待確認後更新資源卡。",
-    "author_display": "待確認",
-    "author_visibility": "需確認",
+    "status": "已公開",
+    "title": "Obsidian × AI：把教材、想法與教學脈絡變成可以累積的系統",
+    "summary": "用 Obsidian 與 AI 把教材、想法與教學脈絡整理成可累積的知識系統",
+    "description": "9/2 第十五場分享錄影：盧政良老師示範 Obsidian × AI，把教材、想法與教學脈絡變成可以累積的系統。",
+    "author_display": "盧政良",
+    "author_visibility": "可公開",
     "resource_type": [
       "錄影／教學示範"
     ],
@@ -751,7 +758,9 @@ window.PHAI_RESOURCES = [
       "AI 教學工作流"
     ],
     "ai_tools": [
-      "Google Meet"
+      "Obsidian",
+      "AI Agent",
+      "Markdown"
     ],
     "audience": [
       "教師備課",
@@ -762,27 +771,31 @@ window.PHAI_RESOURCES = [
     "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
     "source_event": "9/2 第十五場分享",
     "tags": [
-      "週三分享",
-      "分享錄影",
-      "待確認"
+      "Obsidian",
+      "知識管理",
+      "教材累積",
+      "分享錄影"
     ]
   },
   {
     "id": "PHAI-0021",
-    "status": "資料確認中",
-    "title": "週三分享（9/9）",
-    "summary": "PhAI 共學圈 9/9 週三分享錄影；講題與講者待確認",
-    "description": "9/9 週三分享錄影已掛上 Drive 連結；講題、講者與授權細節仍待確認後更新資源卡。",
-    "author_display": "待確認",
-    "author_visibility": "需確認",
+    "status": "已公開",
+    "title": "3B1B × 物理教學：把抽象概念做成看得懂、能操作的視覺教材",
+    "summary": "用 3Blue1Brown 風格工具，把抽象物理概念做成看得懂、能操作的視覺教材",
+    "description": "9/9 第十六場分享錄影：趙晉鴻老師示範 3B1B × 物理教學，把抽象概念做成看得懂、能操作的視覺教材。",
+    "author_display": "趙晉鴻",
+    "author_visibility": "可公開",
     "resource_type": [
+      "模擬／互動教材",
       "錄影／教學示範"
     ],
     "physics_topic": [
       "AI 教學工作流"
     ],
     "ai_tools": [
-      "Google Meet"
+      "3Blue1Brown",
+      "Manim",
+      "視覺化"
     ],
     "audience": [
       "教師備課",
@@ -793,19 +806,20 @@ window.PHAI_RESOURCES = [
     "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
     "source_event": "9/9 第十六場分享",
     "tags": [
-      "週三分享",
-      "分享錄影",
-      "待確認"
+      "3B1B",
+      "視覺教材",
+      "抽象概念",
+      "分享錄影"
     ]
   },
   {
     "id": "PHAI-0022",
-    "status": "資料確認中",
-    "title": "週三分享（9/23）",
-    "summary": "PhAI 共學圈 9/23 週三分享錄影；講題與講者待確認",
-    "description": "9/23 週三分享錄影已掛上 Drive 連結；講題、講者與授權細節仍待確認後更新資源卡。",
-    "author_display": "待確認",
-    "author_visibility": "需確認",
+    "status": "已公開",
+    "title": "AI × 課堂設計：讓學生愛上學習的祕密武器",
+    "summary": "分享如何用 AI 設計課堂，打造讓學生愛上學習的教學策略",
+    "description": "9/23 第十七場分享錄影：蕭妤真老師分享 AI × 課堂設計，探討讓學生愛上學習的祕密武器。",
+    "author_display": "蕭妤真",
+    "author_visibility": "可公開",
     "resource_type": [
       "錄影／教學示範"
     ],
@@ -813,7 +827,8 @@ window.PHAI_RESOURCES = [
       "AI 教學工作流"
     ],
     "ai_tools": [
-      "Google Meet"
+      "AI chatbot",
+      "課堂設計"
     ],
     "audience": [
       "教師備課",
@@ -824,19 +839,19 @@ window.PHAI_RESOURCES = [
     "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
     "source_event": "9/23 第十七場分享",
     "tags": [
-      "週三分享",
-      "分享錄影",
-      "待確認"
+      "課堂設計",
+      "學習動機",
+      "分享錄影"
     ]
   },
   {
     "id": "PHAI-0023",
-    "status": "資料確認中",
-    "title": "週三分享（9/30）",
-    "summary": "PhAI 共學圈 9/30 週三分享錄影；講題與講者待確認",
-    "description": "9/30 週三分享錄影已掛上 Drive 連結；講題、講者與授權細節仍待確認後更新資源卡。",
-    "author_display": "待確認",
-    "author_visibility": "需確認",
+    "status": "已公開",
+    "title": "Google Flow × Omni 教學應用分享",
+    "summary": "分享 Google Flow 與 Omni 在教學現場的應用實務",
+    "description": "9/30 第十八場分享錄影：吳易哲（陽明高中）老師分享 Google Flow × Omni 的教學應用。",
+    "author_display": "吳易哲／陽明高中",
+    "author_visibility": "可公開",
     "resource_type": [
       "錄影／教學示範"
     ],
@@ -844,7 +859,8 @@ window.PHAI_RESOURCES = [
       "AI 教學工作流"
     ],
     "ai_tools": [
-      "Google Meet"
+      "Google Flow",
+      "Omni"
     ],
     "audience": [
       "教師備課",
@@ -855,9 +871,10 @@ window.PHAI_RESOURCES = [
     "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
     "source_event": "9/30 第十八場分享",
     "tags": [
-      "週三分享",
-      "分享錄影",
-      "待確認"
+      "Google Flow",
+      "Omni",
+      "教學應用",
+      "分享錄影"
     ]
   }
 ];
@@ -868,7 +885,7 @@ window.PHAI_SESSIONS = [
     "no": 1,
     "date": "2026-05-20",
     "label": "5/20",
-    "title": "Codex × Agent 協作：讓 AI 成為教學助理團隊",
+    "title": "Codex × Agent 協作——讓 AI 成為你的教學助理團隊",
     "speaker": "盧政良",
     "resource_id": "PHAI-0001"
   },
@@ -884,7 +901,7 @@ window.PHAI_SESSIONS = [
     "no": 3,
     "date": "2026-06-03",
     "label": "6/3",
-    "title": "NotebookLM × 探究命題：科展轉探究題",
+    "title": "NotebookLM × 探究命題——科展題目轉化為符合課綱的探究題",
     "speaker": "趙晉鴻",
     "resource_id": "PHAI-0003"
   },
@@ -900,7 +917,7 @@ window.PHAI_SESSIONS = [
     "no": 5,
     "date": "2026-06-17",
     "label": "6/17",
-    "title": "本地端大模型 × Hermes 龍蝦：把 AI 教學助理裝進自己的電腦",
+    "title": "本地端大模型 × Hermes 龍蝦——把 AI 教學助理裝進自己的電腦",
     "speaker": "盧政良",
     "resource_id": "PHAI-0005"
   },
@@ -908,7 +925,7 @@ window.PHAI_SESSIONS = [
     "no": 6,
     "date": "2026-06-24",
     "label": "6/24",
-    "title": "學會模擬的下一步：如何將模擬與評量結合",
+    "title": "學會模擬的下一步——如何將模擬與評量結合",
     "speaker": "江長屹",
     "resource_id": "PHAI-0006"
   },
@@ -916,7 +933,7 @@ window.PHAI_SESSIONS = [
     "no": 7,
     "date": "2026-07-01",
     "label": "7/1",
-    "title": "Antigravity IDE 實戰入門",
+    "title": "Antigravity IDE 實戰入門——讓 AI 走進你的教材開發環境",
     "speaker": "趙晉鴻",
     "resource_id": "PHAI-0007"
   },
@@ -956,56 +973,56 @@ window.PHAI_SESSIONS = [
     "no": 12,
     "date": "2026-08-05",
     "label": "8/5",
-    "title": "教師個人 AI 工作流與教材專案管理",
-    "speaker": "待確認",
+    "title": "教師個人 AI 工作流與教材專案管理：從一次性對話到可累積、可版本控制的系統",
+    "speaker": "江長屹、趙晉鴻、蔡明勳、盧政良",
     "resource_id": "PHAI-0017"
   },
   {
     "no": 13,
     "date": "2026-08-12",
     "label": "8/12",
-    "title": "週三分享（8/12）",
-    "speaker": "待確認",
+    "title": "解放批改地獄——自製「PM批改精靈」",
+    "speaker": "蔡明勳（小威）／南崁高中",
     "resource_id": "PHAI-0018"
   },
   {
     "no": 14,
     "date": "2026-08-26",
     "label": "8/26",
-    "title": "週三分享（8/26）",
-    "speaker": "待確認",
+    "title": "報告寫得很好，學生真的懂嗎？AI 讀報告、個別追問與教師評量",
+    "speaker": "江長屹",
     "resource_id": "PHAI-0019"
   },
   {
     "no": 15,
     "date": "2026-09-02",
     "label": "9/2",
-    "title": "週三分享（9/2）",
-    "speaker": "待確認",
+    "title": "Obsidian × AI：把教材、想法與教學脈絡變成可以累積的系統",
+    "speaker": "盧政良",
     "resource_id": "PHAI-0020"
   },
   {
     "no": 16,
     "date": "2026-09-09",
     "label": "9/9",
-    "title": "週三分享（9/9）",
-    "speaker": "待確認",
+    "title": "3B1B × 物理教學：把抽象概念做成看得懂、能操作的視覺教材",
+    "speaker": "趙晉鴻",
     "resource_id": "PHAI-0021"
   },
   {
     "no": 17,
     "date": "2026-09-23",
     "label": "9/23",
-    "title": "週三分享（9/23）",
-    "speaker": "待確認",
+    "title": "AI × 課堂設計：讓學生愛上學習的祕密武器",
+    "speaker": "蕭妤真",
     "resource_id": "PHAI-0022"
   },
   {
     "no": 18,
     "date": "2026-09-30",
     "label": "9/30",
-    "title": "週三分享（9/30）",
-    "speaker": "待確認",
+    "title": "Google Flow × Omni 教學應用分享",
+    "speaker": "吳易哲／陽明高中",
     "resource_id": "PHAI-0023"
   }
 ];
