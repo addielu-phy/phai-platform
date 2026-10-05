@@ -192,15 +192,16 @@ window.PHAI_RESOURCES = [
   },
   {
     "id": "PHAI-0005",
-    "status": "資料確認中",
+    "status": "已公開",
     "title": "本地端大模型 × Hermes 龍蝦：把 AI 教學助理裝進自己的電腦",
     "summary": "介紹本地端大模型與 Hermes 龍蝦在教師日常工作中的應用",
-    "description": "第五場分享主題，聚焦教材整理、評量設計、課堂素材管理與長期工作脈絡。",
+    "description": "6/17 第五場分享錄影，介紹本地端大模型與 Hermes 龍蝦在教師日常工作中的應用，聚焦教材整理、評量設計、課堂素材管理與長期工作脈絡。",
     "author_display": "盧政良",
     "author_visibility": "可公開",
     "resource_type": [
       "工具安裝／部署教學",
-      "Agent 工作流"
+      "Agent 工作流",
+      "錄影／教學示範"
     ],
     "physics_topic": [
       "AI 教學工作流"
@@ -214,28 +215,30 @@ window.PHAI_RESOURCES = [
       "教師備課",
       "社群共學"
     ],
-    "url": "",
-    "license_scope": "待確認",
-    "privacy_note": "安裝畫面若含帳號路徑需遮蔽",
+    "url": "https://drive.google.com/file/d/1qMW3N64S02HUDMJbtidvEr6jIZE6TKzr/view",
+    "license_scope": "公開 Google Drive 分享錄影",
+    "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
     "source_event": "6/17 第五場分享",
     "tags": [
       "Hermes",
       "龍蝦",
       "本地端",
-      "LLM"
+      "LLM",
+      "分享錄影"
     ]
   },
   {
     "id": "PHAI-0006",
-    "status": "資料確認中",
+    "status": "已公開",
     "title": "學會模擬的下一步：如何將模擬與評量結合",
     "summary": "把物理模擬從展示工具轉成可操作、可觀察、可評量的學習任務",
-    "description": "第六場分享主題，可發展成互動評量設計模板。",
+    "description": "6/24 第六場分享錄影，把物理模擬從展示工具轉成可操作、可觀察、可評量的學習任務；可發展成互動評量設計模板。",
     "author_display": "江長屹",
     "author_visibility": "可公開",
     "resource_type": [
       "模擬／互動教材",
-      "素養題"
+      "素養題",
+      "錄影／教學示範"
     ],
     "physics_topic": [
       "力學",
@@ -251,14 +254,22 @@ window.PHAI_RESOURCES = [
       "教師備課"
     ],
     "url": "https://changyi123456.github.io/physics-game-S.H.M/",
-    "license_scope": "待確認",
-    "privacy_note": "需確認題目與評量資料公開範圍",
+    "license_scope": "公開互動模擬與 Google Drive 分享錄影",
+    "privacy_note": "公開資源與分享錄影；引用時請保留作者與 PhAI 共學圈來源",
     "source_event": "6/24 第六場分享",
     "tags": [
       "模擬",
       "評量",
       "互動題",
-      "遊戲化"
+      "遊戲化",
+      "分享錄影"
+    ],
+    "extra_links": [
+      {
+        "label": "分享錄影",
+        "url": "https://drive.google.com/file/d/19xfij8vfddr8drL1iUaI4l-Rfe_BsplG/view",
+        "kind": "Google Drive"
+      }
     ]
   },
   {
@@ -548,6 +559,306 @@ window.PHAI_RESOURCES = [
       "AI鷹架",
       "分享錄影"
     ]
+  },
+  {
+    "id": "PHAI-0015",
+    "status": "已公開",
+    "title": "線上互動 Q&A：AI 物理教學問題現場拆解",
+    "summary": "整理老師實際遇到的問題與需求，現場拆解 AI × 物理教學常見卡點",
+    "description": "7/15 第九場分享錄影，採線上互動 Q&A 形式，整理大家實際遇到的問題與需求，邀請有經驗的老師與夥伴一起上線回應。",
+    "author_display": "PhAI 講師群",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "錄影／教學示範",
+      "Agent 工作流"
+    ],
+    "physics_topic": [
+      "AI 教學工作流"
+    ],
+    "ai_tools": [
+      "AI Agent",
+      "Prompt",
+      "Q&A"
+    ],
+    "audience": [
+      "教師備課",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/1TuI8apDUjE0tHs8MCqkaMYxCN3IUySPH/view",
+    "license_scope": "公開 Google Drive 分享錄影",
+    "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "7/15 第九場分享",
+    "tags": [
+      "Q&A",
+      "許願池",
+      "現場拆解",
+      "分享錄影"
+    ]
+  },
+  {
+    "id": "PHAI-0016",
+    "status": "已公開",
+    "title": "AI 模擬與視覺化入門：從概念到互動動態",
+    "summary": "聚焦 Python、GeoGebra、互動模擬與數據視覺化，示範 AI 如何協助產生與修改物理模擬",
+    "description": "7/22 第十場分享錄影，示範如何用 AI 協助產生與修改物理模擬與視覺化素材，從概念走到可互動的動態。",
+    "author_display": "江長屹、趙晉鴻、盧政良",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "模擬／互動教材",
+      "錄影／教學示範"
+    ],
+    "physics_topic": [
+      "力學",
+      "探究與實作",
+      "AI 教學工作流"
+    ],
+    "ai_tools": [
+      "Python",
+      "GeoGebra",
+      "AI chatbot",
+      "模擬工具"
+    ],
+    "audience": [
+      "高中",
+      "教師備課",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/1sl0pSerDWDDfHlffa_EP2FiqEnqXeHPy/view",
+    "license_scope": "公開 Google Drive 分享錄影",
+    "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "7/22 第十場分享",
+    "tags": [
+      "模擬",
+      "視覺化",
+      "GeoGebra",
+      "Python",
+      "分享錄影"
+    ]
+  },
+  {
+    "id": "PHAI-0017",
+    "status": "資料確認中",
+    "title": "教師個人 AI 工作流與教材專案管理",
+    "summary": "聚焦 Obsidian／Notion／AI IDE／Markdown／Skill，讓教材開發從一次性對話變成可累積工作流",
+    "description": "8/5 第十二場分享錄影（講題依講師群暫定規劃；細節待補確認），討論如何把教材開發做成可累積、可修改、可分享的個人 AI 工作流。",
+    "author_display": "待確認",
+    "author_visibility": "需確認",
+    "resource_type": [
+      "錄影／教學示範",
+      "Agent 工作流",
+      "工具安裝／部署教學"
+    ],
+    "physics_topic": [
+      "AI 教學工作流"
+    ],
+    "ai_tools": [
+      "Obsidian",
+      "Notion",
+      "AI IDE",
+      "Markdown",
+      "Skill"
+    ],
+    "audience": [
+      "教師備課",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/13FrtGwVoZw0Dd4P9P37vaauVQjGWcu_J/view",
+    "license_scope": "公開 Google Drive 分享錄影",
+    "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "8/5 第十二場分享",
+    "tags": [
+      "工作流",
+      "教材專案",
+      "Obsidian",
+      "Skill",
+      "分享錄影"
+    ]
+  },
+  {
+    "id": "PHAI-0018",
+    "status": "資料確認中",
+    "title": "週三分享（8/12）",
+    "summary": "PhAI 共學圈 8/12 週三分享錄影；講題與講者待確認",
+    "description": "8/12 週三分享錄影已掛上 Drive 連結；講題、講者與授權細節仍待確認後更新資源卡。",
+    "author_display": "待確認",
+    "author_visibility": "需確認",
+    "resource_type": [
+      "錄影／教學示範"
+    ],
+    "physics_topic": [
+      "AI 教學工作流"
+    ],
+    "ai_tools": [
+      "Google Meet"
+    ],
+    "audience": [
+      "教師備課",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/1GU9DpjzrfSQAgeVJVkmqBayDLwg6-hiR/view",
+    "license_scope": "公開 Google Drive 分享錄影",
+    "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "8/12 第十三場分享",
+    "tags": [
+      "週三分享",
+      "分享錄影",
+      "待確認"
+    ]
+  },
+  {
+    "id": "PHAI-0019",
+    "status": "資料確認中",
+    "title": "週三分享（8/26）",
+    "summary": "PhAI 共學圈 8/26 週三分享錄影；講題與講者待確認",
+    "description": "8/26 週三分享錄影已掛上 Drive 連結；講題、講者與授權細節仍待確認後更新資源卡。",
+    "author_display": "待確認",
+    "author_visibility": "需確認",
+    "resource_type": [
+      "錄影／教學示範"
+    ],
+    "physics_topic": [
+      "AI 教學工作流"
+    ],
+    "ai_tools": [
+      "Google Meet"
+    ],
+    "audience": [
+      "教師備課",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/14vSKIB28_v2GiMxHIAayvs7hxCPralGk/view",
+    "license_scope": "公開 Google Drive 分享錄影",
+    "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "8/26 第十四場分享",
+    "tags": [
+      "週三分享",
+      "分享錄影",
+      "待確認"
+    ]
+  },
+  {
+    "id": "PHAI-0020",
+    "status": "資料確認中",
+    "title": "週三分享（9/2）",
+    "summary": "PhAI 共學圈 9/2 週三分享錄影；講題與講者待確認",
+    "description": "9/2 週三分享錄影已掛上 Drive 連結；講題、講者與授權細節仍待確認後更新資源卡。",
+    "author_display": "待確認",
+    "author_visibility": "需確認",
+    "resource_type": [
+      "錄影／教學示範"
+    ],
+    "physics_topic": [
+      "AI 教學工作流"
+    ],
+    "ai_tools": [
+      "Google Meet"
+    ],
+    "audience": [
+      "教師備課",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/1uhWdywEicx78DfiL_bP7vQDS8poPYlgM/view",
+    "license_scope": "公開 Google Drive 分享錄影",
+    "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "9/2 第十五場分享",
+    "tags": [
+      "週三分享",
+      "分享錄影",
+      "待確認"
+    ]
+  },
+  {
+    "id": "PHAI-0021",
+    "status": "資料確認中",
+    "title": "週三分享（9/9）",
+    "summary": "PhAI 共學圈 9/9 週三分享錄影；講題與講者待確認",
+    "description": "9/9 週三分享錄影已掛上 Drive 連結；講題、講者與授權細節仍待確認後更新資源卡。",
+    "author_display": "待確認",
+    "author_visibility": "需確認",
+    "resource_type": [
+      "錄影／教學示範"
+    ],
+    "physics_topic": [
+      "AI 教學工作流"
+    ],
+    "ai_tools": [
+      "Google Meet"
+    ],
+    "audience": [
+      "教師備課",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/1e0fo4eOOGGf2v81RfXgfxkCB2ltIOjOy/view",
+    "license_scope": "公開 Google Drive 分享錄影",
+    "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "9/9 第十六場分享",
+    "tags": [
+      "週三分享",
+      "分享錄影",
+      "待確認"
+    ]
+  },
+  {
+    "id": "PHAI-0022",
+    "status": "資料確認中",
+    "title": "週三分享（9/23）",
+    "summary": "PhAI 共學圈 9/23 週三分享錄影；講題與講者待確認",
+    "description": "9/23 週三分享錄影已掛上 Drive 連結；講題、講者與授權細節仍待確認後更新資源卡。",
+    "author_display": "待確認",
+    "author_visibility": "需確認",
+    "resource_type": [
+      "錄影／教學示範"
+    ],
+    "physics_topic": [
+      "AI 教學工作流"
+    ],
+    "ai_tools": [
+      "Google Meet"
+    ],
+    "audience": [
+      "教師備課",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/1CZSVLa4Av1vIVgTUuBy37Vke85EAn-NK/view",
+    "license_scope": "公開 Google Drive 分享錄影",
+    "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "9/23 第十七場分享",
+    "tags": [
+      "週三分享",
+      "分享錄影",
+      "待確認"
+    ]
+  },
+  {
+    "id": "PHAI-0023",
+    "status": "資料確認中",
+    "title": "週三分享（9/30）",
+    "summary": "PhAI 共學圈 9/30 週三分享錄影；講題與講者待確認",
+    "description": "9/30 週三分享錄影已掛上 Drive 連結；講題、講者與授權細節仍待確認後更新資源卡。",
+    "author_display": "待確認",
+    "author_visibility": "需確認",
+    "resource_type": [
+      "錄影／教學示範"
+    ],
+    "physics_topic": [
+      "AI 教學工作流"
+    ],
+    "ai_tools": [
+      "Google Meet"
+    ],
+    "audience": [
+      "教師備課",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/10gYu0zSEh8m7gNZUalPqZlT1x0Uw2Ysx/view",
+    "license_scope": "公開 Google Drive 分享錄影",
+    "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "9/30 第十八場分享",
+    "tags": [
+      "週三分享",
+      "分享錄影",
+      "待確認"
+    ]
   }
 ];
 
@@ -623,7 +934,7 @@ window.PHAI_SESSIONS = [
     "label": "7/15",
     "title": "線上互動 Q&A：AI 物理教學問題現場拆解",
     "speaker": "PhAI 講師群",
-    "resource_id": null
+    "resource_id": "PHAI-0015"
   },
   {
     "no": 10,
@@ -631,7 +942,7 @@ window.PHAI_SESSIONS = [
     "label": "7/22",
     "title": "AI 模擬與視覺化入門：從概念到互動動態",
     "speaker": "江長屹、趙晉鴻、盧政良",
-    "resource_id": null
+    "resource_id": "PHAI-0016"
   },
   {
     "no": 11,
@@ -640,5 +951,61 @@ window.PHAI_SESSIONS = [
     "title": "AI × 學生探究實作：從提問到科學論證",
     "speaker": "PhAI 講師群",
     "resource_id": "PHAI-0014"
+  },
+  {
+    "no": 12,
+    "date": "2026-08-05",
+    "label": "8/5",
+    "title": "教師個人 AI 工作流與教材專案管理",
+    "speaker": "待確認",
+    "resource_id": "PHAI-0017"
+  },
+  {
+    "no": 13,
+    "date": "2026-08-12",
+    "label": "8/12",
+    "title": "週三分享（8/12）",
+    "speaker": "待確認",
+    "resource_id": "PHAI-0018"
+  },
+  {
+    "no": 14,
+    "date": "2026-08-26",
+    "label": "8/26",
+    "title": "週三分享（8/26）",
+    "speaker": "待確認",
+    "resource_id": "PHAI-0019"
+  },
+  {
+    "no": 15,
+    "date": "2026-09-02",
+    "label": "9/2",
+    "title": "週三分享（9/2）",
+    "speaker": "待確認",
+    "resource_id": "PHAI-0020"
+  },
+  {
+    "no": 16,
+    "date": "2026-09-09",
+    "label": "9/9",
+    "title": "週三分享（9/9）",
+    "speaker": "待確認",
+    "resource_id": "PHAI-0021"
+  },
+  {
+    "no": 17,
+    "date": "2026-09-23",
+    "label": "9/23",
+    "title": "週三分享（9/23）",
+    "speaker": "待確認",
+    "resource_id": "PHAI-0022"
+  },
+  {
+    "no": 18,
+    "date": "2026-09-30",
+    "label": "9/30",
+    "title": "週三分享（9/30）",
+    "speaker": "待確認",
+    "resource_id": "PHAI-0023"
   }
 ];
