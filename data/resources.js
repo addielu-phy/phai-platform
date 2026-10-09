@@ -908,6 +908,47 @@ window.PHAI_RESOURCES = [
       "互動模擬",
       "分享錄影"
     ]
+  },
+  {
+    "id": "PHAI-0025",
+    "status": "已公開",
+    "title": "向量鎖定 Vector Lock（手機體感光槍遊戲）",
+    "summary": "把手機變成光槍，用陀螺儀與加速度計瞄準大螢幕射擊，邊玩邊學向量與三角函數",
+    "description": "10/7 小威老師分享時額外介紹的自製體感遊戲。手機掃 QR Code 連上電腦大螢幕，轉動手機瞄準、點擊開火；遊戲內建互動原理教學，用玩家手機的即時數據說明陀螺儀、加速度計、指向向量與 tanθ 落點換算。可單人、雙人對戰或合作戰役，並有教室模式：老師開教室頁取得班級代碼，學生成績即時回傳並可匯出 CSV。",
+    "author_display": "蔡明勳（小威）／南崁高中",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "遊戲化學習",
+      "模擬／互動教材"
+    ],
+    "physics_topic": [
+      "力學",
+      "跨領域"
+    ],
+    "ai_tools": [
+      "Web App",
+      "HTML",
+      "JavaScript",
+      "遊戲化"
+    ],
+    "audience": [
+      "高中",
+      "學生自學",
+      "教師教學"
+    ],
+    "url": "https://physmaker.tw/programming/tools/vector-lock/",
+    "license_scope": "公開網站資源",
+    "privacy_note": "公開網站，使用時請保留 PhysMaker 與作者來源",
+    "source_event": "10/7 第十九場分享",
+    "tags": [
+      "向量",
+      "陀螺儀",
+      "加速度計",
+      "三角函數",
+      "手機感測器",
+      "體感遊戲",
+      "教室模式"
+    ]
   }
 ];
 
