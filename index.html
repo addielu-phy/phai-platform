@@ -428,7 +428,7 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
   </div>
 </dialog>
 
-<script src="data/resources.js?v=20261009-phai0025"></script>
+<script src="data/resources.js?v=20261009-extras"></script>
 <script>
 (function () {
   'use strict';
@@ -486,6 +486,15 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
   /* 每週分享場次對照：resource_id → 場次編號（用於預設排序把每週分享放最前面） */
   var sessionNoOf = {};
   S.forEach(function (s) { if (s.resource_id) sessionNoOf[s.resource_id] = s.no; });
+  /* 同場次的延伸資源（source_event 以場次日期開頭，例如「10/7 第十九場分享」） */
+  var extraNoOf = {}, extrasOf = {};
+  R.forEach(function (r) {
+    if (sessionNoOf[r.id] != null || !r.source_event) return;
+    S.forEach(function (s) {
+      if (r.source_event.indexOf(s.label + ' ') === 0) { extraNoOf[r.id] = s.no; (extrasOf[s.no] = extrasOf[s.no] || []).push(r); }
+    });
+  });
+  function sessKey(r) { return sessionNoOf[r.id] != null ? sessionNoOf[r.id] : extraNoOf[r.id]; }
 
   function readUrl() {
     var p = new URLSearchParams(location.search);
@@ -657,7 +666,7 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
   }
   /* 預設排序分級：每週分享(已上架) → 其他已公開 → 每週分享(整理中) → 其他整理中 */
   function defaultRank(r) {
-    var isSession = sessionNoOf[r.id] != null;
+    var isSession = sessKey(r) != null;
     var pub = r.status === '已公開';
     if (pub && isSession) return 0;
     if (pub) return 1;
@@ -669,8 +678,9 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
     if (state.sort === 'old') return a.id.localeCompare(b.id);
     var ra = defaultRank(a), rb = defaultRank(b);
     if (ra !== rb) return ra - rb;
-    var sa = sessionNoOf[a.id], sb = sessionNoOf[b.id];
-    if (sa != null && sb != null) return sb - sa; // 同為每週分享：最新一週在前
+    var sa = sessKey(a), sb = sessKey(b);
+    if (sa != null && sb != null && sa !== sb) return sb - sa; // 同為每週分享：最新一週在前
+    if (sa != null && sb != null) return (sessionNoOf[a.id] != null ? 0 : 1) - (sessionNoOf[b.id] != null ? 0 : 1) || a.id.localeCompare(b.id); // 同場：主錄影在前、延伸資源在後
     return b.id.localeCompare(a.id);
   }
   function render() {
@@ -743,6 +753,7 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
     var live = r && r.status === '已公開';
     var pill = live ? '<span class="pill ok">✓ 資源已上架</span>' : '<span class="pill warn">資料整理中</span>';
     var btn = r ? '<button type="button" class="mini" data-detail="' + esc(r.id) + '">查看資源 →</button>' : '';
+    (extrasOf[s.no] || []).forEach(function (x) { btn += '<button type="button" class="mini" data-detail="' + esc(x.id) + '">延伸：' + esc(x.title.split('（')[0]) + ' →</button>'; });
     return '<li class="t-item">' +
       '<span class="t-marker" aria-hidden="true">' + s.no + '</span>' +
       '<div class="t-card">' +
