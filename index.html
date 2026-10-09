@@ -232,7 +232,13 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
     <div class="orbit-wrap" aria-hidden="true">
       <svg id="heroOrbit" viewBox="0 0 400 400" fill="none">
         <!-- 靜態外圈 -->
-        <ellipse cx="200" cy="200" rx="122" ry="180" stroke="#8f9bff" stroke-width="1" opacity=".25" transform="rotate(8 200 200)"/>
+        <g transform="rotate(8 200 200)">
+          <ellipse cx="200" cy="200" rx="122" ry="180" stroke="#8f9bff" stroke-width="1" opacity=".25"/>
+          <!-- 外圈電子 -->
+          <circle r="5" fill="#c9a7ff">
+            <animateMotion dur="24s" begin="-9s" repeatCount="indefinite" path="M200,20 A122,180 0 1 1 200,380 A122,180 0 1 1 200,20"/>
+          </circle>
+        </g>
         <!-- 軌道 1：軌道環緩慢旋轉，電子同時沿橢圓路徑運行（同座標系，永遠貼軌） -->
         <g class="orbit-spin">
           <g transform="rotate(-28 200 200)">
@@ -422,7 +428,7 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
   </div>
 </dialog>
 
-<script src="data/resources.js?v=20261009-phai0024"></script>
+<script src="data/resources.js?v=20261009-neworder"></script>
 <script>
 (function () {
   'use strict';
@@ -745,7 +751,7 @@ dialog::backdrop { background: rgba(7, 10, 24, .6); backdrop-filter: blur(4px); 
       '<div class="t-side">' + pill + btn + '</div>' +
       '</div></li>';
   }
-  $('#timeline').innerHTML = S.map(sessionHtml).join('');
+  $('#timeline').innerHTML = S.slice().sort(function (a, b) { return (b.date || '').localeCompare(a.date || '') || (b.no - a.no); }).map(sessionHtml).join('');
 
   /* ── 深淺色模式 ── */
   var root = document.documentElement;
