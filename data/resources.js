@@ -876,6 +876,38 @@ window.PHAI_RESOURCES = [
       "教學應用",
       "分享錄影"
     ]
+  },
+  {
+    "id": "PHAI-0024",
+    "status": "已公開",
+    "title": "魔法弓箭",
+    "summary": "小威老師分享以 AI 與自製工具打造可操作、可動手做的物理探究課堂",
+    "description": "10/7 第十九場分享錄影：蔡明勳（小威）老師分享「魔法弓箭」，示範如何用 AI 與自製互動工具，讓物理課堂變成看得到、玩得到的探究體驗。",
+    "author_display": "蔡明勳（小威）／南崁高中",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "錄影／教學示範"
+    ],
+    "physics_topic": [
+      "AI 教學工作流"
+    ],
+    "ai_tools": [
+      "模擬工具"
+    ],
+    "audience": [
+      "教師備課",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/13yMKdcxrV0YG7b1EBsZwSB5jvJiAvml-/view",
+    "license_scope": "公開 Google Drive 分享錄影",
+    "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "10/7 第十九場分享",
+    "tags": [
+      "魔法弓箭",
+      "動手做",
+      "互動模擬",
+      "分享錄影"
+    ]
   }
 ];
 
@@ -1024,5 +1056,13 @@ window.PHAI_SESSIONS = [
     "title": "Google Flow × Omni 教學應用分享",
     "speaker": "吳易哲／陽明高中",
     "resource_id": "PHAI-0023"
+  },
+  {
+    "no": 19,
+    "date": "2026-10-07",
+    "label": "10/7",
+    "title": "魔法弓箭",
+    "speaker": "蔡明勳（小威）／南崁高中",
+    "resource_id": "PHAI-0024"
   }
 ];
