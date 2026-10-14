@@ -949,6 +949,45 @@ window.PHAI_RESOURCES = [
       "體感遊戲",
       "教室模式"
     ]
+  },
+  {
+    "id": "PHAI-0026",
+    "status": "已公開",
+    "title": "Blender × GitHub × Codex：蓋一個你自己的模擬實驗室",
+    "summary": "長屹老師分享用 Blender、Three.js／WebGL 與 Codex 等 AI 工具，打造自己的物理模擬實驗室",
+    "description": "10/14 第二十場分享錄影：江長屹老師分享「Blender × GitHub × Codex：蓋一個你自己的模擬實驗室」，談 Blender、Three.js、WebGL、HTML 與 AI 程式助手（Codex）的開發工作流，延伸到 AR／VR 整合與 AI agent 工作流程。",
+    "author_display": "江長屹",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "錄影／教學示範"
+    ],
+    "physics_topic": [
+      "AI 教學工作流"
+    ],
+    "ai_tools": [
+      "Codex",
+      "Blender",
+      "GitHub",
+      "模擬工具"
+    ],
+    "audience": [
+      "教師備課",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/1oOZzSCj6YfmVxpzZfii9GMk6_eeLMMCy/view",
+    "license_scope": "公開 Google Drive 分享錄影",
+    "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "10/14 第二十場分享",
+    "tags": [
+      "Blender",
+      "GitHub",
+      "Codex",
+      "Three.js",
+      "WebGL",
+      "AR／VR",
+      "模擬實驗室",
+      "分享錄影"
+    ]
   }
 ];
 
@@ -1105,5 +1144,13 @@ window.PHAI_SESSIONS = [
     "title": "魔法弓箭",
     "speaker": "蔡明勳（小威）／南崁高中",
     "resource_id": "PHAI-0024"
+  },
+  {
+    "no": 20,
+    "date": "2026-10-14",
+    "label": "10/14",
+    "title": "Blender × GitHub × Codex：蓋一個你自己的模擬實驗室",
+    "speaker": "江長屹",
+    "resource_id": "PHAI-0026"
   }
 ];
