@@ -1027,6 +1027,43 @@ window.PHAI_RESOURCES = [
       "提示詞",
       "模擬實驗室"
     ]
+  },
+  {
+    "id": "PHAI-0028",
+    "status": "已公開",
+    "title": "JWST 拉格朗日點模擬｜111 分科物理",
+    "summary": "111 分科測驗物理 JWST 題組（第 19–21 題）互動模擬：比較日地 L1／L2，理解韋伯太空望遠鏡為何選擇 L2",
+    "description": "針對 111 學年度分科測驗物理 JWST 題組製作的互動網頁，包含 L1／L2 拉格朗日點模擬動畫，以及用 Blender 建模、Three.js 呈現、可旋轉縮放的 JWST 3D 模型版本，適合課堂解題引導與天文情境教學。",
+    "author_display": "盧政良",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "模擬／互動教材"
+    ],
+    "physics_topic": [
+      "力學",
+      "天文"
+    ],
+    "ai_tools": [
+      "HTML",
+      "Three.js",
+      "Blender",
+      "Codex"
+    ],
+    "audience": [
+      "課堂教學",
+      "教師備課"
+    ],
+    "url": "https://addielu-phy.github.io/jwst-simulation/",
+    "license_scope": "公開網站資源",
+    "privacy_note": "公開網頁；引用時請保留作者與 PhAI 共學圈來源",
+    "tags": [
+      "JWST",
+      "拉格朗日點",
+      "分科測驗",
+      "重力",
+      "3D 模擬",
+      "Blender"
+    ]
   }
 ];
 
