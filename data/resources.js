@@ -988,6 +988,45 @@ window.PHAI_RESOURCES = [
       "模擬實驗室",
       "分享錄影"
     ]
+  },
+  {
+    "id": "PHAI-0027",
+    "status": "已公開",
+    "title": "實境模擬介紹｜教師工作坊（分享簡報）",
+    "summary": "長屹老師 10/14 分享的網頁簡報，介紹如何用 Blender、GitHub 與 Codex 打造自己的物理模擬實驗室，附老師可直接複製的提示詞",
+    "description": "10/14 第二十場「Blender × GitHub × Codex：蓋一個你自己的模擬實驗室」的分享簡報。網頁版可方向鍵翻頁、全螢幕與講者模式，並收錄搭配 Codex、Claude Cowork 使用的完整提示詞頁，方便老師照著動手做。",
+    "author_display": "江長屹",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "教材／講義／簡報",
+      "模擬／互動教材"
+    ],
+    "physics_topic": [
+      "AI 教學工作流"
+    ],
+    "ai_tools": [
+      "Codex",
+      "Claude",
+      "Cowork",
+      "Prompt",
+      "HTML"
+    ],
+    "audience": [
+      "教師備課",
+      "社群共學"
+    ],
+    "url": "https://changyi123456.github.io/physics-laboratory-workshop/#1",
+    "license_scope": "公開網站資源",
+    "privacy_note": "公開網頁簡報；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "10/14 第二十場分享",
+    "tags": [
+      "簡報",
+      "Blender",
+      "GitHub",
+      "Codex",
+      "提示詞",
+      "模擬實驗室"
+    ]
   }
 ];
 
