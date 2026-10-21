@@ -1064,6 +1064,42 @@ window.PHAI_RESOURCES = [
       "3D 模擬",
       "Blender"
     ]
+  },
+  {
+    "id": "PHAI-0029",
+    "status": "已公開",
+    "title": "AI × 幾何光學：從解題引導到互動模擬的建模學習",
+    "summary": "盧政良老師分享用 AI 把幾何光學講義的示意圖變成互動模擬，帶學生在動手與驗證中看懂光的世界",
+    "description": "10/21 第二十一場分享錄影：盧政良老師分享「AI × 幾何光學：從解題引導到互動模擬的建模學習」——不只讓 AI 解題，更讓學生打造光學模擬。內容聚焦把講義示意圖做成動畫、多層介面全反射的判定、視深與透光面積的概念，並介紹學生光碟彩紋與糖水旋光色散等作品。",
+    "author_display": "盧政良",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "錄影／教學示範"
+    ],
+    "physics_topic": [
+      "光學"
+    ],
+    "ai_tools": [
+      "模擬工具",
+      "HTML"
+    ],
+    "audience": [
+      "教師備課",
+      "課堂教學",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/1yh9uZwdZMNAbx0lqqwVQr73D1q_204A5/view",
+    "license_scope": "公開 Google Drive 分享錄影",
+    "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "10/21 第二十一場分享",
+    "tags": [
+      "幾何光學",
+      "全反射",
+      "視深",
+      "互動模擬",
+      "建模學習",
+      "分享錄影"
+    ]
   }
 ];
 
@@ -1228,5 +1264,13 @@ window.PHAI_SESSIONS = [
     "title": "Blender × GitHub × Codex：蓋一個你自己的模擬實驗室",
     "speaker": "江長屹",
     "resource_id": "PHAI-0026"
+  },
+  {
+    "no": 21,
+    "date": "2026-10-21",
+    "label": "10/21",
+    "title": "AI × 幾何光學：從解題引導到互動模擬的建模學習",
+    "speaker": "盧政良",
+    "resource_id": "PHAI-0029"
   }
 ];
