@@ -1100,6 +1100,40 @@ window.PHAI_RESOURCES = [
       "建模學習",
       "分享錄影"
     ]
+  },
+  {
+    "id": "PHAI-0030",
+    "status": "已公開",
+    "title": "AI 輔助命題實作：從學習單到段考試卷",
+    "summary": "趙晉鴻老師分享用 AI 製作學習單、段考試卷與教學插圖的命題實作",
+    "description": "10/28 第二十二場分享錄影：趙晉鴻老師分享「AI 輔助命題實作：從學習單到段考試卷」，示範如何用 AI 協助製作學習單、段考試卷及教學插圖。",
+    "author_display": "趙晉鴻",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "錄影／教學示範"
+    ],
+    "physics_topic": [
+      "命題與評量"
+    ],
+    "ai_tools": [
+      "Gemini"
+    ],
+    "audience": [
+      "教師備課",
+      "課堂教學",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/1Yt8ZrqPJ6yqRK5hno718G7e8jzbIrqUO/view",
+    "license_scope": "公開 Google Drive 分享錄影",
+    "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "10/28 第二十二場分享",
+    "tags": [
+      "AI 命題",
+      "學習單",
+      "段考試卷",
+      "教學插圖",
+      "分享錄影"
+    ]
   }
 ];
 
@@ -1272,5 +1306,13 @@ window.PHAI_SESSIONS = [
     "title": "AI × 幾何光學：從解題引導到互動模擬的建模學習",
     "speaker": "盧政良",
     "resource_id": "PHAI-0029"
+  },
+  {
+    "no": 22,
+    "date": "2026-10-28",
+    "label": "10/28",
+    "title": "AI 輔助命題實作：從學習單到段考試卷",
+    "speaker": "趙晉鴻",
+    "resource_id": "PHAI-0030"
   }
 ];
