@@ -1134,6 +1134,41 @@ window.PHAI_RESOURCES = [
       "教學插圖",
       "分享錄影"
     ]
+  },
+  {
+    "id": "PHAI-0031",
+    "status": "已公開",
+    "title": "聊天室紀錄（10/28 AI 輔助命題實作）",
+    "summary": "趙晉鴻老師分享時在 Meet 聊天室貼出的參考資料連結與完整 AI 命題提示詞範本",
+    "description": "10/28 第二十二場分享的 Google Meet 聊天室紀錄。內含趙晉鴻老師提供的今日參考資料（Canva 簡報、Google Drive 資料夾），以及一份可直接改用的「AI 輔助段考命題」提示詞範本：命題依據（108 課綱、學習表現、Bloom 認知層次與配分比例）、題型與計分、命題習慣、分階段輸出（雙向細目表 → 題目 → 繪圖 → 學生版 → 教師版詳解）。",
+    "author_display": "趙晉鴻",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "提示詞範本",
+      "分享紀錄"
+    ],
+    "physics_topic": [
+      "命題與評量"
+    ],
+    "ai_tools": [
+      "Prompt",
+      "Canva"
+    ],
+    "audience": [
+      "教師備課",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/1f6NCR-watcI4BL-5errAGAZ6ws2sYvCm/view",
+    "license_scope": "Google Drive 分享文字檔",
+    "privacy_note": "Meet 聊天室紀錄；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "10/28 第二十二場分享",
+    "tags": [
+      "AI 命題",
+      "提示詞",
+      "雙向細目表",
+      "段考試卷",
+      "聊天室紀錄"
+    ]
   }
 ];
 
