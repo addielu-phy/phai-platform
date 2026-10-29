@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>平均感染率，為什麼不是總感染率？｜PhAI 命題集</title><meta name="description" content="平均感染率，為什麼不是總感染率？">
+<meta name="theme-color" content="#191e33"><meta property="og:title" content="平均感染率，為什麼不是總感染率？｜PhAI 命題集">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://addielu-phy.github.io/phai-platform/daily/items/2026-10-27/index.html"><link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../vendor/katex.min.css">
+<script src="../../vendor/katex.min.js" defer></script><script src="../../vendor/auto-render.min.js" defer></script><script src="../../page.js" defer></script></head>
+<body class="edition-student"><a class="skip" href="#main">跳至主要內容</a><header class="top"><nav class="nav wrap" aria-label="主要導覽"><a class="brand" href="../../index.html"><strong>PhAI</strong><span>每日精緻命題</span></a><a href="../../index.html">題目總覽</a><a class="parent-link" href="../../../index.html">資源館 ↗</a></nav></header>
+<main id="main" class="reader wrap"><a class="back" href="../../index.html">← 返回全部題目</a>
+<div class="item-meta"><time datetime="2026-10-27">2026-10-27</time><span class="subject">生物</span><span>學生題目</span></div>
+<h1>平均感染率，為什麼不是總感染率？</h1><p class="domain">生物（植物—昆蟲關聯）× 數據素養 × 探究與實作</p>
+<nav class="edition" aria-label="題目版本"><a href="index.html" aria-current="page">學生題目</a><a href="teacher.html" >答案與評分規準</a></nav>
+<div class="reader-tools"><button type="button" data-print>列印題目</button><a href="student.md" download>下載學生原稿 .md</a><button type="button" data-share>複製本題連結</button><span class="share-state" role="status"></span></div>
+<p class="student-note">本頁只顯示原學生題目。建議先完成紙筆作答，再開啟答案與評分規準。</p>
+<article class="prose"><h2 class="original-heading">平均感染率，為什麼不是總感染率？</h2>
+<blockquote>
+<p>高中一年級自然科／探究與實作｜建議作答時間：8–12 分鐘｜總分：8 分</p>
+</blockquote>
+<p>大花咸豐草的每一球「果序」含有許多瘦果。研究者採集果序後，記錄由瘦果孵出的昆蟲或具有昆蟲利用紀錄的瘦果，並在同一份官方報告的不同位置留下下列三組彙整。[1]</p>
+<p>為了只檢查<strong>算術與資料版本</strong>，本題依原報告內文「一個瘦果、一個孔洞對應一隻昆蟲」的記錄假設，把各版本使用的昆蟲數或被寄生瘦果數都記作分子 <code>x</code>。這只是本題採用的稽核假設，不代表已證明所有生物情況都必定一一對應；你不必判定蜂、蠅之間的生物關係。</p>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>資料記錄</th>
+<th style="text-align: right;">果序數 <code>k</code></th>
+<th style="text-align: right;">分子 <code>x</code></th>
+<th style="text-align: right;">檢查的瘦果總數 <code>n</code></th>
+<th style="text-align: right;">原文件顯示的比例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A：報告結果段（PDF p.13）</td>
+<td style="text-align: right;">158</td>
+<td style="text-align: right;">381</td>
+<td style="text-align: right;">6196</td>
+<td style="text-align: right;">約 6.3%</td>
+</tr>
+<tr>
+<td>B：報告討論段（PDF p.18）</td>
+<td style="text-align: right;">未另列</td>
+<td style="text-align: right;">391</td>
+<td style="text-align: right;">6196</td>
+<td style="text-align: right;">6.3%</td>
+</tr>
+<tr>
+<td>C：報告所附海報（PDF p.28）</td>
+<td style="text-align: right;">250</td>
+<td style="text-align: right;">452</td>
+<td style="text-align: right;">9259</td>
+<td style="text-align: right;">（本題不提供，請自行計算）</td>
+</tr>
+</tbody>
+</table></div>
+<p>同一報告的 PDF p.14 另寫：先算 158 個果序各自的比例，再把這 158 個比例做算術平均，結果為 <code>10.10%</code>。[1]</p>
+<h2>定義與計算規則</h2>
+<ul>
+<li><strong>合併比例</strong>：把所有果序合在一起後計算，<code>P_pool = x ÷ n × 100%</code>。</li>
+<li>對第 <code>i</code> 個果序，令 <code>x_i</code> 為分子、<code>n_i</code> 為該果序瘦果數；<strong>果序等權平均</strong>為 <code>P_equal = (1 ÷ k) × Σ(x_i ÷ n_i × 100%)</code>。符號 <code>Σ</code> 表示把 <code>i = 1</code> 到 <code>k</code> 的值相加。</li>
+<li><code>P_pool</code> 會讓瘦果數較多的果序占較大權重；<code>P_equal</code> 則讓每個果序占相同權重。</li>
+<li>百分比計算時先保留完整數值，最後才取位。保留兩位小數時看第三位：<code>0–4</code> 捨去、<code>5–9</code> 進一。</li>
+</ul>
+<h2>（一）同一個 6.3%，哪筆分子相符？（2 分）</h2>
+<p>分別計算 A、B 的 <code>P_pool</code>，各取至小數點後兩位；再指出 A 或 B 中，哪一筆換算到小數點後一位時能得到原文件的 <code>6.3%</code>。請寫出算式、兩個結果及判定。</p>
+<h2>（二）10.10% 與合併比例一定要相等嗎？（2 分）</h2>
+<p><strong>多選，應選 2 項。</strong>每選出一個正確選項得 1 分；只要選到任何錯誤選項，本小題得 0 分。</p>
+<ul>
+<li>A. <code>P_equal</code> 與 <code>P_pool</code> 不同，表示兩者至少有一個必定算錯。</li>
+<li>B. 若各果序的瘦果數不同，<code>P_equal</code> 與 <code>P_pool</code> 可以不同，因為兩者給各果序的權重不同。</li>
+<li>C. 若所有果序的瘦果數都相同，則同一批資料的 <code>P_equal</code> 與 <code>P_pool</code> 必相同。</li>
+<li>D. <code>10.10%</code> 大於合併比例，已足以證明感染會使一球果序產生較少瘦果。</li>
+</ul>
+<h2>（三）海報版能證明感染風險下降嗎？（4 分）</h2>
+<ol>
+<li>計算 C 的 <code>P_pool</code>，取至小數點後兩位。（1 分）</li>
+<li>有人說：「C 的樣本較多，而且算得的 <code>P_pool</code> 比 B 低，所以真實感染風險已下降。」請判定此主張為<strong>支持</strong>或<strong>不支持</strong>，並用資料版本或取樣資訊說明理由。（1 分）</li>
+<li>在比較或合併 B、C 前，資料表至少還要新增哪些資訊？請列出<strong>兩項不同類型的欄位</strong>，使研究者能判斷兩版資料是否重疊且是否可公平比較。（每項 1 分，共 2 分）</li>
+</ol>
+<blockquote>
+<p>本題只做既有資料判讀，不要求採集、解剖或接觸昆蟲。</p>
+</blockquote>
+<h2>Sources</h2>
+<p>[1] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-052112.pdf" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-052112.pdf</a> — 第65屆全國中小學科展作品說明書〈草中共生，卵中暗潮—大花咸豐草果實共生昆蟲的首次紀錄〉</p></article>
+<nav class="item-pagination" aria-label="依日期切換題目"><a href="../2026-10-26/index.html">← 前一題 · 2026-10-26</a><a href="../2026-10-28/index.html">後一題 · 2026-10-28 →</a></nav></main><footer class="footer wrap">PhAI 命題集 · 收錄截至 2026-10-29 的既有命題版本。<br>本集為教學改編，非科教館官方試題；原研究著作權屬原作者。公開版不含學生個資、內部審查檔或研究原始 PDF。<br>教師解析公開可讀，並非保密考試系統。使用時請保留出處與安全界線。</footer>
+<dialog id="zoom" aria-label="題圖原尺寸檢視"><button type="button" id="zoom-close">關閉大圖</button><div class="zoom-pan"><img id="zoom-img" alt=""></div></dialog></body></html>

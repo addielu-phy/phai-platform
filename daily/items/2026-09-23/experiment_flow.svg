@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+  <title id="title">小蠟蛾幼蟲與塑膠片研究流程及三種觀察</title>
+  <desc id="desc">研究者讓二乘二公分的塑膠片與約零點一八克幼蟲共處一百四十四小時，再量原片缺口與死亡率；另觀察照片缺口、體內螢光碎片及糞便FTIR訊號。圖示提醒學生分開觀察與結論。</desc>
+  <defs>
+    <style>
+      .title{font:700 34px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#17324d}
+      .head{font:700 24px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#17324d}
+      .body{font:500 21px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#29445f}
+      .small{font:500 20px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#456078}
+      .tag{font:700 21px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#fff}
+      .arrow{stroke:#6f8ca5;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;fill:none}
+      .ink{stroke:#29445f;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;fill:none}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8ca5"/></marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#19334a" flood-opacity=".13"/></filter>
+  </defs>
+
+  <rect width="1200" height="690" rx="26" fill="#f7fbfd"/>
+  <text x="48" y="58" class="title">研究在做什麼？流程與三種觀察</text>
+  <text x="49" y="88" class="small">圖為依原研究重繪的概念簡圖；不是原報告照片。</text>
+
+  <!-- Four-step process -->
+  <g filter="url(#shadow)">
+    <rect x="45" y="118" width="238" height="210" rx="22" fill="#e8f3fb"/>
+    <rect x="333" y="118" width="238" height="210" rx="22" fill="#edf8ef"/>
+    <rect x="621" y="118" width="238" height="210" rx="22" fill="#fff5df"/>
+    <rect x="909" y="118" width="246" height="210" rx="22" fill="#f3edfb"/>
+  </g>
+
+  <circle cx="76" cy="148" r="20" fill="#2f79a8"/><text x="76" y="155" text-anchor="middle" class="tag">1</text>
+  <rect x="107" y="158" width="92" height="82" rx="8" fill="#7fc3dc" stroke="#29445f" stroke-width="5"/>
+  <path d="M121 177h64M121 197h64M121 217h64" stroke="#dff5fb" stroke-width="4" opacity=".9"/>
+  <path d="M214 171l24 24m0-24l-24 24" class="ink" stroke-width="3"/>
+  <text x="164" y="274" text-anchor="middle" class="head">塑膠片</text>
+  <text x="164" y="304" text-anchor="middle" class="body">2 × 2 cm</text>
+
+  <path d="M286 222H325" class="arrow" marker-end="url(#arrow)"/>
+
+  <circle cx="364" cy="148" r="20" fill="#3d8d5b"/><text x="364" y="155" text-anchor="middle" class="tag">2</text>
+  <!-- caterpillar -->
+  <g fill="#86c77d" stroke="#29445f" stroke-width="4">
+    <circle cx="402" cy="198" r="28"/><circle cx="447" cy="209" r="27"/><circle cx="491" cy="204" r="26"/><circle cx="527" cy="186" r="25"/>
+  </g>
+  <circle cx="535" cy="178" r="3.8" fill="#29445f"/><path d="M520 162l-9-14M532 160l4-16" class="ink" stroke-width="3"/>
+  <text x="452" y="274" text-anchor="middle" class="head">與幼蟲共處</text>
+  <text x="452" y="304" text-anchor="middle" class="body">個體質量約 0.18 g</text>
+
+  <path d="M574 222H613" class="arrow" marker-end="url(#arrow)"/>
+
+  <circle cx="652" cy="148" r="20" fill="#d28a27"/><text x="652" y="155" text-anchor="middle" class="tag">3</text>
+  <circle cx="741" cy="201" r="55" fill="#fff" stroke="#29445f" stroke-width="5"/>
+  <path d="M741 201v-34M741 201l29 18" class="ink"/>
+  <path d="M724 133h34" class="ink"/><path d="M741 133v13" class="ink"/>
+  <text x="740" y="274" text-anchor="middle" class="head">等待 144 小時</text>
+  <text x="740" y="304" text-anchor="middle" class="body">條件保持一致</text>
+
+  <path d="M862 222H900" class="arrow" marker-end="url(#arrow)"/>
+
+  <circle cx="940" cy="148" r="20" fill="#8065a8"/><text x="940" y="155" text-anchor="middle" class="tag">4</text>
+  <!-- camera + checklist -->
+  <rect x="968" y="163" width="76" height="60" rx="9" fill="#fff" stroke="#29445f" stroke-width="4"/>
+  <circle cx="1006" cy="193" r="17" fill="#cbe7f4" stroke="#29445f" stroke-width="4"/>
+  <path d="M980 163l10-13h26l10 13" class="ink" stroke-width="4"/>
+  <rect x="1056" y="155" width="62" height="76" rx="8" fill="#fff" stroke="#29445f" stroke-width="4"/>
+  <path d="M1068 175h37M1068 194h37M1068 213h37" stroke="#8065a8" stroke-width="4"/>
+  <text x="1032" y="270" text-anchor="middle" class="head">量兩個結果</text>
+  <text x="1032" y="299" text-anchor="middle" class="body">缺口面積 ΔA</text>
+  <text x="1032" y="323" text-anchor="middle" class="body">死亡率 D</text>
+
+  <!-- Observation cards -->
+  <text x="48" y="382" class="head">研究另外看到三種現象</text>
+  <g filter="url(#shadow)">
+    <rect x="45" y="405" width="350" height="192" rx="20" fill="#ffffff" stroke="#b7d7e8" stroke-width="3"/>
+    <rect x="425" y="405" width="350" height="192" rx="20" fill="#ffffff" stroke="#b9dfc1" stroke-width="3"/>
+    <rect x="805" y="405" width="350" height="192" rx="20" fill="#ffffff" stroke="#efd39a" stroke-width="3"/>
+  </g>
+
+  <rect x="65" y="424" width="48" height="30" rx="15" fill="#2f79a8"/><text x="89" y="446" text-anchor="middle" class="tag">E1</text>
+  <path d="M83 502h96v65H83z" fill="#b7d9e7" stroke="#29445f" stroke-width="4"/>
+  <path d="M151 502l-12 15 12 12-13 13 13 25" fill="#f7fbfd" stroke="#29445f" stroke-width="4"/>
+  <text x="205" y="493" class="head">照片</text>
+  <text x="205" y="526" class="body">原片出現缺口</text>
+  <text x="205" y="555" class="small">以影像記錄</text>
+  <text x="205" y="579" class="small">並估算 ΔA</text>
+
+  <rect x="445" y="424" width="48" height="30" rx="15" fill="#3d8d5b"/><text x="469" y="446" text-anchor="middle" class="tag">E2</text>
+  <path d="M454 540c24-56 76-62 106-17 19 28 51 17 62-8" class="ink"/>
+  <circle cx="506" cy="514" r="7" fill="#4fd65e"/><circle cx="535" cy="534" r="6" fill="#4fd65e"/><circle cx="563" cy="523" r="7" fill="#4fd65e"/>
+  <text x="600" y="493" class="head">螢光觀察</text>
+  <text x="600" y="526" class="body">體內有相符碎片</text>
+  <text x="600" y="555" class="small">材質尚未</text>
+  <text x="600" y="579" class="small">獨立確認</text>
+
+  <rect x="825" y="424" width="48" height="30" rx="15" fill="#d28a27"/><text x="849" y="446" text-anchor="middle" class="tag">E3</text>
+  <path d="M830 558h104v-70" class="ink" stroke-width="3"/>
+  <polyline points="834,548 850,541 862,543 875,510 887,531 901,518 918,539 930,533" fill="none" stroke="#d28a27" stroke-width="5"/>
+  <path d="M875 510v-25" stroke="#d28a27" stroke-width="3" stroke-dasharray="6 5"/>
+  <text x="956" y="493" class="head">FTIR 光譜</text>
+  <text x="956" y="526" class="body">2950 cm⁻¹ 有訊號</text>
+  <text x="956" y="555" class="small">比較 MB 組</text>
+  <text x="956" y="579" class="small">與蜂巢組</text>
+
+  <!-- Evidence boundary footer -->
+  <rect x="45" y="620" width="1110" height="48" rx="16" fill="#17324d"/>
+  <text x="600" y="651" text-anchor="middle" class="tag" style="font-size:22px">讀圖順序：先看四步研究流程，再查看 E1、E2、E3 三種觀察。</text>
+</svg>

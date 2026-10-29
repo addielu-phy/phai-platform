@@ -1,0 +1,1025 @@
+{
+  "snapshotDate": "2026-10-29",
+  "files": {
+    "app.js": {
+      "bytes": 1661,
+      "sha256": "202d2c409838cb4099809d50971b08df1937cca20a67dea38433a6cfaf8e970d"
+    },
+    "catalog.json": {
+      "bytes": 192841,
+      "sha256": "7bf7db5bdfeb4adc549a73d2904dd056c382d530f65da467a89a21ec09a7b94d"
+    },
+    "exam/student-exam.pdf": {
+      "bytes": 582268,
+      "sha256": "8bd3a345c1c54c9015682932048ea108a069073d581016a5adbfda6a712b2eca"
+    },
+    "exam/teacher-exam.pdf": {
+      "bytes": 682067,
+      "sha256": "6f284bedcebec7a831b7c0d12be01500e408e16c297e104f56aaad0c8721ef23"
+    },
+    "favicon.svg": {
+      "bytes": 240,
+      "sha256": "be62961821ed86da22a3ab5bb0ae43956be29d6b7e38023f7430b941966a13aa"
+    },
+    "index.html": {
+      "bytes": 200119,
+      "sha256": "8f70b8d829192487e5b86e4c8799a7a6325f301577b6535552e08816cbc57a01"
+    },
+    "items/2026-09-13/index.html": {
+      "bytes": 6417,
+      "sha256": "43970201b7739c061fe30148f724cf70a6e7629f8b156c4069b5321744dd4e53"
+    },
+    "items/2026-09-13/student.md": {
+      "bytes": 2364,
+      "sha256": "39812a6e399e7c8eff53e20d813020e7c053d01eb499cfeca72e3a6fa4ecb9c0"
+    },
+    "items/2026-09-13/teacher.html": {
+      "bytes": 10920,
+      "sha256": "957a1b09223c114ce181a9e02dc7b01b48f0ad72c72c4f32c883f326066bfbbb"
+    },
+    "items/2026-09-13/teacher.md": {
+      "bytes": 6124,
+      "sha256": "9649b6f365a65509d4d9d77b0cd2d29fa8b65308d4b9c394106db01691f4dcff"
+    },
+    "items/2026-09-14/index.html": {
+      "bytes": 7053,
+      "sha256": "e883304418c8359c484791d051b3dd6d64424a0f1eb33f68a475c630fd4b79f0"
+    },
+    "items/2026-09-14/student.md": {
+      "bytes": 3070,
+      "sha256": "a882bd38f769fc31598489486446081d488d054d265016cca7c8cba6a31cef03"
+    },
+    "items/2026-09-14/teacher.html": {
+      "bytes": 12209,
+      "sha256": "02a1b217246365b02615ca71be2204c7f7218f2372f1212ec6cf3cbe4d31f814"
+    },
+    "items/2026-09-14/teacher.md": {
+      "bytes": 7359,
+      "sha256": "259e4fe5a8a6b86bf2777cc0f0480595704ce9ffb84bdccead85fac612e3c826"
+    },
+    "items/2026-09-15/index.html": {
+      "bytes": 7863,
+      "sha256": "b224929ed8b11c94f8b52382a03dd02359a5f38e3f4f0123527327cddc8f4342"
+    },
+    "items/2026-09-15/student.md": {
+      "bytes": 3688,
+      "sha256": "95f595d3f473e89e559e09c37b04d1aee93606dacf4876aec3287a4df5918338"
+    },
+    "items/2026-09-15/teacher.html": {
+      "bytes": 13038,
+      "sha256": "9f9272e446b3c5024e524f3652fd4b138174d8fa8ec75d57bc9bb0cf709279be"
+    },
+    "items/2026-09-15/teacher.md": {
+      "bytes": 7932,
+      "sha256": "edb8fc88ac1b99f6ce855c5f8576c7aca1ec8befba3d169b97ea7b39c9c38908"
+    },
+    "items/2026-09-16/index.html": {
+      "bytes": 8516,
+      "sha256": "8a72f0e95890c86e4272bbc56843b4d4e1ec0bb847a45eb8925ed9b3be997444"
+    },
+    "items/2026-09-16/student.md": {
+      "bytes": 3812,
+      "sha256": "8c007785a32e1377fe9eb9578bec198b553c71c1166eb7a71cd183ed6eba5b0f"
+    },
+    "items/2026-09-16/teacher.html": {
+      "bytes": 13470,
+      "sha256": "f799fe81b259e988562b9ac10f18eafcb11c0f330ffe0a30a1c3aab06b45ddc1"
+    },
+    "items/2026-09-16/teacher.md": {
+      "bytes": 8168,
+      "sha256": "d76853e83fce4918b358f86f171e3eebea53e1154a27415324ec610e22341534"
+    },
+    "items/2026-09-17/index.html": {
+      "bytes": 8348,
+      "sha256": "3e7d577b88c7a8e58781006ac8227494be94c7ee6889fa5dbed35de4a22aea2c"
+    },
+    "items/2026-09-17/student.md": {
+      "bytes": 4325,
+      "sha256": "5608aa0b3b6e41e451dd962a3865b1b447cb4d62443df1021931abf20f905b3e"
+    },
+    "items/2026-09-17/teacher.html": {
+      "bytes": 12198,
+      "sha256": "dcf2bcd92210ef6e0684c7c92df1f83bd26c470a0d8ec912511902db5313341f"
+    },
+    "items/2026-09-17/teacher.md": {
+      "bytes": 6983,
+      "sha256": "b548c40b7f4148cf1f62d89a5819afc6f9692ee6f0f3e7d247ae465741fa6ebc"
+    },
+    "items/2026-09-18/index.html": {
+      "bytes": 8284,
+      "sha256": "9c66c2fa64b1f00991a99b531b0d0c4c89bee7b57e88d694badb08302505df30"
+    },
+    "items/2026-09-18/student.md": {
+      "bytes": 3989,
+      "sha256": "3a6db18783c1cd891319d4595eedc04f1cfdf450c30563c3ab519e3bf02430b6"
+    },
+    "items/2026-09-18/teacher.html": {
+      "bytes": 12374,
+      "sha256": "acb349e14b87c82dccd0b8c4e3c7e9bcdf9c2e8f2ae132b6e588ffccbe410804"
+    },
+    "items/2026-09-18/teacher.md": {
+      "bytes": 7370,
+      "sha256": "179992b873641b04b25a2db5fcd5da8694fa0d66f8d19652fdb90170c34aa52f"
+    },
+    "items/2026-09-19/index.html": {
+      "bytes": 11869,
+      "sha256": "2ab5ec4b11d12f103665bb242d8940543427221260cfa107f4e2ee5396c1d372"
+    },
+    "items/2026-09-19/student.md": {
+      "bytes": 5636,
+      "sha256": "22dc901f2e7b935f736784dd16c7fe8f976bfd14981785e1998558c906826bc8"
+    },
+    "items/2026-09-19/teacher.html": {
+      "bytes": 12125,
+      "sha256": "62c7f652d2aa2ee4a4b072fd74d3aa4b2263bd40e45312884b689116b7464a71"
+    },
+    "items/2026-09-19/teacher.md": {
+      "bytes": 7259,
+      "sha256": "538a74c43e4987a21ee494b4eaab6998fd234d29c5c69a5d6a3cbf0a840aa7a3"
+    },
+    "items/2026-09-20/index.html": {
+      "bytes": 9516,
+      "sha256": "0901ec3a3cfca9da68ab3edee7a14bd488aeefff9538cb26dd0de1390d6a8715"
+    },
+    "items/2026-09-20/student.md": {
+      "bytes": 4804,
+      "sha256": "7be1229fe29149e5e13ccc15942f2d62107282226ac04f75f0d65fc9fd3a9744"
+    },
+    "items/2026-09-20/teacher.html": {
+      "bytes": 12794,
+      "sha256": "785d6353e3e6060c7d59e955acde1fc6346805262d8986a022c2747e428bbb21"
+    },
+    "items/2026-09-20/teacher.md": {
+      "bytes": 7720,
+      "sha256": "b3c28ae3145bb5aadc70d38197eac91c8647bd5bae4c4194033a9920540600f3"
+    },
+    "items/2026-09-21/index.html": {
+      "bytes": 8210,
+      "sha256": "3fe3f43830d72538920ec1e195044dfb3ace0db3b30f0b7c92889ab59fc3e390"
+    },
+    "items/2026-09-21/student.md": {
+      "bytes": 3956,
+      "sha256": "e63020e2303fea5612cefc98a31de1f9e5793d76a18671ac4144bd8cb76ee653"
+    },
+    "items/2026-09-21/teacher.html": {
+      "bytes": 12651,
+      "sha256": "ccb75f04555c70ae9f39865f1e62d25b758da0858aeaf990d41f6c809c05014b"
+    },
+    "items/2026-09-21/teacher.md": {
+      "bytes": 7453,
+      "sha256": "1172ba289f41c7bee30dcdf5278b980daa163bbe700c9b0c4225ef1ad5c7ff7a"
+    },
+    "items/2026-09-22/index.html": {
+      "bytes": 8913,
+      "sha256": "8269fa2ec4cb2bdd50a3b724e25f8b2c5a183727d75d392fb4497ef71b565a88"
+    },
+    "items/2026-09-22/student.md": {
+      "bytes": 4341,
+      "sha256": "ead60e2c801e4acd6897385e2ae44b7d65143bc9f9ed0790eee92b28e525f7fb"
+    },
+    "items/2026-09-22/teacher.html": {
+      "bytes": 13867,
+      "sha256": "ef3ff40363679749e1a91cdb9dadda1f2feb8e2b1191538a6410ab63f696aa48"
+    },
+    "items/2026-09-22/teacher.md": {
+      "bytes": 8606,
+      "sha256": "ed104fe743bccd1123a1b2e40938c1f36935d591db4760148d4992f3a599eabb"
+    },
+    "items/2026-09-23/experiment_flow.svg": {
+      "bytes": 7348,
+      "sha256": "e31db82af9c456da4b51778f9c6ba7b8f5efbe23d2fe0f082547d43d5039ce07"
+    },
+    "items/2026-09-23/index.html": {
+      "bytes": 9089,
+      "sha256": "90001d71c212211e1b0a46f403b967a0e864a65c6efe4d4ec91a3a32d03b0a2c"
+    },
+    "items/2026-09-23/student.md": {
+      "bytes": 4054,
+      "sha256": "a9b54b8a812b42136197643ed726bcea6406af06a32046e604d1e4be9d521e55"
+    },
+    "items/2026-09-23/teacher.html": {
+      "bytes": 15733,
+      "sha256": "07e0ebf446fc6921582a2ff64d430af5d09255893d7d49fa972a9bfd14bbe7d8"
+    },
+    "items/2026-09-23/teacher.md": {
+      "bytes": 9473,
+      "sha256": "4e4d34453f4596803c32293de126b2ce96d3762d97690766add5b632c2f4fc6f"
+    },
+    "items/2026-09-24/index.html": {
+      "bytes": 8849,
+      "sha256": "4c223a8c11a5c4fc3eb5995869590f50247193283bb78ed72008bef607e3bb4f"
+    },
+    "items/2026-09-24/student.md": {
+      "bytes": 3868,
+      "sha256": "0c338852ab98e5ed454a3ea68a906bb52462502a7ca082d375055f22949cf2ab"
+    },
+    "items/2026-09-24/teacher.html": {
+      "bytes": 13550,
+      "sha256": "fe903ee50c040c9ec44e005ede25355fb4e12d7fdaadefb7466fd32e6ebc067c"
+    },
+    "items/2026-09-24/teacher.md": {
+      "bytes": 7704,
+      "sha256": "26a3c26e1c0f219f2484ddcf0d3fb28a1e82233fcb192491038329e394c03830"
+    },
+    "items/2026-09-25/index.html": {
+      "bytes": 9282,
+      "sha256": "a92d1869314244abce21804198840d9d3173ec2179e5a0151eec9b3e25a1af58"
+    },
+    "items/2026-09-25/student.md": {
+      "bytes": 4445,
+      "sha256": "145f4b84ad26d4e161501637c7549f768180c77de70ce12210cb8cd55446f2b9"
+    },
+    "items/2026-09-25/teacher.html": {
+      "bytes": 12446,
+      "sha256": "45dbc8bebed878b878ea017de4552745674daa9704c8f47dc75c80506f469065"
+    },
+    "items/2026-09-25/teacher.md": {
+      "bytes": 6722,
+      "sha256": "2fd71f8e737e2f3947e2fa0240ea2bd2dfcd49877669ada0d84a1ccb82c80505"
+    },
+    "items/2026-09-26/index.html": {
+      "bytes": 8951,
+      "sha256": "9bef3dd04c79e60755da5dafa7ed1e6bc8dafed94efe5abf3ca025139b142fcc"
+    },
+    "items/2026-09-26/student.md": {
+      "bytes": 3311,
+      "sha256": "698fe1aae1a8b0ec4ad3a53f695bd212a0ec3dbad813818c998bfc37cc318483"
+    },
+    "items/2026-09-26/teacher.html": {
+      "bytes": 11161,
+      "sha256": "889a29e0a92f16eaf43956a16a42b9e43a6898c012557e38c717f2fac3f8621a"
+    },
+    "items/2026-09-26/teacher.md": {
+      "bytes": 5838,
+      "sha256": "cae44f5f542c8afe3fef9bb9bc378d74debda3e3ff79d86d8aef4fe33987536a"
+    },
+    "items/2026-09-27/index.html": {
+      "bytes": 8616,
+      "sha256": "86a91837c39f1d50b7629ff9b003243601eb081392ab65c02eb2091f81e37d80"
+    },
+    "items/2026-09-27/student.md": {
+      "bytes": 3941,
+      "sha256": "620824637647ec44f41ac9a81bef4bdfcd6cc068597e801b5b08e9739f65152a"
+    },
+    "items/2026-09-27/teacher.html": {
+      "bytes": 12494,
+      "sha256": "2c40edd976706890d562f7c1500b6f1d70dfd380d7aa205bacdb5aac43248f67"
+    },
+    "items/2026-09-27/teacher.md": {
+      "bytes": 7443,
+      "sha256": "e8722a390818ce3a74c0e5530ec2f54addd2089f4f73474a2dde0b8f46ccb44d"
+    },
+    "items/2026-09-28/index.html": {
+      "bytes": 7487,
+      "sha256": "79785645f17148c5777444aa8d2ac4b6c2a3adbdb4db5b8e8d3b070bc4d2246a"
+    },
+    "items/2026-09-28/student.md": {
+      "bytes": 3416,
+      "sha256": "af45b5bda1810b757a3dd0ac0f0c581ff53cbe3ecad34e6bb1f3902da2284a34"
+    },
+    "items/2026-09-28/teacher.html": {
+      "bytes": 11433,
+      "sha256": "df3df0dceaad7373533508e29a4dc33c70117dda13e6f3ac5304d75b9c600b71"
+    },
+    "items/2026-09-28/teacher.md": {
+      "bytes": 6395,
+      "sha256": "9469220be8edef7680f4770e208e66493b20318534edaa56ff45753f3c60d65d"
+    },
+    "items/2026-09-30/index.html": {
+      "bytes": 7516,
+      "sha256": "ef51a11b4a8978d4ccac6ccdefa721d53462dbbf524209bb9d36fcc21b52d4bc"
+    },
+    "items/2026-09-30/student.md": {
+      "bytes": 3083,
+      "sha256": "a276952e8ebd33c77db7b37da54450f204db82b93fce793110d19e5a93968cb8"
+    },
+    "items/2026-09-30/teacher.html": {
+      "bytes": 13360,
+      "sha256": "9f43b40976cf244b2cd228eed331a71ab9a5afeaea80bcbfd3a0398e1bef077a"
+    },
+    "items/2026-09-30/teacher.md": {
+      "bytes": 6985,
+      "sha256": "13375311562156df72cc67e8cc809e1b90162b1a2590a3c2b4bf3723ecbbed29"
+    },
+    "items/2026-10-01/index.html": {
+      "bytes": 8459,
+      "sha256": "66c7316b6ffa83f200fca432ecd1271728bfcbd56b40e7e3aff7b282b2379f78"
+    },
+    "items/2026-10-01/student.md": {
+      "bytes": 4230,
+      "sha256": "e2adc1c8e6e97ad3c6a30c0e8c062c0229f0ba1ceb4811ccbca1af5e6dd6e68c"
+    },
+    "items/2026-10-01/teacher.html": {
+      "bytes": 13236,
+      "sha256": "7870e83bcb98d3aca8e6a09f80da5bc5bfde6ecd9b2ba486bcc90000759c98ac"
+    },
+    "items/2026-10-01/teacher.md": {
+      "bytes": 7304,
+      "sha256": "89b08c0a60b37b200b1a1073949aa834ef6cc17b5bc17086aba27300912d9daf"
+    },
+    "items/2026-10-02/index.html": {
+      "bytes": 6672,
+      "sha256": "804bd509c85303d34025d1867261a60635be250593793786e45fb47927b4b9cf"
+    },
+    "items/2026-10-02/student.md": {
+      "bytes": 2575,
+      "sha256": "5a664d1c6aa2b99367673ce13a529d9369b2cfe894e26e69e8dd17a350c9e94d"
+    },
+    "items/2026-10-02/teacher.html": {
+      "bytes": 10710,
+      "sha256": "4519f15acaa82643052182a51d896ca640b1aac77b5bf864e6691c9342d76576"
+    },
+    "items/2026-10-02/teacher.md": {
+      "bytes": 5700,
+      "sha256": "e44660a778c339955191f4a0ecddc2514ecc0932a4aa5e74dce6c87a7c148e0d"
+    },
+    "items/2026-10-03/index.html": {
+      "bytes": 7383,
+      "sha256": "e75ee69585198e86d7d0904c300b413289e544bb0113a3c32a99a2f3d1fbf2a5"
+    },
+    "items/2026-10-03/student.md": {
+      "bytes": 2724,
+      "sha256": "08f951723fccf31d656ea63d852c56fe1fe60750609151db6f79dc2f1e51cc6c"
+    },
+    "items/2026-10-03/teacher.html": {
+      "bytes": 10508,
+      "sha256": "2b8d6d84932d500446298a38a5a7e2b61e42d813b52c082d4ca487e036166bdd"
+    },
+    "items/2026-10-03/teacher.md": {
+      "bytes": 5723,
+      "sha256": "94dcc7ff0c0699cf20dd43d4294dd5a155bdf1fc6246546003773cce7cc8d2ff"
+    },
+    "items/2026-10-04/index.html": {
+      "bytes": 6874,
+      "sha256": "af8af232aabc27df4343171ea88cc00fe6c51991531375055e5537babf97b80e"
+    },
+    "items/2026-10-04/student.md": {
+      "bytes": 2746,
+      "sha256": "3a0e464365f8fbe0101886ec2ee01fb7c9bedc4f925f0cec964ff59ee4a919ba"
+    },
+    "items/2026-10-04/teacher.html": {
+      "bytes": 11237,
+      "sha256": "12356f8808902a92ed6d702cbe21d50549fbefaeadaeebfb99b06784b6b3e792"
+    },
+    "items/2026-10-04/teacher.md": {
+      "bytes": 6590,
+      "sha256": "1f0fef19fc81ef016831aa53d043fba87e777a3351bf31b4b6e12eabb8431a60"
+    },
+    "items/2026-10-05/index.html": {
+      "bytes": 8445,
+      "sha256": "7b79e88d0eaf1e5e8d78057a526565d4d81c9ae902c5bbb03eb6c60c398f484d"
+    },
+    "items/2026-10-05/student.md": {
+      "bytes": 3447,
+      "sha256": "a4e6c0c735c45747eb570360ebc45e2d7f4e7adbd57c788135245aaba243df7c"
+    },
+    "items/2026-10-05/teacher.html": {
+      "bytes": 14485,
+      "sha256": "bb15647f99e788953f869acb8e523df70b3c8be42a0f53a639a11a4ff82d2e0a"
+    },
+    "items/2026-10-05/teacher.md": {
+      "bytes": 8014,
+      "sha256": "a1ffd503e8eaa7ec382d9e1c821b9cac00b09e7f27ad06d2b98e1b74c3eccfa1"
+    },
+    "items/2026-10-06/index.html": {
+      "bytes": 7463,
+      "sha256": "aaacda79067d2132c8a970a15443a275da24e74cd3da72847e2e722f492d6ef4"
+    },
+    "items/2026-10-06/student.md": {
+      "bytes": 3190,
+      "sha256": "f2a830a3f1351bc03c0f44a7cadfe23d0895e7045b747c38850a5f1fea754355"
+    },
+    "items/2026-10-06/teacher.html": {
+      "bytes": 10631,
+      "sha256": "2009656fcccffccb2ff1a466f24bcbd901d9330b30aeb5246b37cf0fe95e41ec"
+    },
+    "items/2026-10-06/teacher.md": {
+      "bytes": 6191,
+      "sha256": "cd1904361aff65e5a8ae6f0ec97d87e58d2b1026a694946146d1984a8d6bdc44"
+    },
+    "items/2026-10-07/index.html": {
+      "bytes": 8260,
+      "sha256": "a570b0aedbf4b90e670a893c0704109c935e723d33b9a4a1f56c946e337463ce"
+    },
+    "items/2026-10-07/student.md": {
+      "bytes": 3403,
+      "sha256": "cace4f1e00aab4293ba38fbff99b84398d6066c2c85ad3e1c3dbc104a5626aeb"
+    },
+    "items/2026-10-07/teacher.html": {
+      "bytes": 13231,
+      "sha256": "865c4eee622d773d8911c71db7869a823d2a8bb6465e24265f4bfcbb134b0670"
+    },
+    "items/2026-10-07/teacher.md": {
+      "bytes": 7514,
+      "sha256": "16cb6fc2235635c12545200cd1ee759cb9a93f55f70395986885f74247df069d"
+    },
+    "items/2026-10-08/index.html": {
+      "bytes": 8180,
+      "sha256": "79b5c748e817717ab8f4cf969168032a5560083600f9f5d6cdf4b38f8add7b55"
+    },
+    "items/2026-10-08/student.md": {
+      "bytes": 3653,
+      "sha256": "52c9bcc7353d66be57f87fe87f0e28f89687126f39e2edf221641f437e944d53"
+    },
+    "items/2026-10-08/teacher.html": {
+      "bytes": 11491,
+      "sha256": "e37374752abacbf92ccd143a36b333baba16743645ce5560cc73f1a0b62bfff9"
+    },
+    "items/2026-10-08/teacher.md": {
+      "bytes": 5975,
+      "sha256": "454c10bf71b2180ef4dc696375b66f564c0acec52078f54b164daeff79517cbf"
+    },
+    "items/2026-10-09/index.html": {
+      "bytes": 7254,
+      "sha256": "603dfb64624a81dd3814e91ed02d956d4b928dffcd84388f246e5e70fc37c05e"
+    },
+    "items/2026-10-09/student.md": {
+      "bytes": 3146,
+      "sha256": "4fc5d7d71921b3010fb2117ad007867b9fc0ff474bdd4115bea683ad6408d242"
+    },
+    "items/2026-10-09/teacher.html": {
+      "bytes": 11500,
+      "sha256": "a173c8594e911338cace0fd8b73589808fbdea97372ad7ad8f47cde526ac5804"
+    },
+    "items/2026-10-09/teacher.md": {
+      "bytes": 6296,
+      "sha256": "0171f735cde49c7c9e556af66ddb9e20dc70d1f75f7916972bd4c80ba33fc51c"
+    },
+    "items/2026-10-10/index.html": {
+      "bytes": 8425,
+      "sha256": "6a81c8fa73f01b91b983de3fda1b30d913d502779c8667a8577db04da80b2fe3"
+    },
+    "items/2026-10-10/student.md": {
+      "bytes": 3799,
+      "sha256": "3f454d93eebe92a697400a894a296c2679ac631e585927bd536700a94a9b8b89"
+    },
+    "items/2026-10-10/teacher.html": {
+      "bytes": 11893,
+      "sha256": "3311f1f8591c99dcf63b43798a4b31d0e0ab1f56b74c35decd33dd5cbc70e681"
+    },
+    "items/2026-10-10/teacher.md": {
+      "bytes": 6649,
+      "sha256": "0e20146dceb04868522d7293840a812aaa35551f3263cf265469eda09d87c63d"
+    },
+    "items/2026-10-11/index.html": {
+      "bytes": 8131,
+      "sha256": "53c904e0cfc86712c7b47de27956a9cc86e3417bdf575bdcad3207173b2eb45d"
+    },
+    "items/2026-10-11/student.md": {
+      "bytes": 4047,
+      "sha256": "a657e57d67594ed5f251909d2a63a0eb0a864791455a7757d389cb44e2103000"
+    },
+    "items/2026-10-11/teacher.html": {
+      "bytes": 11929,
+      "sha256": "123fd161752fb87f528bdbf7e8c524f828bd0d75f4ff9528c2e31d08d98c892d"
+    },
+    "items/2026-10-11/teacher.md": {
+      "bytes": 6987,
+      "sha256": "9008bfddc49b7e64bfeeb3d75d57f4005241950ddc1bb43891eddcf90f3fd6b3"
+    },
+    "items/2026-10-12/index.html": {
+      "bytes": 9614,
+      "sha256": "b39d9896f722fc25ed7aa34e577ea56331e863dc1334a811335fc8924c5b7ae4"
+    },
+    "items/2026-10-12/student.md": {
+      "bytes": 3800,
+      "sha256": "f0aea9f44e34fda3db1569298a67c0ccf90501c3665f360be000094fceaaa397"
+    },
+    "items/2026-10-12/teacher.html": {
+      "bytes": 12549,
+      "sha256": "0bfd2792805effcd5d618263f7bff5b6f1fc06ff90848a2c7c6f0e484399393a"
+    },
+    "items/2026-10-12/teacher.md": {
+      "bytes": 6250,
+      "sha256": "54963533601552c1af9e5bdd691f5aa81d8fb2a9fb27fd3d71c077c729129764"
+    },
+    "items/2026-10-14/index.html": {
+      "bytes": 7396,
+      "sha256": "4e4a643079aa5f53125275c19161e2a4e5fe96e1727df03b4d3d877b0132848e"
+    },
+    "items/2026-10-14/student.md": {
+      "bytes": 3404,
+      "sha256": "951d23dab1bac9a8ced87d368c09579ff2b9e6a74e8ddf7f6a314ee0592c7f27"
+    },
+    "items/2026-10-14/teacher.html": {
+      "bytes": 13457,
+      "sha256": "8d96d03ef5f6adf4dc666287e5c62b3117c641e268f6b1f456b9c7a27e5fb8f6"
+    },
+    "items/2026-10-14/teacher.md": {
+      "bytes": 7906,
+      "sha256": "3324dc622d6c228a50db68520591c897a5b41dee75af4513bbcbf7ef6b8478b1"
+    },
+    "items/2026-10-15/index.html": {
+      "bytes": 8599,
+      "sha256": "62e8d8c398df9198d3f9f07157ac6e5e98a3ebc8b8f2da922622439b369c7daa"
+    },
+    "items/2026-10-15/student.md": {
+      "bytes": 3758,
+      "sha256": "e9a4428014902136f4b98d5da74a833892283a3e59ede153ab9707ca70b08793"
+    },
+    "items/2026-10-15/teacher.html": {
+      "bytes": 13633,
+      "sha256": "c87d600b0e9d25e4797d6b93c2fad50ae25d1c0f6c72d4ce951292a9692e2ccc"
+    },
+    "items/2026-10-15/teacher.md": {
+      "bytes": 7961,
+      "sha256": "8e83084c89aa2c238e7359b567c2fb45eb1e2ba75fbd2e9b6893d09466e64300"
+    },
+    "items/2026-10-16/index.html": {
+      "bytes": 8808,
+      "sha256": "fa41b2b109ee4c6eb7057f50b449de9d327bd60e276b1dadfbfb33e68e550526"
+    },
+    "items/2026-10-16/student.md": {
+      "bytes": 3920,
+      "sha256": "f0d227f0729d208041ff6f2efd61ba7107b2831f18d58d77505d1556c3eb6b50"
+    },
+    "items/2026-10-16/teacher.html": {
+      "bytes": 14572,
+      "sha256": "e020513fd77342056ff3826cfd7caa23dbdede117b13efef9186cb827185651a"
+    },
+    "items/2026-10-16/teacher.md": {
+      "bytes": 8639,
+      "sha256": "2bcc9f9c0da913c047f79f0457d6f1ac8bfe19b2ccb55b07f3dcc589e1e30ec6"
+    },
+    "items/2026-10-17/index.html": {
+      "bytes": 7556,
+      "sha256": "ccf186f75acd4b027460f31b11ff6f818f2549c4c3aa9e0c9b69e390ae4f76da"
+    },
+    "items/2026-10-17/student.md": {
+      "bytes": 3019,
+      "sha256": "eb96e15dfa5b3bc6743b653b8860719612bf0186e863df38e63a92cdeb7db6e2"
+    },
+    "items/2026-10-17/teacher.html": {
+      "bytes": 12048,
+      "sha256": "2a230a594c5bf3c55782a2e0f35510603f6f64dac37f75df00b49a6d6281c857"
+    },
+    "items/2026-10-17/teacher.md": {
+      "bytes": 5996,
+      "sha256": "156137a3b39f73229271156d8f7c1755ec681fac62270cf0196cb87c165bf0b1"
+    },
+    "items/2026-10-18/index.html": {
+      "bytes": 7896,
+      "sha256": "ae7d1e7687a0ce2c47668d579cb3d454d0f92f0efbbcaa0b0a0c85daf798c78c"
+    },
+    "items/2026-10-18/student.md": {
+      "bytes": 3737,
+      "sha256": "6140f941c67892b5cb478a8aada317d2655cc41488a2efbcfa3738a797466022"
+    },
+    "items/2026-10-18/teacher.html": {
+      "bytes": 13158,
+      "sha256": "b9ded6a6614534d0e6c4346c38fe2d84de42ac0179f7304b94dc64e90addda1d"
+    },
+    "items/2026-10-18/teacher.md": {
+      "bytes": 7198,
+      "sha256": "00ec55b7fd568fc508caa62a56a175ef77a519be1cc8f930c4459c5945beea96"
+    },
+    "items/2026-10-19/index.html": {
+      "bytes": 8123,
+      "sha256": "131fcdbff20e9a0afc2e2b7574f18a4e20a076bd5b73f795bb59bf027a573d35"
+    },
+    "items/2026-10-19/student.md": {
+      "bytes": 3610,
+      "sha256": "c2c6030d60173216bfc230988e263e483ef36c160d5a35fbc73af2e19ac5d7cb"
+    },
+    "items/2026-10-19/teacher.html": {
+      "bytes": 12874,
+      "sha256": "9da3331929e3000ec985e1fa4dd5f3c3d7c9ca504f62a6a3fc260e6a26f1ac97"
+    },
+    "items/2026-10-19/teacher.md": {
+      "bytes": 7160,
+      "sha256": "d5da93be25c9f613f13cfbfb3fd4dc4f5769a346c29c4ab0fa90480c1f0b620d"
+    },
+    "items/2026-10-20/index.html": {
+      "bytes": 9630,
+      "sha256": "028e8f27f0ab69610af3780d940e965efc68e1a36c58ccd83cf935ae29c8a282"
+    },
+    "items/2026-10-20/student.md": {
+      "bytes": 3854,
+      "sha256": "d5417192b21d9dca6992e54c135a9d3179486ada021df822bb42c1bec61595ae"
+    },
+    "items/2026-10-20/teacher.html": {
+      "bytes": 13376,
+      "sha256": "c754674ee8103b5bb40bd29fc6feaaa3c78d18b9c62ce9e395fef59aa9f9479e"
+    },
+    "items/2026-10-20/teacher.md": {
+      "bytes": 7660,
+      "sha256": "28985ea3cb7b8d70d7f01c2dfd3f5a4caf63d72703f95975bc2938af00d5ac7e"
+    },
+    "items/2026-10-21/index.html": {
+      "bytes": 7689,
+      "sha256": "e917fa8436cc1f0b20c1cea30620bf5c0bc650efe76280a6a1e6c040881257da"
+    },
+    "items/2026-10-21/student.md": {
+      "bytes": 3571,
+      "sha256": "b286fe78e6f9d5572982fbdfc52767e71d0b355583f3c6a8c15ae7237081ee2a"
+    },
+    "items/2026-10-21/teacher.html": {
+      "bytes": 14058,
+      "sha256": "9336046146bb5d3cb252f23542c8e4e3d7a2a9a38686c3ccdd66a16dbd442bf7"
+    },
+    "items/2026-10-21/teacher.md": {
+      "bytes": 8444,
+      "sha256": "2eab045ca1e6a36f4346ca3a4c8d862f1d7e1cdec2c0eecba4cc6e9ff92922d1"
+    },
+    "items/2026-10-22/index.html": {
+      "bytes": 8184,
+      "sha256": "dfc0ef2775b54cf142ca03bc86908c4db2f0d5eba1227644fe64450704a38afb"
+    },
+    "items/2026-10-22/student.md": {
+      "bytes": 3284,
+      "sha256": "32121d292d1526c282f44b24a5d64f5d79a0b438f8d69b8e49961415b660fd36"
+    },
+    "items/2026-10-22/teacher.html": {
+      "bytes": 11213,
+      "sha256": "07e0d1dec11aaacc99501bdede446cef394af39b9304cfa9e22320804abbbf43"
+    },
+    "items/2026-10-22/teacher.md": {
+      "bytes": 6047,
+      "sha256": "a5c202ef3a98e20918e817b4659c156a15374c9b18db89ca1ff29f001ccd6567"
+    },
+    "items/2026-10-23/index.html": {
+      "bytes": 8620,
+      "sha256": "233ad7f95f9ab65a148054f91ed3cc3dec9744693744509c58b4659ee860c84c"
+    },
+    "items/2026-10-23/student.md": {
+      "bytes": 3764,
+      "sha256": "358d86388c11e29922418ea59960d54c3ec5d869c028c4d21f0433e12a88aca7"
+    },
+    "items/2026-10-23/teacher.html": {
+      "bytes": 11567,
+      "sha256": "67fb3b48982319597a6d1d7b4a61fedbdcd3979ec95eb4c91dda4aed7787704f"
+    },
+    "items/2026-10-23/teacher.md": {
+      "bytes": 6259,
+      "sha256": "66c16bc7ced4409044d54bbd9277ec307f2fb88ddb0f12a3fc26c8ae0736e467"
+    },
+    "items/2026-10-24/index.html": {
+      "bytes": 7787,
+      "sha256": "b0386f2ee58b0fc3613fa6ab08802a3b5a4d999557d76f6a9f3059f0e4bef8b3"
+    },
+    "items/2026-10-24/student.md": {
+      "bytes": 3707,
+      "sha256": "06480e79e24f7c7f640dcf6e0433c04c00c5bf112215daa4e99206757a96f6d5"
+    },
+    "items/2026-10-24/teacher.html": {
+      "bytes": 11042,
+      "sha256": "6781f6d376259a69a5a7719bd3bd7d36bf6de98b68048488458abfa4ee1e1c26"
+    },
+    "items/2026-10-24/teacher.md": {
+      "bytes": 6185,
+      "sha256": "388cf979980742694e58f5f961ceff815b19dcdd03434d277b0cc1cede775807"
+    },
+    "items/2026-10-25/index.html": {
+      "bytes": 7028,
+      "sha256": "785b40fc03ad073628677cc6ef7681aecb97e150ae9d7bddadb05e78c4115a22"
+    },
+    "items/2026-10-25/student.md": {
+      "bytes": 3118,
+      "sha256": "e38f0bf09f1146c04e4634e910cac504bf35ceb90f30b259ef3b9e164b8723bb"
+    },
+    "items/2026-10-25/teacher.html": {
+      "bytes": 12054,
+      "sha256": "d564c61b5b9fb7d5bfac2cda69ca16469881c4699f8f8b61b90425eedff033b1"
+    },
+    "items/2026-10-25/teacher.md": {
+      "bytes": 6217,
+      "sha256": "cf59153d57619fe55827db41cb26010cddbe9de13040e088155607a293650da0"
+    },
+    "items/2026-10-26/index.html": {
+      "bytes": 7656,
+      "sha256": "067d45df695928d01b5945135e3c541d1cafe737b31899879d466ccbd9a69f14"
+    },
+    "items/2026-10-26/student.md": {
+      "bytes": 2915,
+      "sha256": "f0d70a2f79ef676054ddfd931a26f382d97796f532d602449697adedf9e5a6eb"
+    },
+    "items/2026-10-26/teacher.html": {
+      "bytes": 11606,
+      "sha256": "4854df4bcfa9376d1bf9c0652c06b467e8a9103f624e760fabc3c5d3e978db18"
+    },
+    "items/2026-10-26/teacher.md": {
+      "bytes": 5847,
+      "sha256": "78e001921a23d2debaca66adfcf2e88a071fc7635991fe8505c16e32e372c07b"
+    },
+    "items/2026-10-27/index.html": {
+      "bytes": 8266,
+      "sha256": "59d98fe2867990f1c70f8255b936f157fe4b830f2a03ad25d6ccddc41ba7c7b8"
+    },
+    "items/2026-10-27/student.md": {
+      "bytes": 3587,
+      "sha256": "19e6a365ff56dd5b93304286d6b868cabbc5f8f8984a020a31b5e08264e1cb25"
+    },
+    "items/2026-10-27/teacher.html": {
+      "bytes": 10089,
+      "sha256": "d555424c18295c5b455d392457b068e515b2287ee2bd4654cd9fa1b1d05ffb02"
+    },
+    "items/2026-10-27/teacher.md": {
+      "bytes": 5263,
+      "sha256": "97fbafa4073b9568d5c876ab8a6409920c917d75a2f68d5a67f267e406780314"
+    },
+    "items/2026-10-28/index.html": {
+      "bytes": 7827,
+      "sha256": "65923d7eeb8bfd9a26a522a80824025070583c73de3829fa119fa7fc559707f7"
+    },
+    "items/2026-10-28/student.md": {
+      "bytes": 3122,
+      "sha256": "efc1e195911a149621759b15c6d124e1f838ef33317c2feca26fa14fc920e271"
+    },
+    "items/2026-10-28/teacher.html": {
+      "bytes": 10894,
+      "sha256": "1c6f7c7fd67190a26361f0252a0ea8f13e4fdf64b742418966dad17f8a2e33a1"
+    },
+    "items/2026-10-28/teacher.md": {
+      "bytes": 5727,
+      "sha256": "aee8a5bd303c81ee240853e200ab2e1aa34eb69754da8a441c1c15332ac931d4"
+    },
+    "items/2026-10-29/index.html": {
+      "bytes": 6863,
+      "sha256": "909cca10f2b288b98d0fea8b3df70c28110194b503687ec7c9d563cb111b0111"
+    },
+    "items/2026-10-29/student.md": {
+      "bytes": 2476,
+      "sha256": "fa3ceaf4631c692854db686256ac35a837f5a23eec9f5867cb4c5f231131cf84"
+    },
+    "items/2026-10-29/teacher.html": {
+      "bytes": 9065,
+      "sha256": "6ff95ffce98e5f3976b0659c6e392bc2988396dfe1a6534075258aa18c60f9f8"
+    },
+    "items/2026-10-29/teacher.md": {
+      "bytes": 4375,
+      "sha256": "68b70328b7e99f81a4c4616ec8d506e731837eef409d198a35893e77b5b3f26b"
+    },
+    "page.js": {
+      "bytes": 1817,
+      "sha256": "d77b515f09443702d00b12192511abf82a8ad382945551a15c0cac8258fe584d"
+    },
+    "provenance.json": {
+      "bytes": 21548,
+      "sha256": "99ed3fa9e3efa51eddb2a25b2b7fa24127fd5b1bedb1c7c34e715e33310dafae"
+    },
+    "README.md": {
+      "bytes": 746,
+      "sha256": "dd2c4081f8074b8a0e03b32d454854bca8dca5b55ee8ecc7cd6e6279bd1baea7"
+    },
+    "style.css": {
+      "bytes": 11406,
+      "sha256": "bf3a7a84be8623b3844cc39dfebc6fb58966c099f4cd110673932b758ac47f71"
+    },
+    "vendor/auto-render.min.js": {
+      "bytes": 3467,
+      "sha256": "bb53eb953394531aae36fdd537065c4244eb8542901a3ce914601d932675b8ac"
+    },
+    "vendor/fonts/KaTeX_AMS-Regular.ttf": {
+      "bytes": 63632,
+      "sha256": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13"
+    },
+    "vendor/fonts/KaTeX_AMS-Regular.woff": {
+      "bytes": 33516,
+      "sha256": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251"
+    },
+    "vendor/fonts/KaTeX_AMS-Regular.woff2": {
+      "bytes": 28076,
+      "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308"
+    },
+    "vendor/fonts/KaTeX_Caligraphic-Bold.ttf": {
+      "bytes": 12368,
+      "sha256": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268"
+    },
+    "vendor/fonts/KaTeX_Caligraphic-Bold.woff": {
+      "bytes": 7716,
+      "sha256": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed"
+    },
+    "vendor/fonts/KaTeX_Caligraphic-Bold.woff2": {
+      "bytes": 6912,
+      "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c"
+    },
+    "vendor/fonts/KaTeX_Caligraphic-Regular.ttf": {
+      "bytes": 12344,
+      "sha256": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7"
+    },
+    "vendor/fonts/KaTeX_Caligraphic-Regular.woff": {
+      "bytes": 7656,
+      "sha256": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c"
+    },
+    "vendor/fonts/KaTeX_Caligraphic-Regular.woff2": {
+      "bytes": 6908,
+      "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b"
+    },
+    "vendor/fonts/KaTeX_Fraktur-Bold.ttf": {
+      "bytes": 19584,
+      "sha256": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1"
+    },
+    "vendor/fonts/KaTeX_Fraktur-Bold.woff": {
+      "bytes": 13296,
+      "sha256": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb"
+    },
+    "vendor/fonts/KaTeX_Fraktur-Bold.woff2": {
+      "bytes": 11348,
+      "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f"
+    },
+    "vendor/fonts/KaTeX_Fraktur-Regular.ttf": {
+      "bytes": 19572,
+      "sha256": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3"
+    },
+    "vendor/fonts/KaTeX_Fraktur-Regular.woff": {
+      "bytes": 13208,
+      "sha256": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463"
+    },
+    "vendor/fonts/KaTeX_Fraktur-Regular.woff2": {
+      "bytes": 11316,
+      "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc"
+    },
+    "vendor/fonts/KaTeX_Main-Bold.ttf": {
+      "bytes": 51336,
+      "sha256": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8"
+    },
+    "vendor/fonts/KaTeX_Main-Bold.woff": {
+      "bytes": 29912,
+      "sha256": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822"
+    },
+    "vendor/fonts/KaTeX_Main-Bold.woff2": {
+      "bytes": 25324,
+      "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021"
+    },
+    "vendor/fonts/KaTeX_Main-BoldItalic.ttf": {
+      "bytes": 32968,
+      "sha256": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f"
+    },
+    "vendor/fonts/KaTeX_Main-BoldItalic.woff": {
+      "bytes": 19412,
+      "sha256": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c"
+    },
+    "vendor/fonts/KaTeX_Main-BoldItalic.woff2": {
+      "bytes": 16780,
+      "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b"
+    },
+    "vendor/fonts/KaTeX_Main-Italic.ttf": {
+      "bytes": 33580,
+      "sha256": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a"
+    },
+    "vendor/fonts/KaTeX_Main-Italic.woff": {
+      "bytes": 19676,
+      "sha256": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf"
+    },
+    "vendor/fonts/KaTeX_Main-Italic.woff2": {
+      "bytes": 16988,
+      "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267"
+    },
+    "vendor/fonts/KaTeX_Main-Regular.ttf": {
+      "bytes": 53580,
+      "sha256": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830"
+    },
+    "vendor/fonts/KaTeX_Main-Regular.woff": {
+      "bytes": 30772,
+      "sha256": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc"
+    },
+    "vendor/fonts/KaTeX_Main-Regular.woff2": {
+      "bytes": 26272,
+      "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866"
+    },
+    "vendor/fonts/KaTeX_Math-BoldItalic.ttf": {
+      "bytes": 31196,
+      "sha256": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5"
+    },
+    "vendor/fonts/KaTeX_Math-BoldItalic.woff": {
+      "bytes": 18668,
+      "sha256": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e"
+    },
+    "vendor/fonts/KaTeX_Math-BoldItalic.woff2": {
+      "bytes": 16400,
+      "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1"
+    },
+    "vendor/fonts/KaTeX_Math-Italic.ttf": {
+      "bytes": 31308,
+      "sha256": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a"
+    },
+    "vendor/fonts/KaTeX_Math-Italic.woff": {
+      "bytes": 18748,
+      "sha256": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571"
+    },
+    "vendor/fonts/KaTeX_Math-Italic.woff2": {
+      "bytes": 16440,
+      "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264"
+    },
+    "vendor/fonts/KaTeX_SansSerif-Bold.ttf": {
+      "bytes": 24504,
+      "sha256": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0"
+    },
+    "vendor/fonts/KaTeX_SansSerif-Bold.woff": {
+      "bytes": 14408,
+      "sha256": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba"
+    },
+    "vendor/fonts/KaTeX_SansSerif-Bold.woff2": {
+      "bytes": 12216,
+      "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62"
+    },
+    "vendor/fonts/KaTeX_SansSerif-Italic.ttf": {
+      "bytes": 22364,
+      "sha256": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083"
+    },
+    "vendor/fonts/KaTeX_SansSerif-Italic.woff": {
+      "bytes": 14112,
+      "sha256": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2"
+    },
+    "vendor/fonts/KaTeX_SansSerif-Italic.woff2": {
+      "bytes": 12028,
+      "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a"
+    },
+    "vendor/fonts/KaTeX_SansSerif-Regular.ttf": {
+      "bytes": 19436,
+      "sha256": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad"
+    },
+    "vendor/fonts/KaTeX_SansSerif-Regular.woff": {
+      "bytes": 12316,
+      "sha256": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605"
+    },
+    "vendor/fonts/KaTeX_SansSerif-Regular.woff2": {
+      "bytes": 10344,
+      "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342"
+    },
+    "vendor/fonts/KaTeX_Script-Regular.ttf": {
+      "bytes": 16648,
+      "sha256": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67"
+    },
+    "vendor/fonts/KaTeX_Script-Regular.woff": {
+      "bytes": 10588,
+      "sha256": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a"
+    },
+    "vendor/fonts/KaTeX_Script-Regular.woff2": {
+      "bytes": 9644,
+      "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b"
+    },
+    "vendor/fonts/KaTeX_Size1-Regular.ttf": {
+      "bytes": 12228,
+      "sha256": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b"
+    },
+    "vendor/fonts/KaTeX_Size1-Regular.woff": {
+      "bytes": 6496,
+      "sha256": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9"
+    },
+    "vendor/fonts/KaTeX_Size1-Regular.woff2": {
+      "bytes": 5468,
+      "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe"
+    },
+    "vendor/fonts/KaTeX_Size2-Regular.ttf": {
+      "bytes": 11508,
+      "sha256": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b"
+    },
+    "vendor/fonts/KaTeX_Size2-Regular.woff": {
+      "bytes": 6188,
+      "sha256": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d"
+    },
+    "vendor/fonts/KaTeX_Size2-Regular.woff2": {
+      "bytes": 5208,
+      "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd"
+    },
+    "vendor/fonts/KaTeX_Size3-Regular.ttf": {
+      "bytes": 7588,
+      "sha256": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082"
+    },
+    "vendor/fonts/KaTeX_Size3-Regular.woff": {
+      "bytes": 4420,
+      "sha256": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949"
+    },
+    "vendor/fonts/KaTeX_Size3-Regular.woff2": {
+      "bytes": 3624,
+      "sha256": "73d591271b1604960cb10bb90fee021670af7297017e0e98480b332d11f51995"
+    },
+    "vendor/fonts/KaTeX_Size4-Regular.ttf": {
+      "bytes": 10364,
+      "sha256": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877"
+    },
+    "vendor/fonts/KaTeX_Size4-Regular.woff": {
+      "bytes": 5980,
+      "sha256": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58"
+    },
+    "vendor/fonts/KaTeX_Size4-Regular.woff2": {
+      "bytes": 4928,
+      "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0"
+    },
+    "vendor/fonts/KaTeX_Typewriter-Regular.ttf": {
+      "bytes": 27556,
+      "sha256": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa"
+    },
+    "vendor/fonts/KaTeX_Typewriter-Regular.woff": {
+      "bytes": 16028,
+      "sha256": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7"
+    },
+    "vendor/fonts/KaTeX_Typewriter-Regular.woff2": {
+      "bytes": 13568,
+      "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b"
+    },
+    "vendor/katex.min.css": {
+      "bytes": 23352,
+      "sha256": "19095127357ed6d29fe0a63a6b000c913a89f7f1963b765dd3715e97c9852e75"
+    },
+    "vendor/katex.min.js": {
+      "bytes": 276701,
+      "sha256": "e8d885505949f3a5f4abdd5dd0d53696bd1371ad26ffbf4f310dcd77c8cdae89"
+    },
+    "vendor/LICENSE": {
+      "bytes": 1107,
+      "sha256": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3"
+    }
+  }
+}

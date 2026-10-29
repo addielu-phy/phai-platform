@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>一個轉速，夠驗證模型嗎？ · 教師解析｜PhAI 命題集</title><meta name="description" content="一個轉速，夠驗證模型嗎？ · 教師解析">
+<meta name="theme-color" content="#191e33"><meta property="og:title" content="一個轉速，夠驗證模型嗎？ · 教師解析｜PhAI 命題集">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://addielu-phy.github.io/phai-platform/daily/items/2026-09-18/teacher.html"><link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../vendor/katex.min.css">
+<script src="../../vendor/katex.min.js" defer></script><script src="../../vendor/auto-render.min.js" defer></script><script src="../../page.js" defer></script></head>
+<body class="edition-teacher"><a class="skip" href="#main">跳至主要內容</a><header class="top"><nav class="nav wrap" aria-label="主要導覽"><a class="brand" href="../../index.html"><strong>PhAI</strong><span>每日精緻命題</span></a><a href="../../index.html">題目總覽</a><a class="parent-link" href="../../../index.html">資源館 ↗</a></nav></header>
+<main id="main" class="reader wrap"><a class="back" href="../../index.html">← 返回全部題目</a>
+<div class="item-meta"><time datetime="2026-09-18">2026-09-18</time><span class="subject">物理</span><span>教師解析</span></div>
+<h1>一個轉速，夠驗證模型嗎？</h1><p class="domain">物理 × 數據素養 × 探究與實作</p>
+<nav class="edition" aria-label="題目版本"><a href="index.html" >學生題目</a><a href="teacher.html" aria-current="page">答案與評分規準</a></nav>
+<div class="reader-tools"><button type="button" data-print>列印解析</button><a href="teacher.md" download>下載教師原稿 .md</a><button type="button" data-share>複製本題連結</button><span class="share-state" role="status"></span></div>
+<p class="teacher-note">教師區｜下列包含答案、評分規準與教學診斷；轉發學生時請改用「學生題目」頁。</p>
+<article class="prose"><h2 class="original-heading">教師答案與評分規準｜一個轉速，夠驗證模型嗎？</h2>
+<blockquote>
+<p>高一自然科／探究與實作｜建議 8–12 分鐘｜共 10 分</p>
+</blockquote>
+<h2>一、標準答案與完整推理</h2>
+<h3>（一）模型預測（2 分）</h3>
+<p>由</p>
+<p>\[
+f_{\text{model}}=\frac{hR}{60}=\left(\frac{h}{60}\right)R
+\]</p>
+<p>可得 \(A_{\text{ideal}}=h/60\)：</p>
+<ul>
+<li>6 孔：\(6/60=0.1000\ \mathrm{Hz/rpm}\)；</li>
+<li>8 孔：\(8/60=0.1333\ldots\approx0.1333\ \mathrm{Hz/rpm}\)；</li>
+<li>12 孔：\(12/60=0.2000\ \mathrm{Hz/rpm}\)。</li>
+</ul>
+<h3>（二）找出異常組（3 分）</h3>
+<p>依題定公式並以未取位的 \(A_{\text{ideal}}\) 計算：</p>
+<p>\[
+E_6=\frac{|0.1008-0.1000|}{0.1000}\times100\%=0.8\%,
+\]</p>
+<p>\[
+E_8=\frac{|0.1412-8/60|}{8/60}\times100\%=5.9\%,
+\]</p>
+<p>\[
+E_{12}=\frac{|0.1985-0.2000|}{0.2000}\times100\%=0.75\%\approx0.8\%。
+\]</p>
+<p>因此，依 \(E\leq3.0\%\) 的預定判準：6 孔與 12 孔「一致」，8 孔「不一致」。</p>
+<h3>（三）一個轉速能代表整條直線嗎？（3 分）</h3>
+<p>8 孔、\(R=3000\ \mathrm{rpm}\) 時：</p>
+<p>\[
+f_{\text{model}}=\frac{(8)(3000)}{60}=400\ \mathrm{Hz}。
+\]</p>
+<p>\[
+f_{\text{fit}}=(0.1412)(3000)-20.736=402.864\ \mathrm{Hz}\approx403\ \mathrm{Hz}。
+\]</p>
+<p>\[
+P=\frac{|402.864-400|}{400}\times100\%=0.716\%\approx0.7\%。
+\]</p>
+<p>依 \(P\leq1.0\%\) 的單點判準，此點一致；但不能因此主張整個轉速範圍都支持模型。理想模型要求斜率為 \(8/60\) 且截距為 0；實測擬合卻有較大的斜率 \(0.1412\) 與負截距 \(-20.736\)。在 \(3000\ \mathrm{rpm}\) 附近，較陡斜率增加的頻率恰被負截距部分抵銷，所以一個點可以接近，卻不能消除第（二）題顯示的斜率不一致。應檢查多個轉速的殘差或斜率及其不確定度，而非只挑單點。</p>
+<h3>（四）規畫覆驗（2 分）</h3>
+<p>可接受方案示例：</p>
+<ul>
+<li>另外獨立製作至少 3 片均勻 8 孔光碟，保留原 8 孔光碟；同時以均勻 6 孔與 12 孔光碟作對照。每片在相同的多個目標轉速各重複量測至少 3 次，分別擬合 \(A\)、\(B\) 並呈現斜率變異。</li>
+<li>固定孔徑、孔洞半徑、氣流速度與角度、氣流管位置、麥克風位置、錄音與頻譜分析流程；隨機化試片量測順序，避免馬達升溫或時間漂移只偏向某一孔數。</li>
+<li>若只有原 8 孔光碟反覆出現偏大斜率，而新製 8 孔光碟接近 \(8/60\)，較支持單片孔距／製作誤差；若多片獨立 8 孔光碟都出現相近的偏大斜率，而 6、12 孔對照仍接近理想值，較支持 8 孔條件的普遍機制。若各孔數同時同方向漂移，則應優先查核轉速計、錄音取樣或分析程序，而不是任一孔數的專屬機制。</li>
+</ul>
+<h2>二、分析式評分規準</h2>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>小題</th>
+<th>可觀察證據</th>
+<th style="text-align: right;">配分</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>（一）</td>
+<td>寫出 \(A_{\text{ideal}}=h/60\)，含由每分鐘轉數換成每秒的意義</td>
+<td style="text-align: right;">0.5</td>
+</tr>
+<tr>
+<td></td>
+<td>6、8、12 孔依序得 0.1000、0.1333、0.2000 Hz/rpm；三值全對 1.5 分，兩值對 1.0 分，一值對 0.5 分</td>
+<td style="text-align: right;">1.5</td>
+</tr>
+<tr>
+<td>（二）</td>
+<td>三個 \(E\) 依序為 0.8%、5.9%、0.8%；三值全對 1.5 分，兩值對 1.0 分，一值對 0.5 分</td>
+<td style="text-align: right;">1.5</td>
+</tr>
+<tr>
+<td></td>
+<td>依含端點的 3.0% 判準，判 6、12 孔一致、8 孔不一致</td>
+<td style="text-align: right;">1.5</td>
+</tr>
+<tr>
+<td>（三）</td>
+<td>\(f_{\text{model}}=400\ \mathrm{Hz}\)，\(f_{\text{fit}}=403\ \mathrm{Hz}\)</td>
+<td style="text-align: right;">1.0</td>
+</tr>
+<tr>
+<td></td>
+<td>\(P=0.7\%\)，依 1.0% 判準判此點一致</td>
+<td style="text-align: right;">1.0</td>
+</tr>
+<tr>
+<td></td>
+<td>明確否定「整個範圍」結論，並說明非零截距可在單點抵銷斜率差異；只說「一點不夠」而未連結 \(A\)、\(B\) 給 0.5 分</td>
+<td style="text-align: right;">1.0</td>
+</tr>
+<tr>
+<td>（四）</td>
+<td>有獨立 8 孔試片、6／12 孔對照、多轉速與重複量測安排；能控制或隨機化至少一項條件</td>
+<td style="text-align: right;">1.0</td>
+</tr>
+<tr>
+<td></td>
+<td>清楚寫出「僅原片異常」與「多片 8 孔皆異常」分別支持的解釋；若另能辨識全孔數共同漂移須查儀器，可視為完整答案之一部分</td>
+<td style="text-align: right;">1.0</td>
+</tr>
+<tr>
+<td><strong>合計</strong></td>
+<td></td>
+<td style="text-align: right;"><strong>10</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h2>三、常見錯誤與診斷</h2>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>常見作答</th>
+<th>可能迷思</th>
+<th>教學回饋</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>直接把孔數 \(h\) 當成斜率</td>
+<td>忘記 rpm 是每分鐘，Hz 是每秒</td>
+<td>要求顯示 \(60\ \mathrm{s/min}\) 的換算。</td>
+</tr>
+<tr>
+<td>8 孔的 \(A_{\text{ideal}}\) 寫成 0.1250</td>
+<td>把 8 秒或 8 轉誤當換算基準</td>
+<td>回到「每轉 8 脈衝、每分鐘 \(R\) 轉」，先求每分鐘脈衝再除以 60。</td>
+</tr>
+<tr>
+<td>12 孔的 0.75% 先取成 0.7%</td>
+<td>未依一般四捨五入或過早取位</td>
+<td>保留未取位結果，最後取到小數第 1 位為 0.8%。</td>
+</tr>
+<tr>
+<td>見 \(P=0.7\%\) 就宣稱模型整體正確</td>
+<td>把單點接近當成整條關係成立</td>
+<td>比較斜率和截距；不同直線仍可在某點靠近或相交。</td>
+</tr>
+<tr>
+<td>見 8 孔異常就直接否定所有孔數的模型</td>
+<td>過度外推單一組別</td>
+<td>6、12 孔在預定斜率判準內；需覆驗 8 孔並估計不確定度。</td>
+</tr>
+<tr>
+<td>只重測原本同一片 8 孔光碟</td>
+<td>重複量測與獨立試片重製混淆</td>
+<td>同片重複可估短期量測變異，獨立製片才能檢查單片製作誤差。</td>
+</tr>
+</tbody>
+</table></div>
+<p>本題沒有選擇題誘答；上表用於診斷計算、模型評鑑與探究規畫中的典型錯誤。</p>
+<h2>四、命題藍圖</h2>
+<ul>
+<li><strong>預估時間：</strong>閱讀 2 分鐘；（一）1–2 分鐘；（二）2–3 分鐘；（三）2–3 分鐘；（四）2 分鐘，合計約 8–12 分鐘。</li>
+<li><strong>核心建構：</strong>由事件頻率建立 \(f=hR/60\) 模型；區分斜率檢驗與單點檢查；辨識截距對單點吻合的補償；以獨立試片與對照區分單片誤差和可重現機制。</li>
+<li><strong>作答歷程：</strong>多步計算＋證據解讀＋模型評鑑＋異常值處理＋探究規畫。</li>
+<li><strong>Bloom：</strong>（一）應用；（二）分析；（三）分析／評鑑；（四）創造。</li>
+<li><strong>108 課綱學習表現：</strong><code>tm-Ⅴc-1</code>（建立並理解模型局限）、<code>pe-Ⅴc-1</code>（規畫適當測試）、<code>pa-Ⅴc-1</code>／<code>pa-Ⅴc-2</code>（以數學整理數據、形成並檢核解釋）、<code>tc-Ⅴc-1</code>（判斷資料解釋與程序合理性）、<code>pc-Ⅴc-1</code>（評核探究並提出改善）。課綱原文位於 PDF p.34（內頁 32）。[5]</li>
+<li><strong>公平性：</strong>題內定義孔洞脈衝模型、Hz、rpm、斜率／截距、兩種誤差公式、含端點判準與取位規則；不要求學生接觸原報告或先學傅立葉分析。</li>
+<li><strong>安全：</strong>只要求紙筆規畫；學生版明示鑽孔、旋轉體防護、設備核定轉速與護目鏡界線。</li>
+</ul>
+<h2>五、來源忠實性提示</h2>
+<p>官方報告列出均勻 6、8、12 孔光碟的基頻擬合式，分別為 \(f=0.1008R-2.2796\)、\(f=0.1412R-20.736\)、\(f=0.1985R+0.3604\)；本題逐字保留這六個係數並重新排成表格。[2]報告另記錄：轉速以光碟左、上、右三個固定位置量測後取平均，且每組實驗採納 3 組數據；這些資訊支持覆驗設計中區分位置平均、重複量測與獨立製片。[2]</p>
+<p>理想式 \(f=hR/60\)、\(A_{\text{ideal}}\)、3.0% 斜率判準、1.0% 單點判準、\(3000\ \mathrm{rpm}\) 檢查及兩個競爭解釋，均為命題提供的模型或改編任務，不是官方報告宣稱的判準。所有衍生數值均由本題資料獨立重算。</p>
+<h2>Sources</h2>
+<p>[2] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-051816.pdf" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-051816.pdf</a> — 頻率窺秘：轉速遇見CD孔數的樂章
+[5] <a href="https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg024209/ch05/type2/gov40/num12/images/BB.pdf" rel="noopener noreferrer" target="_blank">https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg024209/ch05/type2/gov40/num12/images/BB.pdf</a> — 十二年國民基本教育課程綱要：自然科學領域</p></article>
+<nav class="item-pagination" aria-label="依日期切換題目"><a href="../2026-09-17/teacher.html">← 前一題 · 2026-09-17</a><a href="../2026-09-19/teacher.html">後一題 · 2026-09-19 →</a></nav></main><footer class="footer wrap">PhAI 命題集 · 收錄截至 2026-10-29 的既有命題版本。<br>本集為教學改編，非科教館官方試題；原研究著作權屬原作者。公開版不含學生個資、內部審查檔或研究原始 PDF。<br>教師解析公開可讀，並非保密考試系統。使用時請保留出處與安全界線。</footer>
+<dialog id="zoom" aria-label="題圖原尺寸檢視"><button type="button" id="zoom-close">關閉大圖</button><div class="zoom-pan"><img id="zoom-img" alt=""></div></dialog></body></html>

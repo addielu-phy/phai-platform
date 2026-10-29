@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>三個學習率，哪個真的又準又穩？｜PhAI 命題集</title><meta name="description" content="三個學習率，哪個真的又準又穩？">
+<meta name="theme-color" content="#191e33"><meta property="og:title" content="三個學習率，哪個真的又準又穩？｜PhAI 命題集">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://addielu-phy.github.io/phai-platform/daily/items/2026-10-03/index.html"><link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../vendor/katex.min.css">
+<script src="../../vendor/katex.min.js" defer></script><script src="../../vendor/auto-render.min.js" defer></script><script src="../../page.js" defer></script></head>
+<body class="edition-student"><a class="skip" href="#main">跳至主要內容</a><header class="top"><nav class="nav wrap" aria-label="主要導覽"><a class="brand" href="../../index.html"><strong>PhAI</strong><span>每日精緻命題</span></a><a href="../../index.html">題目總覽</a><a class="parent-link" href="../../../index.html">資源館 ↗</a></nav></header>
+<main id="main" class="reader wrap"><a class="back" href="../../index.html">← 返回全部題目</a>
+<div class="item-meta"><time datetime="2026-10-03">2026-10-03</time><span class="subject">地科</span><span>學生題目</span></div>
+<h1>三個學習率，哪個真的又準又穩？</h1><p class="domain">地球與行星科學 × 人工智慧資料素養 × 探究與實作</p>
+<nav class="edition" aria-label="題目版本"><a href="index.html" aria-current="page">學生題目</a><a href="teacher.html" >答案與評分規準</a></nav>
+<div class="reader-tools"><button type="button" data-print>列印題目</button><a href="student.md" download>下載學生原稿 .md</a><button type="button" data-share>複製本題連結</button><span class="share-state" role="status"></span></div>
+<p class="student-note">本頁只顯示原學生題目。建議先完成紙筆作答，再開啟答案與評分規準。</p>
+<article class="prose"><h2 class="original-heading">三個學習率，哪個真的又準又穩？</h2>
+<p><strong>建議作答時間：10 分鐘｜總分：9 分</strong></p>
+<p>某研究訓練可辨識 10 種雲屬的影像分類模型，分別採用三個學習率，每個設定留下 5 次指標值。原報告只稱這些數值為第 1 至第 5 次測試，未說明是否每次都重新獨立訓練；本題只把它們視為 5 次觀察結果。</p>
+<p>研究原文把下式稱為「某類別準確率」；依其公式，本題改用較精確的名稱「類別精確率」：</p>
+<p><code>P = 正確預測為該類別的張數 ÷ 全部被模型預測為該類別的張數</code></p>
+<p><code>P</code> 介於 0 與 1；越大表示該類別被模型叫出來時，判對的比例越高。下表每格是一次指標測試對 10 個雲屬之 <code>P</code> 取算術平均後的值，均由原報告表格的「10 類總和 ÷ 10」得到，<strong>不是某一類雲的分數</strong>。</p>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th style="text-align: right;">學習率</th>
+<th style="text-align: right;">第 1 次</th>
+<th style="text-align: right;">第 2 次</th>
+<th style="text-align: right;">第 3 次</th>
+<th style="text-align: right;">第 4 次</th>
+<th style="text-align: right;">第 5 次</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.579</td>
+<td style="text-align: right;">0.576</td>
+<td style="text-align: right;">0.602</td>
+<td style="text-align: right;">0.578</td>
+<td style="text-align: right;">0.553</td>
+</tr>
+<tr>
+<td style="text-align: right;">0.00101</td>
+<td style="text-align: right;">0.640</td>
+<td style="text-align: right;">0.541</td>
+<td style="text-align: right;">0.564</td>
+<td style="text-align: right;">0.539</td>
+<td style="text-align: right;">0.564</td>
+</tr>
+<tr>
+<td style="text-align: right;">0.00099</td>
+<td style="text-align: right;">0.540</td>
+<td style="text-align: right;">0.577</td>
+<td style="text-align: right;">0.654</td>
+<td style="text-align: right;">0.639</td>
+<td style="text-align: right;">0.491</td>
+</tr>
+</tbody>
+</table></div>
+<p>本題用兩個指標比較：</p>
+<ul>
+<li>五次平均 <code>M =（五次數值總和）÷ 5</code>；<code>M</code> 越大，代表本題資料中的平均表現越高。</li>
+<li>全距 <code>R = 最大值 − 最小值</code>；<code>R</code> 越小，代表本題資料中的五次結果越穩定。</li>
+</ul>
+<p>所有計算先保留完整值，最後將 <code>M</code> <strong>四捨五入至小數點後 4 位</strong>、<code>R</code> <strong>四捨五入至小數點後 3 位</strong>。只依本題 5 次結果判斷，不把微小差異解讀成已證明具有統計顯著性。</p>
+<h2>（一）重算兩種「最佳」（4 分）</h2>
+<ol>
+<li>計算三個學習率各自的 <code>M</code> 與 <code>R</code>。（六個數值共 3 分）</li>
+<li>依題目約定，分別寫出「平均表現最高」與「五次結果最穩定」的學習率。（1 分）</li>
+</ol>
+<h2>（二）評鑑主張（2 分）</h2>
+<p>有人主張：「<code>0.00099</code> 的平均表現最高，<strong>而且</strong>五次結果最穩定。」</p>
+<p>請用一個 <code>M</code> 的比較與一個 <code>R</code> 的比較，判斷這個完整主張是「支持、部分支持或不支持」，並說明理由。</p>
+<h2>（三）規畫公平覆驗（3 分）</h2>
+<p>以下只做紙筆規畫，不需實際上傳影像或訓練模型。</p>
+<p>定義：<strong>訓練集</strong>用來調整模型權重；<strong>驗證集</strong>用來選學習率；<strong>最終測試集</strong>只在選定學習率後使用一次，不可再據此調參。</p>
+<p>請提出一個比較三個學習率的覆驗方案，答案須一一寫出：</p>
+<ol>
+<li><strong>配對與重複</strong>：如何讓三個學習率面對公平、可重複的資料條件？</li>
+<li><strong>資料邊界</strong>：如何避免把最終測試集同時拿來選學習率？</li>
+<li><strong>決策規則</strong>：預先用哪些「平均表現＋變異」證據決定較佳設定？</li>
+</ol></article>
+<nav class="item-pagination" aria-label="依日期切換題目"><a href="../2026-10-02/index.html">← 前一題 · 2026-10-02</a><a href="../2026-10-04/index.html">後一題 · 2026-10-04 →</a></nav></main><footer class="footer wrap">PhAI 命題集 · 收錄截至 2026-10-29 的既有命題版本。<br>本集為教學改編，非科教館官方試題；原研究著作權屬原作者。公開版不含學生個資、內部審查檔或研究原始 PDF。<br>教師解析公開可讀，並非保密考試系統。使用時請保留出處與安全界線。</footer>
+<dialog id="zoom" aria-label="題圖原尺寸檢視"><button type="button" id="zoom-close">關閉大圖</button><div class="zoom-pan"><img id="zoom-img" alt=""></div></dialog></body></html>

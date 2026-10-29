@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>鍛鍊加倍，耐熱就加倍嗎？ · 教師解析｜PhAI 命題集</title><meta name="description" content="鍛鍊加倍，耐熱就加倍嗎？ · 教師解析">
+<meta name="theme-color" content="#191e33"><meta property="og:title" content="鍛鍊加倍，耐熱就加倍嗎？ · 教師解析｜PhAI 命題集">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://addielu-phy.github.io/phai-platform/daily/items/2026-10-06/teacher.html"><link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../vendor/katex.min.css">
+<script src="../../vendor/katex.min.js" defer></script><script src="../../vendor/auto-render.min.js" defer></script><script src="../../page.js" defer></script></head>
+<body class="edition-teacher"><a class="skip" href="#main">跳至主要內容</a><header class="top"><nav class="nav wrap" aria-label="主要導覽"><a class="brand" href="../../index.html"><strong>PhAI</strong><span>每日精緻命題</span></a><a href="../../index.html">題目總覽</a><a class="parent-link" href="../../../index.html">資源館 ↗</a></nav></header>
+<main id="main" class="reader wrap"><a class="back" href="../../index.html">← 返回全部題目</a>
+<div class="item-meta"><time datetime="2026-10-06">2026-10-06</time><span class="subject">生物</span><span>教師解析</span></div>
+<h1>鍛鍊加倍，耐熱就加倍嗎？</h1><p class="domain">生物（植物熱適應）× 數據建模 × 探究與實作</p>
+<nav class="edition" aria-label="題目版本"><a href="index.html" >學生題目</a><a href="teacher.html" aria-current="page">答案與評分規準</a></nav>
+<div class="reader-tools"><button type="button" data-print>列印解析</button><a href="teacher.md" download>下載教師原稿 .md</a><button type="button" data-share>複製本題連結</button><span class="share-state" role="status"></span></div>
+<p class="teacher-note">教師區｜下列包含答案、評分規準與教學診斷；轉發學生時請改用「學生題目」頁。</p>
+<article class="prose"><h2 class="original-heading">教師答案與評分規準｜鍛鍊加倍，耐熱就加倍嗎？</h2>
+<h2>一、標準答案與獨立計算</h2>
+<p>題內計算使用命題提供的 <code>ln(x)</code> 三位小數作為精確輸入；每個結果各自由未取位值取到 <code>0.1 h</code>。</p>
+<h3>（一）算模型，也檢查「加倍」說法（4 分）</h3>
+<ol>
+<li>三個模型值：
+   - <code>y(2)=2.4271×0.693+1.7963=3.4782803 h≈3.5 h</code>
+   - <code>y(4)=2.4271×1.386+1.7963=5.1602606 h≈5.2 h</code>
+   - <code>y(6)=2.4271×1.792+1.7963=6.1456632 h≈6.1 h</code></li>
+<li>必須從未取位值求增量：
+   - <code>y(4)−y(2)=1.6819803 h≈1.7 h</code>
+   - <code>y(6)−y(4)=0.9854026 h≈1.0 h</code>
+   - 後一段（4→6 次）的增量較小，符合模型的增益遞減。</li>
+<li>「次數加倍，耐熱時數也加倍」不成立。若由 <code>y(2)</code> 加倍應約為 <code>6.9565606 h≈7.0 h</code>，但模型的 <code>y(4)</code> 只有約 <code>5.2 h</code>；也可用 <code>5.2/3.5</code> 並非 <code>2</code> 作數值證據。不得把對數模型誤當正比模型。</li>
+</ol>
+<h3>（二）模型可以說到哪裡？（3 分）</h3>
+<ol>
+<li>每個處理只有一個數據點，無法估計同一鍛鍊次數下的組內變異、誤差範圍或離群程度；也看不出單一值是否代表偶然波動。</li>
+<li>未交代獨立實驗次數，就無法判斷結果是否來自不同批次／日期的重現，或只是同一批培養皿的技術性重複；因此不能評估跨批次穩健性。只抄「可重現性不足」而未說明獨立重複所補的證據，不給此分。</li>
+<li>不能直接支持 <code>x=10</code> 的精確預測。原模型以 <code>2≤x≤6</code> 建立；代入 10 屬範圍外外插，對數形狀是否延續及生物反應是否出現平台或傷害，均需新增資料檢驗。學生可計算一個外插值作示例，但不得把它當已驗證結果。</li>
+</ol>
+<h3>（三）規畫確認性測試（3 分）</h3>
+<p>一個完整示例：</p>
+<ol>
+<li>設 <code>x=2、4、6</code>；每個 <code>x</code> 都做 <code>44°C</code> 的 <code>3.0、4.0、5.0、6.0、6.5 h</code>。這五個時數跨過模型預測的約 <code>3.5、5.2、6.1 h</code>，可在各曲線 50% 附近取得上下兩側資料。其他至少五個明確時數，只要涵蓋 3.0–6.5 h 且能合理包住三個預測，也可接受。</li>
+<li>在至少 3 個不同日期／獨立播種批次重做完整實驗；每次以「一個培養皿」為實驗單位，每個 <code>x×時數</code> 組合各有獨立培養皿。用亂數表或電腦亂數分派培養皿並隨機化進出水浴順序。不可把同一皿多株當獨立實驗。</li>
+<li>熱逆境後皆回到 <code>22°C</code> 培養 <code>10 天</code>；有新葉且未枯萎／白化者算存活，計算每皿存活率。共同控制可包括同一野生型、相同苗齡、同一培養基配方、相同每皿播種數、<code>37°C×1 h</code> 的每次鍛鍊條件、相鄰鍛鍊間隔 <code>2 h</code>、最後一次鍛鍊到熱逆境的間隔 <code>2 h</code>、相同光週期等，任寫兩項且有固定值／方法。事前可規定：由每個 <code>x</code> 的存活率—時數曲線估計 50% 交點，和模型值比較；例如絕對差不超過 <code>0.5 h</code> 才算該點與模型相容，再檢查 2→4 的觀察增量是否大於 4→6。其他事前、可操作且不事後改門檻的比較規則亦可。</li>
+</ol>
+<h2>二、分析式評分規準（總分 10 分；配分 4+3+3=10）</h2>
+<ul>
+<li><strong>（一）4 分</strong></li>
+<li>2 分：三個 <code>y</code> 的代入、未取位值與 <code>3.5、5.2、6.1 h</code> 均正確；兩個正確給 1 分，一個或零個給 0 分。</li>
+<li>1 分：由未取位值算得 <code>1.7 h</code> 與 <code>1.0 h</code>，並指出 4→6 較小；若先將 <code>y</code> 取到 0.1 再相減而得到 <code>0.9 h</code>，本分至多 0.5 分。</li>
+<li>1 分：否定「同步加倍」，並以 <code>5.2 h≠約7.0 h</code> 或等價數值證據說明。</li>
+<li><strong>（二）3 分</strong></li>
+<li>1 分：把單一數據點連結到無法估計組內變異／誤差／離群。</li>
+<li>1 分：把獨立重複連結到跨批次重現或避免偽重複；純抄評語不得分。</li>
+<li>1 分：拒絕把 <code>x=10</code> 當已驗證精確預測，並明示 <code>2≤x≤6</code> 與外插。</li>
+<li><strong>（三）3 分</strong></li>
+<li>1 分：列出至少五個具體 44°C 時數，涵蓋 3.0–6.5 h，且說明包住三個預測。</li>
+<li>1 分：至少三次真正獨立的批次／日期，培養皿層級實驗單位與具體隨機分派皆有。</li>
+<li>1 分：10 天存活操作定義、兩個有固定值／保持方法的共同控制，以及事前模型比較規則三者齊備；缺一者本分為 0。安全設備不得冒充共同控制。</li>
+</ul>
+<p><strong>傳遞錯誤規則：</strong>若學生（一）因單一算術錯誤得到不同 <code>y</code>，後續增量與規畫時數仍一致使用自己的數值，可保留後續方法分；但「加倍」判斷仍須與其數值相符。</p>
+<h2>三、常見錯誤與診斷</h2>
+<ul>
+<li>把 <code>ln(x)</code> 當 <code>x</code>，或把對數模型當正比例：未理解模型結構。</li>
+<li>先把 <code>y</code> 取位再相減：未遵守「各自由未取位值計算」；會把後一增量算成 <code>0.9 h</code>。</li>
+<li>認為只要模型有公式即可外插到任意 <code>x</code>：忽略建立範圍與生物系統平台／傷害的可能。</li>
+<li>把同一培養皿內多株幼苗當獨立重複：混淆觀察單位與實驗單位，產生偽重複。</li>
+<li>只寫「控制溫度、隨機、重複」而沒有數值或執行方式：術語未操作化。</li>
+</ul>
+<h2>四、命題資訊</h2>
+<ul>
+<li><strong>預估時間：</strong>閱讀與模型理解 2 分鐘；計算 3 分鐘；證據評鑑 2 分鐘；規畫 3 分鐘，共約 10 分鐘。</li>
+<li><strong>108 課綱學習表現：</strong><code>pa-Ⅴc-1</code>（以數學整理資料）、<code>tc-Ⅴc-1</code>（評鑑資料解釋與程序）、<code>tm-Ⅴc-1</code>（理解模型局限）、<code>pe-Ⅴc-1</code>（多變項、適當次數與安全規畫）。[6]</li>
+<li><strong>Bloom：</strong>應用（代入與取位）、分析（增量比較）、評鑑（證據與外插界線）、創造（確認性測試）。</li>
+<li><strong>命題改編界線：</strong>公式、處理流程、存活定義與官方評語源自官方報告；<code>ln</code> 查表值、<code>x=2、4、6</code> 的計算任務、<code>x=10</code> 外插問題、<code>0.5 h</code> 示例門檻與確認性設計均為命題改編，不是原研究新增結果。[5]</li>
+</ul>
+<h2>Sources</h2>
+<p>[5] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-052102.pdf" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-052102.pdf</a> — 千錘百鍊—阿拉伯芥熱鍛鍊次數之研究
+[6] <a href="https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg024209/ch05/type2/gov40/num12/images/BB.pdf" rel="noopener noreferrer" target="_blank">https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg024209/ch05/type2/gov40/num12/images/BB.pdf</a> — 十二年國民基本教育課程綱要：自然科學領域</p></article>
+<nav class="item-pagination" aria-label="依日期切換題目"><a href="../2026-10-05/teacher.html">← 前一題 · 2026-10-05</a><a href="../2026-10-07/teacher.html">後一題 · 2026-10-07 →</a></nav></main><footer class="footer wrap">PhAI 命題集 · 收錄截至 2026-10-29 的既有命題版本。<br>本集為教學改編，非科教館官方試題；原研究著作權屬原作者。公開版不含學生個資、內部審查檔或研究原始 PDF。<br>教師解析公開可讀，並非保密考試系統。使用時請保留出處與安全界線。</footer>
+<dialog id="zoom" aria-label="題圖原尺寸檢視"><button type="button" id="zoom-close">關閉大圖</button><div class="zoom-pan"><img id="zoom-img" alt=""></div></dialog></body></html>

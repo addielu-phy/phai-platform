@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>50 次滴液，兩張百分比表怎麼合併？｜PhAI 命題集</title><meta name="description" content="50 次滴液，兩張百分比表怎麼合併？">
+<meta name="theme-color" content="#191e33"><meta property="og:title" content="50 次滴液，兩張百分比表怎麼合併？｜PhAI 命題集">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://addielu-phy.github.io/phai-platform/daily/items/2026-10-26/index.html"><link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../vendor/katex.min.css">
+<script src="../../vendor/katex.min.js" defer></script><script src="../../vendor/auto-render.min.js" defer></script><script src="../../page.js" defer></script></head>
+<body class="edition-student"><a class="skip" href="#main">跳至主要內容</a><header class="top"><nav class="nav wrap" aria-label="主要導覽"><a class="brand" href="../../index.html"><strong>PhAI</strong><span>每日精緻命題</span></a><a href="../../index.html">題目總覽</a><a class="parent-link" href="../../../index.html">資源館 ↗</a></nav></header>
+<main id="main" class="reader wrap"><a class="back" href="../../index.html">← 返回全部題目</a>
+<div class="item-meta"><time datetime="2026-10-26">2026-10-26</time><span class="subject">物理</span><span>學生題目</span></div>
+<h1>50 次滴液，兩張百分比表怎麼合併？</h1><p class="domain">物理（流體界面現象）× 集合與數據素養 × 探究與實作</p>
+<nav class="edition" aria-label="題目版本"><a href="index.html" aria-current="page">學生題目</a><a href="teacher.html" >答案與評分規準</a></nav>
+<div class="reader-tools"><button type="button" data-print>列印題目</button><a href="student.md" download>下載學生原稿 .md</a><button type="button" data-share>複製本題連結</button><span class="share-state" role="status"></span></div>
+<p class="student-note">本頁只顯示原學生題目。建議先完成紙筆作答，再開啟答案與評分規準。</p>
+<article class="prose"><h2 class="original-heading">50 次滴液，兩張百分比表怎麼合併？</h2>
+<p><strong>適用：高中一年級自然科／探究與實作｜建議時間：8–12 分鐘｜總分：10 分｜可使用計算機</strong></p>
+<p>一份官方科展報告研究「反泡泡」；反泡泡是<strong>內部包著液體、外層為空氣膜</strong>的結構。研究者固定滴液高度為 <code>45 cm</code>、水深為 <code>3.5 cm</code>，用不同<strong>重量百分濃度</strong>的界面活性劑溶液滴液；每一濃度各做 <code>N = 50</code> 次，分別統計「形成反泡泡」與「形成水珠」的事件比例。[1]</p>
+<p>同一次滴液可能只形成其中一種、兩種都形成，或兩種都沒有。令：</p>
+<ul>
+<li><code>A</code>：該次形成反泡泡；<code>W</code>：該次形成水珠。</li>
+<li><code>n_A</code>、<code>n_W</code>：50 次中事件 <code>A</code>、<code>W</code> 發生的次數。</li>
+<li><code>n_兩者</code>：同一次同時發生 <code>A</code> 與 <code>W</code> 的次數。</li>
+<li><code>n_A_only</code>：形成反泡泡但沒有形成水珠的次數。</li>
+</ul>
+<p>原報告的兩張表整理如下；表中百分比是<strong>來源數據</strong>，不是命題另造數據。[1]</p>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th style="text-align: right;">界面活性劑濃度（%）</th>
+<th style="text-align: right;">1</th>
+<th style="text-align: right;">2</th>
+<th style="text-align: right;">3</th>
+<th style="text-align: right;">4</th>
+<th style="text-align: right;">5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">形成反泡泡 <code>A</code>（%）</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: right;">40</td>
+</tr>
+<tr>
+<td style="text-align: right;">形成水珠 <code>W</code>（%）</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table></div>
+<p>請使用下列規則：</p>
+<ul>
+<li>事件次數：<code>n = N × 百分比 ÷ 100</code>。</li>
+<li>兩事件重疊次數的範圍：<br/>
+<code>max(0, n_A + n_W − N) ≤ n_兩者 ≤ min(n_A, n_W)</code>。<br/>
+<code>max</code> 取括號內較大值，<code>min</code> 取較小值；兩端點都包含。</li>
+<li><code>n_A_only = n_A − n_兩者</code>。</li>
+<li>本題算得的次數皆為整數，不需取位；範圍由小到大寫成「最少～最多」。</li>
+</ul>
+<h2>（一）1% 濃度的重疊範圍（3 分）</h2>
+<p>計算 <code>n_A</code>、<code>n_W</code>，再求 <code>n_兩者</code> 的「最少～最多」範圍。三項均須列式或寫出所代入的數值。</p>
+<h2>（二）哪個濃度一定較適合目標？（3 分）</h2>
+<p>若研究目標是讓 <code>n_A_only</code> 最大，請判斷下列主張是否受表中資料支持：</p>
+<blockquote>
+<p>「在這 5 個受測濃度中，4% 的 <code>n_A_only</code> 必定最多。」</p>
+</blockquote>
+<p>作答須同時寫出：</p>
+<ol>
+<li>4% 的 <code>n_A_only</code> 可能範圍；</li>
+<li>其餘 4 個濃度中，<code>n_A_only</code> 的<strong>最大可能值之最大者</strong>；</li>
+<li>「支持」或「不支持」及比較理由。</li>
+</ol>
+<h2>（三）下一輪如何直接量到 <code>A only</code>？（4 分）</h2>
+<p>本小題只需<strong>規畫</strong>，不在作答時實際滴液。請依序寫出：</p>
+<ol>
+<li>每一次滴液應使用的 4 個互斥紀錄類別；</li>
+<li>一個含<strong>獨立重複</strong>與隨機化順序的設計；</li>
+<li>兩個須固定的控制變因；</li>
+<li>一項安全界線。</li>
+</ol>
+<p><strong>安全邊界：</strong>若日後執行，須由教師督導；只用低濃度界面活性劑，固定滴定裝置並戴護目鏡，溢液立即擦乾，不可飲用實驗溶液。</p>
+<h2>Sources</h2>
+<p>[1] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-051808.pdf" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-051808.pdf</a> — 第65屆全國中小學科展作品說明書〈反泡泡的變形之舞：拉格朗日分析看見動力系統〉</p></article>
+<nav class="item-pagination" aria-label="依日期切換題目"><a href="../2026-10-25/index.html">← 前一題 · 2026-10-25</a><a href="../2026-10-27/index.html">後一題 · 2026-10-27 →</a></nav></main><footer class="footer wrap">PhAI 命題集 · 收錄截至 2026-10-29 的既有命題版本。<br>本集為教學改編，非科教館官方試題；原研究著作權屬原作者。公開版不含學生個資、內部審查檔或研究原始 PDF。<br>教師解析公開可讀，並非保密考試系統。使用時請保留出處與安全界線。</footer>
+<dialog id="zoom" aria-label="題圖原尺寸檢視"><button type="button" id="zoom-close">關閉大圖</button><div class="zoom-pan"><img id="zoom-img" alt=""></div></dialog></body></html>

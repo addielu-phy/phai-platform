@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>紫色越深，數字就越可信嗎？｜PhAI 命題集</title><meta name="description" content="紫色越深，數字就越可信嗎？">
+<meta name="theme-color" content="#191e33"><meta property="og:title" content="紫色越深，數字就越可信嗎？｜PhAI 命題集">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://addielu-phy.github.io/phai-platform/daily/items/2026-09-21/index.html"><link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../vendor/katex.min.css">
+<script src="../../vendor/katex.min.js" defer></script><script src="../../vendor/auto-render.min.js" defer></script><script src="../../page.js" defer></script></head>
+<body class="edition-student"><a class="skip" href="#main">跳至主要內容</a><header class="top"><nav class="nav wrap" aria-label="主要導覽"><a class="brand" href="../../index.html"><strong>PhAI</strong><span>每日精緻命題</span></a><a href="../../index.html">題目總覽</a><a class="parent-link" href="../../../index.html">資源館 ↗</a></nav></header>
+<main id="main" class="reader wrap"><a class="back" href="../../index.html">← 返回全部題目</a>
+<div class="item-meta"><time datetime="2026-09-21">2026-09-21</time><span class="subject">化學</span><span>學生題目</span></div>
+<h1>紫色越深，數字就越可信嗎？</h1><p class="domain">化學 × 影像量測 × 探究與實作</p>
+<nav class="edition" aria-label="題目版本"><a href="index.html" aria-current="page">學生題目</a><a href="teacher.html" >答案與評分規準</a></nav>
+<div class="reader-tools"><button type="button" data-print>列印題目</button><a href="student.md" download>下載學生原稿 .md</a><button type="button" data-share>複製本題連結</button><span class="share-state" role="status"></span></div>
+<p class="student-note">本頁只顯示原學生題目。建議先完成紙筆作答，再開啟答案與評分規準。</p>
+<article class="prose"><h2 class="original-heading">今日一題｜紫色越深，數字就越可信嗎？</h2>
+<blockquote>
+<p>高一自然科／探究與實作｜建議 8–12 分鐘｜共 9 分｜可使用計算機</p>
+<p>本題資料改編自第 65 屆全國中小學科學展覽會高中組化學科作品 050217〈就這樣「紫」-建立簡易水楊酸定量法應用於市售洗面乳〉；不要求另讀原報告。[1][2]</p>
+</blockquote>
+<p>研究者利用水楊酸與三價鐵離子形成紫色物質，再以手機讀取試紙影像的紅、綠、藍三個通道值 \(R,G,B\)。每個通道皆為 0–255；數值越小代表該通道越暗。拍攝環境固定為 400 lx，\(t=0\) 分鐘指滴加樣本後立即拍攝的第一張照片。[1]</p>
+<p>為把三個通道合成一個亮度指標，定義無單位的灰階值</p>
+<p>\[
+\mathrm{Gray}=0.299R+0.587G+0.114B.
+\]</p>
+<p>在本題中，Gray 越小表示影像越暗。濃度百分比只作為樣本標籤，不需要換算。下表節錄原報告第 23 頁中本題所需的 \(t=0\) 原始通道值。[1]</p>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th style="text-align: right;">水楊酸標示濃度</th>
+<th style="text-align: right;">\(R\)</th>
+<th style="text-align: right;">\(G\)</th>
+<th style="text-align: right;">\(B\)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">0.45%</td>
+<td style="text-align: right;">178</td>
+<td style="text-align: right;">159</td>
+<td style="text-align: right;">150</td>
+</tr>
+<tr>
+<td style="text-align: right;">0.50%</td>
+<td style="text-align: right;">178</td>
+<td style="text-align: right;">150</td>
+<td style="text-align: right;">140</td>
+</tr>
+</tbody>
+</table></div>
+<p>原報告同一表格另顯示「0.50%、\(t=0\)」的 Gray 為 <strong>118.302</strong>。本題把它視為<strong>待稽核的來源顯示值</strong>，不是已確認正確的答案。[1]</p>
+<h2>問題</h2>
+<h3>（一）由原始通道值重算（2 分）</h3>
+<p>代入公式，重算 0.50% 樣本在 \(t=0\) 的 Gray。須寫出代入式（1 分）；中間不先取位，最終四捨五入到小數第 1 位（1 分）。</p>
+<h3>（二）來源數值稽核（2 分）</h3>
+<p>規定：來源顯示值與你的重算值相差不超過 0.1 才算通過。</p>
+<ol>
+<li>判定來源顯示值 118.302 為 <code>PASS</code> 或 <code>FAIL</code>；（1 分）</li>
+<li>說明後續分析應採「來源顯示值」或「由原始 \(R,G,B\) 重算值」，並寫出 1 個與資料可重現性有關的理由。（1 分）</li>
+</ol>
+<h3>（三）檢視兩濃度的鑑別能力（2 分）</h3>
+<ol>
+<li>由原始 \(R,G,B\) 重算 0.45% 樣本的 Gray，再算
+   \[
+   \Delta\mathrm{Gray}=\mathrm{Gray}_{0.45\%}-\mathrm{Gray}_{0.50\%}.
+   \]
+   計算 \(\Delta\mathrm{Gray}\) 時，須以兩個<strong>未取位</strong>的 Gray 值相減；完成計算後，才將 \(\mathrm{Gray}_{0.45\%}\) 與 \(\Delta\mathrm{Gray}\) 各自四捨五入到小數第 1 位。（1 分）</li>
+<li>有人據此宣稱：「這套試紙已能<strong>可靠分辨</strong> 0.45% 與 0.50%。」請判斷此宣稱是否已獲充分支持，並指出目前資料的一項關鍵限制。（1 分）</li>
+</ol>
+<h3>（四）規畫確認性實驗（3 分）</h3>
+<p>本小題只做紙筆規畫，不實際操作。請提出一個用來檢驗「試紙能否可靠分辨 0.45% 與 0.50%」的方案，答案必須一一包含：</p>
+<ol>
+<li><strong>樣本與重複：</strong>兩組樣本如何製備，且每組至少 3 次「獨立重複」；獨立重複是重新取樣、使用另一張試紙並重新拍攝，不是重讀同一張照片。（1 分）</li>
+<li><strong>量測控制：</strong>至少寫出 2 個應固定或隨機化的條件。（1 分）</li>
+<li><strong>判斷準則：</strong>說明如何同時利用兩組的中心位置（例如平均數或中位數）與組內變異（例如全距或標準差），判定是否能可靠分辨。（1 分）</li>
+</ol>
+<h2>作答與安全規則</h2>
+<ul>
+<li>所有 Gray 與 \(\Delta\mathrm{Gray}\) 均無單位，最終取到小數第 1 位。</li>
+<li>若前一步算術錯誤，但後續一致使用自己的結果且推理合理，後續方法分仍可給分。</li>
+<li>本題只要求資料分析與實驗規畫；不得把試液用於人體或皮膚。若日後由教師示範，須使用已配製的安全濃度標準液、護目鏡與手套，不得由學生自行處理濃鹽酸或不明暖暖包萃取液。</li>
+</ul>
+<h2>Sources</h2>
+<p>[1] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-050217.pdf" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-050217.pdf</a> — 就這樣「紫」-建立簡易水楊酸定量法應用於市售洗面乳
+[2] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/senior.html" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/senior.html</a> — 第65屆全國中小學科學展覽會高級中等學校組</p></article>
+<nav class="item-pagination" aria-label="依日期切換題目"><a href="../2026-09-20/index.html">← 前一題 · 2026-09-20</a><a href="../2026-09-22/index.html">後一題 · 2026-09-22 →</a></nav></main><footer class="footer wrap">PhAI 命題集 · 收錄截至 2026-10-29 的既有命題版本。<br>本集為教學改編，非科教館官方試題；原研究著作權屬原作者。公開版不含學生個資、內部審查檔或研究原始 PDF。<br>教師解析公開可讀，並非保密考試系統。使用時請保留出處與安全界線。</footer>
+<dialog id="zoom" aria-label="題圖原尺寸檢視"><button type="button" id="zoom-close">關閉大圖</button><div class="zoom-pan"><img id="zoom-img" alt=""></div></dialog></body></html>

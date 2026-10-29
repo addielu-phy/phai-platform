@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>三個學習率，哪個真的又準又穩？ · 教師解析｜PhAI 命題集</title><meta name="description" content="三個學習率，哪個真的又準又穩？ · 教師解析">
+<meta name="theme-color" content="#191e33"><meta property="og:title" content="三個學習率，哪個真的又準又穩？ · 教師解析｜PhAI 命題集">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://addielu-phy.github.io/phai-platform/daily/items/2026-10-03/teacher.html"><link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../vendor/katex.min.css">
+<script src="../../vendor/katex.min.js" defer></script><script src="../../vendor/auto-render.min.js" defer></script><script src="../../page.js" defer></script></head>
+<body class="edition-teacher"><a class="skip" href="#main">跳至主要內容</a><header class="top"><nav class="nav wrap" aria-label="主要導覽"><a class="brand" href="../../index.html"><strong>PhAI</strong><span>每日精緻命題</span></a><a href="../../index.html">題目總覽</a><a class="parent-link" href="../../../index.html">資源館 ↗</a></nav></header>
+<main id="main" class="reader wrap"><a class="back" href="../../index.html">← 返回全部題目</a>
+<div class="item-meta"><time datetime="2026-10-03">2026-10-03</time><span class="subject">地科</span><span>教師解析</span></div>
+<h1>三個學習率，哪個真的又準又穩？</h1><p class="domain">地球與行星科學 × 人工智慧資料素養 × 探究與實作</p>
+<nav class="edition" aria-label="題目版本"><a href="index.html" >學生題目</a><a href="teacher.html" aria-current="page">答案與評分規準</a></nav>
+<div class="reader-tools"><button type="button" data-print>列印解析</button><a href="teacher.md" download>下載教師原稿 .md</a><button type="button" data-share>複製本題連結</button><span class="share-state" role="status"></span></div>
+<p class="teacher-note">教師區｜下列包含答案、評分規準與教學診斷；轉發學生時請改用「學生題目」頁。</p>
+<article class="prose"><h2 class="original-heading">教師答案與評分規準｜三個學習率，哪個真的又準又穩？</h2>
+<h2>命題定位</h2>
+<ul>
+<li>適用：高中一年級自然科／探究與實作</li>
+<li>建議時間：10 分鐘</li>
+<li>總分：9 分</li>
+<li>歷程：資料重算、模型主張評鑑、確認性研究規畫</li>
+<li>來源情境：第 65 屆全國中小學科展〈雲屬判讀Teachable Machine AI 模型〉以 10 種雲屬、三個學習率與五次指標測試比較分類表現；原報告未交代五次是否各自重新獨立訓練。本題使用報告表 2–4 的「總和」重算每次 10 類巨觀平均。[2]</li>
+</ul>
+<h2>一、標準答案與獨立計算</h2>
+<h3>（一）重算兩種「最佳」（4 分）</h3>
+<p>學習率 <code>0.001</code>：</p>
+<ul>
+<li><code>M = (0.579 + 0.576 + 0.602 + 0.578 + 0.553) ÷ 5 = 2.888 ÷ 5 = 0.5776</code></li>
+<li><code>R = 0.602 − 0.553 = 0.049</code></li>
+</ul>
+<p>學習率 <code>0.00101</code>：</p>
+<ul>
+<li><code>M = (0.640 + 0.541 + 0.564 + 0.539 + 0.564) ÷ 5 = 2.848 ÷ 5 = 0.5696</code></li>
+<li><code>R = 0.640 − 0.539 = 0.101</code></li>
+</ul>
+<p>學習率 <code>0.00099</code>：</p>
+<ul>
+<li><code>M = (0.540 + 0.577 + 0.654 + 0.639 + 0.491) ÷ 5 = 2.901 ÷ 5 = 0.5802</code></li>
+<li><code>R = 0.654 − 0.491 = 0.163</code></li>
+</ul>
+<p>因此：</p>
+<ul>
+<li>平均表現最高：<code>0.00099</code>（<code>M = 0.5802</code>）。</li>
+<li>五次結果最穩定：<code>0.001</code>（<code>R = 0.049</code>）。</li>
+</ul>
+<h3>（二）評鑑主張（2 分）</h3>
+<p><strong>答案：部分支持。</strong></p>
+<ul>
+<li>平均面：<code>0.00099</code> 的 <code>M = 0.5802</code>，略高於 <code>0.001</code> 的 <code>0.5776</code> 與 <code>0.00101</code> 的 <code>0.5696</code>，所以「平均表現最高」受到這 5 次資料支持。</li>
+<li>穩定面：<code>0.00099</code> 的 <code>R = 0.163</code>，反而大於 <code>0.00101</code> 的 <code>0.101</code> 與 <code>0.001</code> 的 <code>0.049</code>，所以「最穩定」不受支持。</li>
+<li>應提醒：<code>0.5802</code> 與 <code>0.5776</code> 只差 <code>0.0026</code>（0.26 個百分點）；只有 5 次結果，不能據此聲稱差異已具統計顯著性。</li>
+</ul>
+<h3>（三）規畫公平覆驗（3 分）</h3>
+<p>可接受答案不限定措辭，但三個可見要求都必須具體。範例：</p>
+<ol>
+<li><strong>配對與重複</strong>：先產生多組分層資料切分與隨機種子；在每一組中，三個學習率使用完全相同的訓練集、驗證集、初始種子與其他超參數，各自重複訓練。如此每一組形成配對比較，避免某個學習率剛好拿到較容易的資料。</li>
+<li><strong>資料邊界</strong>：只用訓練集調整權重、用驗證集選學習率；先鎖定選擇後，才對未曾參與選擇的最終測試集評估一次，不因測試結果回頭改設定。</li>
+<li><strong>決策規則</strong>：事前規定同時報告各配對重複的平均精確率與變異，例如平均值及全距／標準差／信賴區間；只有平均較高且變異未惡化到事前門檻，才選為較佳設定。若平均差很小且區間高度重疊，應判為證據不足，而非硬選最低學習率。</li>
+</ol>
+<h2>二、分項評分規準</h2>
+<h3>（一）4 分</h3>
+<ul>
+<li>六個 <code>M</code>、<code>R</code>：每個正確值 0.5 分，共 3 分。若只因最後一步取位錯誤，每個最多扣 0.25 分；前式正確者仍給部分分。</li>
+<li>正確指出平均最高為 <code>0.00099</code>：0.5 分。</li>
+<li>正確指出最穩定為 <code>0.001</code>：0.5 分。</li>
+<li>若前面計算錯但依自己的數值一致判斷，兩個辨識分各最多給 0.25 分。</li>
+</ul>
+<h3>（二）2 分</h3>
+<ul>
+<li>用 <code>M</code> 比較支持「平均最高」：1 分。</li>
+<li>用 <code>R</code> 比較否定「最穩定」，並判為「部分支持」：1 分。</li>
+<li>只寫結論、未引用兩類指標：至多 0.5 分。</li>
+</ul>
+<h3>（三）3 分</h3>
+<ul>
+<li>配對與重複具體可執行：1 分。</li>
+<li>訓練／驗證／最終測試用途分開，且最終測試集不回流調參：1 分。</li>
+<li>事前決策規則同時包含平均與變異，並說明差異很小時不過度下結論：1 分。</li>
+<li>只抄題幹三個名詞而沒有操作內容：不給該點。</li>
+</ul>
+<p><strong>總分：9 分。</strong></p>
+<h2>三、常見錯誤與診斷</h2>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>常見作答</th>
+<th>可能迷思</th>
+<th>回饋重點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>只比較三個平均值</td>
+<td>把「高平均」等同「穩定」</td>
+<td>穩定度需另看全距、標準差或區間</td>
+</tr>
+<tr>
+<td>認為學習率最低必然最穩</td>
+<td>把參數大小直接當成結果波動</td>
+<td>本題須以 5 次實際結果檢查</td>
+</tr>
+<tr>
+<td>把 <code>P</code> 當成整體正確率</td>
+<td>忽略分母是「被預測為該類」</td>
+<td>此公式是精確率；整體 accuracy 的分母應是全部樣本</td>
+</tr>
+<tr>
+<td>用最終測試集反覆選參數</td>
+<td>不理解測試資料洩漏</td>
+<td>選參數用驗證集，最終測試只做鎖定後評估</td>
+</tr>
+<tr>
+<td>說 0.00099 顯著較好</td>
+<td>把微小樣本差當統計證明</td>
+<td>五次平均只差 0.002，尚需更多配對重複與不確定度</td>
+</tr>
+</tbody>
+</table></div>
+<h2>四、課綱與 Bloom 對應</h2>
+<ul>
+<li><code>pa-Ⅴc-1</code>：運用數學方法整理數據；學生計算三組平均與全距。[6]</li>
+<li><code>tc-Ⅴc-1</code>：比較並判斷科學資料解釋在方法與程序上的合理性；學生拆解「平均最高且最穩定」的複合主張。[6]</li>
+<li><code>pe-Ⅴc-1</code>：辨明變項並規畫適當次數的測試；學生規畫配對重複、資料分流與事前決策規則。[6]</li>
+<li>Bloom：應用（計算 <code>M</code>、<code>R</code>）→ 分析／評鑑（分拆主張）→ 創造（提出公平覆驗）。</li>
+</ul>
+<h2>五、安全、公平與改編說明</h2>
+<ul>
+<li>本題只做紙筆規畫，不要求學生上傳影像、訓練模型或進行戶外惡劣天候觀測。</li>
+<li>已定義精確率、平均、全距、取位與資料集用途，不依賴機器學習先備冷知識。</li>
+<li>表中數值不是另造實驗結果，而是把原報告表 2–4 每次 10 類指標總和除以 10；原報告把該公式稱為「某類別準確率」，教師材料依數學定義訂正為「精確率」。[2]</li>
+</ul>
+<h2>Sources</h2>
+<p>[2] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-051906.pdf" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-051906.pdf</a> — 雲屬判讀Teachable Machine AI模型
+[6] <a href="https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg024209/ch05/type2/gov40/num12/images/BB.pdf" rel="noopener noreferrer" target="_blank">https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg024209/ch05/type2/gov40/num12/images/BB.pdf</a> — 十二年國民基本教育課程綱要：自然科學領域</p></article>
+<nav class="item-pagination" aria-label="依日期切換題目"><a href="../2026-10-02/teacher.html">← 前一題 · 2026-10-02</a><a href="../2026-10-04/teacher.html">後一題 · 2026-10-04 →</a></nav></main><footer class="footer wrap">PhAI 命題集 · 收錄截至 2026-10-29 的既有命題版本。<br>本集為教學改編，非科教館官方試題；原研究著作權屬原作者。公開版不含學生個資、內部審查檔或研究原始 PDF。<br>教師解析公開可讀，並非保密考試系統。使用時請保留出處與安全界線。</footer>
+<dialog id="zoom" aria-label="題圖原尺寸檢視"><button type="button" id="zoom-close">關閉大圖</button><div class="zoom-pan"><img id="zoom-img" alt=""></div></dialog></body></html>

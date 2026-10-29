@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>日照，還是溫度？｜PhAI 命題集</title><meta name="description" content="日照，還是溫度？">
+<meta name="theme-color" content="#191e33"><meta property="og:title" content="日照，還是溫度？｜PhAI 命題集">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://addielu-phy.github.io/phai-platform/daily/items/2026-09-19/index.html"><link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../vendor/katex.min.css">
+<script src="../../vendor/katex.min.js" defer></script><script src="../../vendor/auto-render.min.js" defer></script><script src="../../page.js" defer></script></head>
+<body class="edition-student"><a class="skip" href="#main">跳至主要內容</a><header class="top"><nav class="nav wrap" aria-label="主要導覽"><a class="brand" href="../../index.html"><strong>PhAI</strong><span>每日精緻命題</span></a><a href="../../index.html">題目總覽</a><a class="parent-link" href="../../../index.html">資源館 ↗</a></nav></header>
+<main id="main" class="reader wrap"><a class="back" href="../../index.html">← 返回全部題目</a>
+<div class="item-meta"><time datetime="2026-09-19">2026-09-19</time><span class="subject">生物</span><span>學生題目</span></div>
+<h1>日照，還是溫度？</h1><p class="domain">生物（植物生態） × 數據素養 × 探究與實作</p>
+<nav class="edition" aria-label="題目版本"><a href="index.html" aria-current="page">學生題目</a><a href="teacher.html" >答案與評分規準</a></nav>
+<div class="reader-tools"><button type="button" data-print>列印題目</button><a href="student.md" download>下載學生原稿 .md</a><button type="button" data-share>複製本題連結</button><span class="share-state" role="status"></span></div>
+<p class="student-note">本頁只顯示原學生題目。建議先完成紙筆作答，再開啟答案與評分規準。</p>
+<article class="prose"><h2 class="original-heading">今日一題｜日照，還是溫度？</h2>
+<blockquote>
+<p>高一自然科／探究與實作｜建議 8–12 分鐘｜共 10 分｜可使用計算機</p>
+<p>本題情境改編自第 65 屆全國中小學科學展覽會高中組植物學科作品 052106〈「萍」分秋色—探討浮萍季節消長的關鍵因子與競爭策略〉；不要求另讀原報告。[1][2]</p>
+</blockquote>
+<p>研究者觀察兩種浮萍──<strong>青萍</strong>與<strong>水萍</strong>──在不同季節可能呈現不同的競爭優勢。為同時比較季節中常一起改變的「溫度」與「光週期」，研究小組設計一個 <strong>2×2 因子實驗</strong>：溫度分為 16 ℃、28 ℃；光週期分為短日照 SD（每 24 小時照光 10.5 小時）與長日照 LD（每 24 小時照光 13.5 小時）。每種條件設 5 個可獨立設定溫度與照光時程的培養單元，每個單元只放 1 個培養容器；各容器起始時兩種浮萍的投影面積相同，其餘培養條件相同，培養單元的位置每日隨機更換。</p>
+<blockquote>
+<p><strong>改編聲明：</strong>下表全部數值均為「命題改編數據」，不是原報告數值；用來練習實驗資料判讀。</p>
+</blockquote>
+<p>令 \(A_{W,0}\)、\(A_{W,7}\) 分別為水萍在第 0 天與第 7 天的投影面積；\(A_{G,0}\)、\(A_{G,7}\) 為青萍相應面積，單位皆為 \(\mathrm{cm^2}\)。定義 7 天競爭優勢指標</p>
+<p>\[
+I=(A_{W,7}-A_{W,0})-(A_{G,7}-A_{G,0})。
+\]</p>
+<ul>
+<li>\(I&gt;0\)：7 天內水萍增加的面積比青萍多；\(I&lt;0\)：青萍增加的面積比水萍多。</li>
+<li>第 0 天指處理開始時；第 7 天指經過完整的 \(7\times24\) 小時後。</li>
+</ul>
+<p>研究小組在看結果前先訂好影像品質規則：令 \(q\) 為第 0 天與第 7 天照片中「被影像邊界截斷的植物像素百分比」之較大值。若 \(q&gt;2.0\%\) 就排除該容器；\(q=2.0\%\) 仍保留。其餘資料即使看來不尋常也必須保留。通過品質規則後，各條件以有效容器的<strong>算術平均數</strong>代表。</p>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th style="text-align: right;">溫度</th>
+<th>光週期</th>
+<th style="text-align: right;">C1 的 \(I\)</th>
+<th style="text-align: right;">C2 的 \(I\)</th>
+<th style="text-align: right;">C3 的 \(I\)</th>
+<th style="text-align: right;">C4 的 \(I\)</th>
+<th style="text-align: right;">C5 的 \(I\)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">16 ℃</td>
+<td>SD 10.5 h</td>
+<td style="text-align: right;">−6.1</td>
+<td style="text-align: right;">−5.8</td>
+<td style="text-align: right;">−5.3</td>
+<td style="text-align: right;">−4.7</td>
+<td style="text-align: right;">−4.1</td>
+</tr>
+<tr>
+<td style="text-align: right;">28 ℃</td>
+<td>SD 10.5 h</td>
+<td style="text-align: right;">−5.0</td>
+<td style="text-align: right;">−4.8</td>
+<td style="text-align: right;">−4.1</td>
+<td style="text-align: right;">−3.6</td>
+<td style="text-align: right;">−3.5</td>
+</tr>
+<tr>
+<td style="text-align: right;">16 ℃</td>
+<td>LD 13.5 h</td>
+<td style="text-align: right;">+4.2</td>
+<td style="text-align: right;">+4.8</td>
+<td style="text-align: right;">+5.4</td>
+<td style="text-align: right;">+5.6</td>
+<td style="text-align: right;">+5.5</td>
+</tr>
+<tr>
+<td style="text-align: right;">28 ℃</td>
+<td>LD 13.5 h</td>
+<td style="text-align: right;">+5.2</td>
+<td style="text-align: right;">+5.8</td>
+<td style="text-align: right;">+6.4</td>
+<td style="text-align: right;">+7.0</td>
+<td style="text-align: right;">+20.0</td>
+</tr>
+</tbody>
+</table></div>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th style="text-align: right;">溫度</th>
+<th>光週期</th>
+<th style="text-align: right;">C1 的 \(q\)</th>
+<th style="text-align: right;">C2 的 \(q\)</th>
+<th style="text-align: right;">C3 的 \(q\)</th>
+<th style="text-align: right;">C4 的 \(q\)</th>
+<th style="text-align: right;">C5 的 \(q\)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">16 ℃</td>
+<td>SD 10.5 h</td>
+<td style="text-align: right;">0.3%</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">0.4%</td>
+<td style="text-align: right;">0.5%</td>
+<td style="text-align: right;">0.1%</td>
+</tr>
+<tr>
+<td style="text-align: right;">28 ℃</td>
+<td>SD 10.5 h</td>
+<td style="text-align: right;">0.4%</td>
+<td style="text-align: right;">0.3%</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">0.5%</td>
+<td style="text-align: right;">0.6%</td>
+</tr>
+<tr>
+<td style="text-align: right;">16 ℃</td>
+<td>LD 13.5 h</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">0.4%</td>
+<td style="text-align: right;">0.3%</td>
+<td style="text-align: right;">0.5%</td>
+<td style="text-align: right;">0.2%</td>
+</tr>
+<tr>
+<td style="text-align: right;">28 ℃</td>
+<td>LD 13.5 h</td>
+<td style="text-align: right;">0.3%</td>
+<td style="text-align: right;">0.4%</td>
+<td style="text-align: right;">0.2%</td>
+<td style="text-align: right;">0.6%</td>
+<td style="text-align: right;">3.1%</td>
+</tr>
+</tbody>
+</table></div>
+<p>為比較兩因子的效果，定義：</p>
+<p>\[
+L_{16}=\overline I_{LD,16}-\overline I_{SD,16},\qquad
+L_{28}=\overline I_{LD,28}-\overline I_{SD,28}
+\]</p>
+<p>\[
+T_{SD}=\overline I_{28,SD}-\overline I_{16,SD},\qquad
+T_{LD}=\overline I_{28,LD}-\overline I_{16,LD}。
+\]</p>
+<p>其中 \(\overline I\) 是通過品質規則後的條件平均。若 \(L_{16}=L_{28}\)，且 \(T_{SD}=T_{LD}\)，本題稱四組平均「符合無交互作用的加成型態」；這只是資料型態的描述，不代表已證明生物機制。</p>
+<h2>問題</h2>
+<p><strong>（一）先處理資料品質（3 分）</strong></p>
+<ol>
+<li>依預先規則指出應排除哪個容器的哪一筆 \(I\)，並說明為何不能再憑 \(I\) 的大小任意刪除其他資料。（1 分）</li>
+<li>計算 SD–16 ℃、SD–28 ℃、LD–16 ℃、LD–28 ℃ 四組的有效平均 \(\overline I\)。（2 分）</li>
+</ol>
+<p><strong>（二）比較兩因子（3 分）</strong></p>
+<ol>
+<li>計算 \(L_{16}\)、\(L_{28}\)、\(T_{SD}\)、\(T_{LD}\)。（2 分）</li>
+<li>四組平均是否符合本題定義的「無交互作用加成型態」？依數值作答。（1 分）</li>
+</ol>
+<p><strong>（三）證據能說到哪裡？（2 分）</strong></p>
+<p>定義光週期平均效果 \(E_L=(L_{16}+L_{28})/2\)，溫度平均效果 \(E_T=(T_{SD}+T_{LD})/2\)。有同學主張：「光週期的平均效果比溫度大，所以光週期是季節消長的<strong>唯一原因</strong>，溫度完全沒有影響。」請計算 \(E_L/E_T\)，再寫出：</p>
+<ol>
+<li>一項本資料可支持的較精確結論；</li>
+<li>一項使「唯一原因／完全沒有影響」不成立的證據或研究限制。</li>
+</ol>
+<p><strong>（四）規畫機制覆驗（2 分）</strong></p>
+<p>有人提出機制假說：「光週期先改變每株浮萍相連葉狀體的數目 \(p\)，再改變競爭優勢 \(I\)。」請規畫一個<strong>紙筆上的後續實驗</strong>，答案須各寫出：</p>
+<ol>
+<li>光週期處理、獨立重複、隨機化、控制條件，以及 \(p\) 與 \(I\) 的量測時點；</li>
+<li>假說獲支持時應見的時間順序，以及一種不支持此機制的結果型態。</li>
+</ol>
+<h2>作答與取位規則</h2>
+<ul>
+<li>平均數、四個效果量與效果倍數均取到小數第 1 位；中間計算保留未取位數值，只在最後取位。</li>
+<li>正負號與單位 \(\mathrm{cm^2}\) 都是答案的一部分。</li>
+<li>若前題算術錯誤但後續方法正確，後續仍依方法給分。</li>
+<li>本題第（四）只要求規畫，不要求實作。</li>
+</ul>
+<blockquote>
+<p><strong>安全與生態邊界：</strong>若日後實作，只使用學校合法培養、已確認種類的材料；避免樣本接觸眼口，處理後洗手。實驗水體與浮萍須依教師規定滅活或密封處理，不可倒入戶外水域、排水系統或任意放生。</p>
+</blockquote>
+<h2>Sources</h2>
+<p>[1] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/senior.html" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/senior.html</a> — 第65屆全國中小學科學展覽會高級中等學校組
+[2] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-052106.pdf" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-052106.pdf</a> — 「萍」分秋色—探討浮萍季節消長的關鍵因子與競爭策略</p></article>
+<nav class="item-pagination" aria-label="依日期切換題目"><a href="../2026-09-18/index.html">← 前一題 · 2026-09-18</a><a href="../2026-09-20/index.html">後一題 · 2026-09-20 →</a></nav></main><footer class="footer wrap">PhAI 命題集 · 收錄截至 2026-10-29 的既有命題版本。<br>本集為教學改編，非科教館官方試題；原研究著作權屬原作者。公開版不含學生個資、內部審查檔或研究原始 PDF。<br>教師解析公開可讀，並非保密考試系統。使用時請保留出處與安全界線。</footer>
+<dialog id="zoom" aria-label="題圖原尺寸檢視"><button type="button" id="zoom-close">關閉大圖</button><div class="zoom-pan"><img id="zoom-img" alt=""></div></dialog></body></html>

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>鍛鍊加倍，耐熱就加倍嗎？｜PhAI 命題集</title><meta name="description" content="鍛鍊加倍，耐熱就加倍嗎？">
+<meta name="theme-color" content="#191e33"><meta property="og:title" content="鍛鍊加倍，耐熱就加倍嗎？｜PhAI 命題集">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://addielu-phy.github.io/phai-platform/daily/items/2026-10-06/index.html"><link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../vendor/katex.min.css">
+<script src="../../vendor/katex.min.js" defer></script><script src="../../vendor/auto-render.min.js" defer></script><script src="../../page.js" defer></script></head>
+<body class="edition-student"><a class="skip" href="#main">跳至主要內容</a><header class="top"><nav class="nav wrap" aria-label="主要導覽"><a class="brand" href="../../index.html"><strong>PhAI</strong><span>每日精緻命題</span></a><a href="../../index.html">題目總覽</a><a class="parent-link" href="../../../index.html">資源館 ↗</a></nav></header>
+<main id="main" class="reader wrap"><a class="back" href="../../index.html">← 返回全部題目</a>
+<div class="item-meta"><time datetime="2026-10-06">2026-10-06</time><span class="subject">生物</span><span>學生題目</span></div>
+<h1>鍛鍊加倍，耐熱就加倍嗎？</h1><p class="domain">生物（植物熱適應）× 數據建模 × 探究與實作</p>
+<nav class="edition" aria-label="題目版本"><a href="index.html" aria-current="page">學生題目</a><a href="teacher.html" >答案與評分規準</a></nav>
+<div class="reader-tools"><button type="button" data-print>列印題目</button><a href="student.md" download>下載學生原稿 .md</a><button type="button" data-share>複製本題連結</button><span class="share-state" role="status"></span></div>
+<p class="student-note">本頁只顯示原學生題目。建議先完成紙筆作答，再開啟答案與評分規準。</p>
+<article class="prose"><h2 class="original-heading">鍛鍊加倍，耐熱就加倍嗎？</h2>
+<p><strong>建議作答時間：10 分鐘｜總分：10 分</strong></p>
+<p>一份阿拉伯芥研究把「熱鍛鍊」設定為：先以 <code>37°C</code> 處理 <code>1 小時</code>；若重複鍛鍊，相鄰兩次間隔 <code>2 小時</code>。最後一次鍛鍊後 <code>2 小時</code>，再以 <code>44°C</code> 進行熱逆境處理；之後回到 <code>22°C</code> 培養 <code>10 天</code>，依是否仍有新葉且未枯萎／白化判定存活。[5]</p>
+<p>研究針對短期後天耐熱性提出下列模型：[5]</p>
+<p><code>y = 2.4271 × ln(x) + 1.7963</code></p>
+<ul>
+<li><code>x</code>：熱鍛鍊次數；模型建立時使用 <code>2 ≤ x ≤ 6</code> 的整數次數。</li>
+<li><code>y</code>：模型預測「存活率為 50% 時，可承受的 44°C 熱逆境時數」，單位為小時（h）。</li>
+<li><code>ln(x)</code>：<code>x</code> 的自然對數。為使本題可不用計算機完成，請把下表數值視為本題的精確計算輸入：</li>
+</ul>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th style="text-align: right;"><code>x</code></th>
+<th style="text-align: right;"><code>ln(x)</code>（命題提供）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.693</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">1.386</td>
+</tr>
+<tr>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">1.792</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>取位規則：</strong>所有中間值保留到最後；每個 <code>y</code> 與每個增量都要各自由未取位值四捨五入到小數點後 <code>1</code> 位。模型只給預測，不等於已證明因果。</p>
+<p>官方評語另指出：建模圖中每個處理只有一個數據點，且沒有說明資料來自幾次獨立實驗。[5]</p>
+<h2>（一）算模型，也檢查「加倍」說法（4 分）</h2>
+<ol>
+<li>逐一列式計算 <code>y(2)</code>、<code>y(4)</code>、<code>y(6)</code>。（2 分）</li>
+<li>分別計算增加同樣 <code>2 次</code>鍛鍊時的預測增量：<code>y(4)−y(2)</code> 與 <code>y(6)−y(4)</code>；指出哪一段增量較小。（1 分）</li>
+<li>有人說：「鍛鍊次數從 2 次加倍為 4 次，耐熱時數也會加倍。」請用你的計算結果判斷此說法，並寫出數值證據。（1 分）</li>
+</ol>
+<h2>（二）模型可以說到哪裡？（3 分）</h2>
+<p>請分成三點作答：</p>
+<ol>
+<li>說明「每個處理只有一個數據點」會使哪一種變異或不確定性無法由圖中估計。（1 分）</li>
+<li>說明「未交代獨立實驗次數」為何會削弱可重現性的判斷；不得只重抄評語。（1 分）</li>
+<li>現有模型能否直接支持 <code>x = 10</code> 的精確預測？請依模型建立範圍說明。（1 分）</li>
+</ol>
+<h2>（三）規畫確認性測試（3 分）</h2>
+<p>本小題只做紙筆規畫，不實際操作。請規畫如何檢驗模型在 <code>x = 2、4、6</code> 時的預測與「增益遞減」趨勢，明確寫出：</p>
+<ol>
+<li>至少 <code>5 個</code>具體的 <code>44°C</code> 處理時數，須涵蓋 <code>3.0–6.5 h</code>，並說明為何能包住（一）的三個預測值；（1 分）</li>
+<li>至少 <code>3 次</code>獨立實驗的做法、實驗單位，以及如何把培養皿隨機分派到各組；同一培養皿內的多株幼苗不算多次獨立實驗；（1 分）</li>
+<li>存活判定時間與規則、至少 <code>2 個</code>共同控制條件，以及事前如何比較觀察結果與模型。共同控制須寫固定值或保持方法；只寫「控制變因」不給分。（1 分）</li>
+</ol>
+<p><strong>安全邊界：</strong>若未來實作，只能由教師操作有上蓋與溫控的水浴槽及轉移高溫培養皿；學生不得徒手接觸水浴槽、熱水或剛取出的培養皿。</p>
+<h2>Sources</h2>
+<p>[5] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-052102.pdf" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-052102.pdf</a> — 千錘百鍊—阿拉伯芥熱鍛鍊次數之研究</p></article>
+<nav class="item-pagination" aria-label="依日期切換題目"><a href="../2026-10-05/index.html">← 前一題 · 2026-10-05</a><a href="../2026-10-07/index.html">後一題 · 2026-10-07 →</a></nav></main><footer class="footer wrap">PhAI 命題集 · 收錄截至 2026-10-29 的既有命題版本。<br>本集為教學改編，非科教館官方試題；原研究著作權屬原作者。公開版不含學生個資、內部審查檔或研究原始 PDF。<br>教師解析公開可讀，並非保密考試系統。使用時請保留出處與安全界線。</footer>
+<dialog id="zoom" aria-label="題圖原尺寸檢視"><button type="button" id="zoom-close">關閉大圖</button><div class="zoom-pan"><img id="zoom-img" alt=""></div></dialog></body></html>

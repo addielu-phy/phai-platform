@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>平均值跑出範圍外，還能拿來預警嗎？ · 教師解析｜PhAI 命題集</title><meta name="description" content="平均值跑出範圍外，還能拿來預警嗎？ · 教師解析">
+<meta name="theme-color" content="#191e33"><meta property="og:title" content="平均值跑出範圍外，還能拿來預警嗎？ · 教師解析｜PhAI 命題集">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://addielu-phy.github.io/phai-platform/daily/items/2026-10-07/teacher.html"><link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../vendor/katex.min.css">
+<script src="../../vendor/katex.min.js" defer></script><script src="../../vendor/auto-render.min.js" defer></script><script src="../../page.js" defer></script></head>
+<body class="edition-teacher"><a class="skip" href="#main">跳至主要內容</a><header class="top"><nav class="nav wrap" aria-label="主要導覽"><a class="brand" href="../../index.html"><strong>PhAI</strong><span>每日精緻命題</span></a><a href="../../index.html">題目總覽</a><a class="parent-link" href="../../../index.html">資源館 ↗</a></nav></header>
+<main id="main" class="reader wrap"><a class="back" href="../../index.html">← 返回全部題目</a>
+<div class="item-meta"><time datetime="2026-10-07">2026-10-07</time><span class="subject">地科</span><span>教師解析</span></div>
+<h1>平均值跑出範圍外，還能拿來預警嗎？</h1><p class="domain">地球與行星科學 × 數據品質 × 探究與實作</p>
+<nav class="edition" aria-label="題目版本"><a href="index.html" >學生題目</a><a href="teacher.html" aria-current="page">答案與評分規準</a></nav>
+<div class="reader-tools"><button type="button" data-print>列印解析</button><a href="teacher.md" download>下載教師原稿 .md</a><button type="button" data-share>複製本題連結</button><span class="share-state" role="status"></span></div>
+<p class="teacher-note">教師區｜下列包含答案、評分規準與教學診斷；轉發學生時請改用「學生題目」頁。</p>
+<article class="prose"><h2 class="original-heading">教師解答與評分規準｜2026-10-07</h2>
+<h2>題目定位</h2>
+<ul>
+<li>題名：平均值跑出範圍外，還能拿來預警嗎？</li>
+<li>領域：地球與行星科學 × 數據品質 × 模型評鑑 × 探究與實作</li>
+<li>建議時間／總分：10 分鐘／10 分</li>
+<li>來源核心：官方報告的古騰堡—芮克特模型、各區 <code>b</code> 值表與官方評語所指出的視覺判讀、時間窗及空間劃分限制。[7]</li>
+</ul>
+<h2>標準答案與完整推理</h2>
+<h3>（一）先做資料品質稽核（3 分）</h3>
+<p>必要條件是 <code>min ≤ mean ≤ max</code>。</p>
+<ul>
+<li>A：<code>0.72 ≤ 0.81 ≤ 0.85</code>，通過。</li>
+<li>B：<code>0.84 &lt; 0.88</code>，平均值低於最小值，不合格。若只移動平均值，最近合法邊界是 <code>0.88</code>，最少改動 <code>0.88−0.84=0.04</code>。</li>
+<li>C：<code>0.73 &gt; 0.71</code>，平均值高於最大值，不合格。若只移動平均值，最近合法邊界是 <code>0.71</code>，最少改動 <code>0.73−0.71=0.02</code>。</li>
+<li>D：<code>0.52 ≤ 0.76 ≤ 0.91</code>，通過。</li>
+<li>E：<code>0.67 ≤ 0.76 ≤ 0.81</code>，通過。</li>
+</ul>
+<p><strong>答案：B、C；最小改動量分別為 <code>0.04</code>、<code>0.02</code>。</strong>這兩個數字只是診斷距離，不代表原表真正應改成 <code>0.88</code> 與 <code>0.71</code>；沒有原始網格數據時，不能判定錯在平均值、極值或區域標籤。[7]</p>
+<h3>（二）模型轉移計算（3 分）</h3>
+<p><code>M₂−M₁=4.5−2.0=2.5</code>。</p>
+<ul>
+<li>X：<code>N(4.5)/N(2.0)=10^(−0.60×2.5)=10⁻¹·⁵≈0.0316</code>，所以 <code>N(4.5)≈10,000×0.0316=316</code>。</li>
+<li>Y：<code>N(4.5)/N(2.0)=10^(−0.80×2.5)=10⁻²=0.0100</code>，所以 <code>N(4.5)=10,000×0.0100=100</code>。</li>
+<li>比值：<code>316/100=3.16</code>。X 區的規模至少 4.5 地震占規模至少 2.0 地震的比例較大，約為 Y 的 <code>3.16</code> 倍。</li>
+</ul>
+<p>本小題刻意把面積、期間、目錄完整性與 <code>N(2.0)</code> 設成相同，才可把差異集中於 <code>b</code>。原報告也明說，<code>b</code> 代表大小地震的相對比例，判斷絕對風險仍需納入地震活動度 <code>a</code> 等因素。[7]</p>
+<h3>（三）從關聯走向可檢驗的預警（4 分）</h3>
+<h4>1. 可接受的兩項獨立限制（任選二，每項 1 分）</h4>
+<ul>
+<li><strong>資料內部不一致：</strong>B、C 的平均值落在各自最小—最大範圍之外；原始表尚未由底層網格值重算前，不能用其排名發布風險主張。</li>
+<li><strong>相對比例不等於絕對次數：</strong>由 <code>log₁₀N=a−bM</code> 可知，絕對地震數同時受 <code>a</code>、觀測期間、面積、目錄完整度與基準地震數影響；<code>b</code> 小不保證絕對大震數必定更多。</li>
+<li><strong>回看關聯不等於預測能力：</strong>在已知地震發生後回看 <code>b</code> 曲線，容易有事後選擇時間窗、門檻或區域的偏差；必須用完全未參與調參的較晚資料測試。</li>
+<li><strong>缺少完整錯誤代價：</strong>只列成功前兆而未同時計算漏報與誤報，不能判斷警報是否優於固定頻率或隨機基準。</li>
+<li><strong>量測系統可能改變：</strong>不同年代儀器網密度、定位精度與目錄完整度不同，可能使 <code>b</code> 的時間變化混入觀測制度改變。官方評語也要求統計檢定，並提醒時間窗、空間劃分與資料誤差可能造成偏差。[7]</li>
+</ul>
+<p>只寫「地震很複雜」或「資料可能有誤」而未連回本題表格、公式或驗證程序，不得該點。</p>
+<h4>2. 合格的樣本外測試示例（2 分）</h4>
+<ul>
+<li><strong>時間切分與凍結規則（1 分）：</strong>例如以 1973–2014 年作訓練／選模段、2015–2025 年作測試段。只在訓練段決定區域劃分、目錄完整度門檻、<code>b</code> 的估計法及警報規則，例如「最近 200 筆事件估得的 <code>b</code> 比前一窗下降至少 0.20 時，發布 90 天警報」；同時事前定義目標事件為該區 90 天內出現 <code>M≥5.5</code>。進入測試段後不得再改門檻或時間窗。</li>
+<li><strong>基準與雙指標（1 分）：</strong>與至少一個基準比較，例如「依訓練段長期率、用相同警報天數隨機放置警報」或「永不警報」。測試段同時報告命中率 <code>被警報涵蓋的目標地震數／全部目標地震數</code>，以及誤報率 <code>未接到目標地震的警報次數／全部警報次數</code>；若兩者未同報，不足以支持實用預警。</li>
+</ul>
+<p>其他切分年份、門檻與時間窗可接受，但必須在測試段之前凍結、不得使用未來資料，且要有基準、命中率與誤報率。</p>
+<h2>分析式評分規準</h2>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>小題</th>
+<th>可觀察證據</th>
+<th style="text-align: right;">分數</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>（一）</td>
+<td>完整指出 B、C，且未誤列其他區域</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（一）</td>
+<td>算出 B 平均值到最近合法邊界的最小改動量 <code>0.04</code></td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（一）</td>
+<td>算出 C 平均值到最近合法邊界的最小改動量 <code>0.02</code></td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（二）</td>
+<td>列式並算得 X 的 <code>N(4.5)≈316</code></td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（二）</td>
+<td>列式並算得 Y 的 <code>N(4.5)=100</code></td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（二）</td>
+<td>算得比值約 <code>3.16</code>，並正確判斷 X 的相對比例較大</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（三）1</td>
+<td>第一項具體、獨立且由表格／模型／驗證邏輯支持的限制</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（三）1</td>
+<td>第二項與第一項不同層次的具體限制</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（三）2</td>
+<td>明列時間切分，並在測試前凍結警報規則、目標事件與時間窗</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（三）2</td>
+<td>明列基準方法，並同時定義或報告命中率與誤報率</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>配分核對：<code>3+3+4=10</code>。</strong></p>
+<h3>傳遞錯誤</h3>
+<ul>
+<li>（二）若指數列式正確但誤抄題給冪值，後續整數與比值依其前值一致計算，至多扣 1 分，不重複扣除同一算術錯誤。</li>
+<li>（一）的資料稽核與（三）的論證不依賴（二）數值；不得因（二）錯誤連帶扣除（三）。</li>
+</ul>
+<h2>常見錯誤與診斷</h2>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>常見錯誤</th>
+<th>反映的迷思</th>
+<th>回饋重點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>只看平均值大小，未檢查是否落在極值範圍內</td>
+<td>把表格視為必然正確</td>
+<td>先做必要條件檢核，再談科學解釋</td>
+</tr>
+<tr>
+<td>把 B 的 <code>0.04</code>、C 的 <code>0.02</code> 當作已確定訂正值</td>
+<td>把最小診斷距離誤當原始真值</td>
+<td>沒有底層資料只能定位矛盾，不能判定哪欄錯</td>
+</tr>
+<tr>
+<td>把 <code>10^[−b(ΔM)]</code> 寫成 <code>10^[+b(ΔM)]</code></td>
+<td>忽略較高規模事件應較少</td>
+<td>檢查比值必須小於 1</td>
+</tr>
+<tr>
+<td>說 <code>b</code> 小就必定有較多大震</td>
+<td>混淆相對比例與絕對活動度</td>
+<td>回到 <code>a</code>、基準數量、期間與目錄完整度</td>
+</tr>
+<tr>
+<td>用全部年份調參，再用同一批年份宣稱預測成功</td>
+<td>訓練／測試資料洩漏</td>
+<td>測試段只使用一次，規則先凍結</td>
+</tr>
+<tr>
+<td>只報命中案例、不報誤報</td>
+<td>忽略警報代價與基準率</td>
+<td>命中率與誤報率必須成對報告</td>
+</tr>
+</tbody>
+</table></div>
+<h2>命題藍圖</h2>
+<ul>
+<li><strong>預估時間：</strong>讀模與表格 2 分鐘；資料稽核 2 分鐘；計算 2–3 分鐘；限制與測試規畫 3–4 分鐘，共約 9–11 分鐘。</li>
+<li><strong>108 課綱學習表現：</strong><code>tr-Ⅴc-1</code>（簡單數理演算與論點限制）、<code>tc-Ⅴc-1</code>（判斷資料解釋的程序合理性）、<code>pa-Ⅴc-1/2</code>（整理數據並形成解釋）、<code>pe-Ⅴc-1</code>（規畫能處理變項、信效度與失敗原因的測試）。[8]</li>
+<li><strong>Bloom：</strong>分析（查核表格必要條件）、應用（代入頻率模型）、評鑑（區分關聯與預警）、創造（樣本外測試方案）。</li>
+<li><strong>公平性：</strong>不用計算機；所有非例行符號、端點、公式、冪值、取位與樣本外測試均就地定義。</li>
+<li><strong>安全／倫理：</strong>只用公開去識別化目錄；禁止把作業模型對外當作即時預警。</li>
+</ul>
+<h2>Sources</h2>
+<p>[7] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-051912.pdf" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-051912.pdf</a> — 以粒子濾波法計算b值於地震預測之應用
+[8] <a href="https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg024209/ch05/type2/gov40/num12/images/BB.pdf" rel="noopener noreferrer" target="_blank">https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg024209/ch05/type2/gov40/num12/images/BB.pdf</a> — 十二年國民基本教育課程綱要：自然科學領域</p></article>
+<nav class="item-pagination" aria-label="依日期切換題目"><a href="../2026-10-06/teacher.html">← 前一題 · 2026-10-06</a><a href="../2026-10-08/teacher.html">後一題 · 2026-10-08 →</a></nav></main><footer class="footer wrap">PhAI 命題集 · 收錄截至 2026-10-29 的既有命題版本。<br>本集為教學改編，非科教館官方試題；原研究著作權屬原作者。公開版不含學生個資、內部審查檔或研究原始 PDF。<br>教師解析公開可讀，並非保密考試系統。使用時請保留出處與安全界線。</footer>
+<dialog id="zoom" aria-label="題圖原尺寸檢視"><button type="button" id="zoom-close">關閉大圖</button><div class="zoom-pan"><img id="zoom-img" alt=""></div></dialog></body></html>

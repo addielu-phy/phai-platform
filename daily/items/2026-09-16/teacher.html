@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>999 到底是不是 999？ · 教師解析｜PhAI 命題集</title><meta name="description" content="999 到底是不是 999？ · 教師解析">
+<meta name="theme-color" content="#191e33"><meta property="og:title" content="999 到底是不是 999？ · 教師解析｜PhAI 命題集">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://addielu-phy.github.io/phai-platform/daily/items/2026-09-16/teacher.html"><link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../vendor/katex.min.css">
+<script src="../../vendor/katex.min.js" defer></script><script src="../../vendor/auto-render.min.js" defer></script><script src="../../page.js" defer></script></head>
+<body class="edition-teacher"><a class="skip" href="#main">跳至主要內容</a><header class="top"><nav class="nav wrap" aria-label="主要導覽"><a class="brand" href="../../index.html"><strong>PhAI</strong><span>每日精緻命題</span></a><a href="../../index.html">題目總覽</a><a class="parent-link" href="../../../index.html">資源館 ↗</a></nav></header>
+<main id="main" class="reader wrap"><a class="back" href="../../index.html">← 返回全部題目</a>
+<div class="item-meta"><time datetime="2026-09-16">2026-09-16</time><span class="subject">地科</span><span>教師解析</span></div>
+<h1>999 到底是不是 999？</h1><p class="domain">地球科學 × 數據素養 × 探究實作</p>
+<nav class="edition" aria-label="題目版本"><a href="index.html" >學生題目</a><a href="teacher.html" aria-current="page">答案與評分規準</a></nav>
+<div class="reader-tools"><button type="button" data-print>列印解析</button><a href="teacher.md" download>下載教師原稿 .md</a><button type="button" data-share>複製本題連結</button><span class="share-state" role="status"></span></div>
+<p class="teacher-note">教師區｜下列包含答案、評分規準與教學診斷；轉發學生時請改用「學生題目」頁。</p>
+<article class="prose"><h2 class="original-heading">教師答案與評分規準｜999 到底是不是 999？</h2>
+<blockquote>
+<p>高中一年級自然科／探究與實作｜建議 8–12 分鐘｜共 10 分</p>
+</blockquote>
+<p>官方研究以水霧、假樹條帶與下游空品儀建構風洞模型；報告明載監測儀 PM2.5 上限為 999 μg/m³，並比較假樹條帶位置與濃密度。[2]</p>
+<p>本題沿用裝置邏輯與上限概念，但表內風速、峰值濃度及品質規則全是<strong>命題改編數據</strong>，不是官方報告的原始量測值；所有算術以 <code>qa/independent_recalculation.py</code> 及 <code>qa/independent_recalculation.json</code> 獨立重算。</p>
+<h2>一、標準答案與關鍵推理</h2>
+<h3>（一）資料品質與最低減幅（4 分）</h3>
+<ol>
+<li>
+<p>排除 <strong>D 位置第 4 次（D4）</strong>。其風速為 \(0.72\ \mathrm{m/s}\)，低於預先訂定且含端點的納入範圍 \(0.95\le v\le1.05\ \mathrm{m/s}\)。排除依據在看 PM2.5 數據之前已訂定，因此不是因結果不合期待才刪除。</p>
+</li>
+<li>
+<p>A 組 4 次均通過風速規則；把兩個設限值暫以 999 代入：</p>
+</li>
+</ol>
+<p>\[
+\overline C_{A,\mathrm{LB}}
+=\frac{999+940+999+960}{4}
+=\frac{3898}{4}
+=974.5\ \mathrm{\mu g/m^3}.
+\]</p>
+<p>由於兩個 <code>999＊</code> 的真值只知 \(C\ge999\)，所以 A 組真實平均峰值只可判定為 \(\overline C_A\ge974.5\ \mathrm{\mu g/m^3}\)。</p>
+<ol start="3">
+<li>D 組排除 D4 後：</li>
+</ol>
+<p>\[
+\overline C_D
+=\frac{410+430+420}{3}
+=\frac{1260}{3}
+=420.0\ \mathrm{\mu g/m^3}.
+\]</p>
+<ol start="4">
+<li></li>
+</ol>
+<p>\[
+R_{\min}
+=\frac{974.5-420.0}{974.5}\times100\%
+=56.900974\ldots\%
+\approx\boxed{56.9\%}.
+\]</p>
+<p>這是<strong>最低減幅</strong>，不是精確減幅。令 A 組真實平均為正值 \(x\)，則減幅 \(1-420/x\) 會隨 \(x\) 增大而增大；而 \(x\ge974.5\)，故真實減幅至少為 56.9%。</p>
+<h3>（二）證據能說到哪裡？（3 分）</h3>
+<ol>
+<li>比較方向與量化界線：D 的平均峰值低於 A；依現有顯示值，D 相對 A 的峰值最低減幅為 56.9%，也就是「至少降低 56.9%」，不是固定效果量。A1、A3 的 <code>999＊</code> 是右設限值，故更高的真值只會使真實減幅更大。</li>
+<li>結論須保留的條件，任列兩項：本題風洞裝置、20 秒噴霧、同一濃密假樹條帶、只納入 \(0.95\le v\le1.05\ \mathrm{m/s}\) 的試次、相同下游儀器位置。原研究也把假樹條帶位置、密度與噴霧時間視為需控制或比較的條件。[2]</li>
+<li>合理的戶外差異與影響示例，答一組即可：
+   - 真實風向、風速與紊流會隨時間改變，可能使汙染物繞流、滯留或稀釋，減幅不會固定；
+   - 水霧不等同各種真實 PM2.5 粒子的粒徑、密度與表面性質，植被攔截效率可能改變；
+   - 真樹的葉面、孔隙、樹冠高度與季節不同於濃密假樹條帶，可能改變穿透與沉積；
+   - 戶外有多個移動汙染源與背景濃度，單一上游噴霧源的比較未必可直接外推。</li>
+</ol>
+<h3>（三）把「位置」檢驗得更公平（3 分）</h3>
+<p>題目已固定 A／D 位置比較及峰值應變因，不對重述這兩項給分。一個完整示例：</p>
+<ol>
+<li>控制同一假樹條帶及濃密度；每次使用同一條帶、方向與折疊方式。</li>
+<li>控制噴霧量；使用同一噴霧器設定與 20 秒發送時間。其他可接受控制包括風速／風向、風洞幾何、儀器位置、回復背景條件、溫濕度與儀器設定。</li>
+<li>A、D 各做 10 次。</li>
+<li>每次重新讓風洞回到預先訂定的背景濃度，再開始新的噴霧與量測；每次只產生一個主要峰值，不把同一次的多個時間點當成多次。</li>
+<li>用亂數表、電腦亂數或抽籤決定 A／D 執行順序；亦可在每個區集內各做一次 A、D，再隨機決定先後。</li>
+<li>改用經校正且量程高於預期峰值的 PM2.5 監測儀；或在正式收集資料前，以不納入分析的預試統一降低兩組水霧輸出，使所有正式值落在線性量程內。</li>
+</ol>
+<h2>二、解析式評分規準</h2>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>小題</th>
+<th>配分要素</th>
+<th>得分條件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>（一）1</td>
+<td>正確排除</td>
+<td>指出 D4，並以 \(0.72&lt;0.95\ \mathrm{m/s}\) 解釋；只寫「300 是異常值」不得分。</td>
+</tr>
+<tr>
+<td>（一）2</td>
+<td>A 組下限平均</td>
+<td>正確列式並得 \(974.5\ \mathrm{\mu g/m^3}\)，且知道這是下限。</td>
+</tr>
+<tr>
+<td>（一）3</td>
+<td>D 組平均</td>
+<td>排除 D4 後正確列式並得 \(420.0\ \mathrm{\mu g/m^3}\)。</td>
+</tr>
+<tr>
+<td>（一）4</td>
+<td>最低減幅</td>
+<td>正確代入並得 \(56.9\%\)，標示為最低／至少而非固定值。</td>
+</tr>
+<tr>
+<td>（二）1</td>
+<td>比較與量化</td>
+<td>寫出 D 低於 A，且最低／至少減幅為 56.9%。</td>
+</tr>
+<tr>
+<td>（二）2</td>
+<td>條件邊界</td>
+<td>從題幹正確列出兩項不可省略的實驗條件；每項 0.5 分。</td>
+</tr>
+<tr>
+<td>（二）3</td>
+<td>外推限制</td>
+<td>說出一項真實戶外與風洞的具體差異，並連結可能造成的結果改變。</td>
+</tr>
+<tr>
+<td>（三）1</td>
+<td>控制變因一</td>
+<td>變因具體，並說明如何維持相同；0.5 分。</td>
+</tr>
+<tr>
+<td>（三）2</td>
+<td>控制變因二</td>
+<td>與前項不同、具體，並說明如何維持相同；0.5 分。</td>
+</tr>
+<tr>
+<td>（三）3</td>
+<td>試次數</td>
+<td>每位置提出同一個具體整數，且皆不少於 8 次；0.5 分。</td>
+</tr>
+<tr>
+<td>（三）4</td>
+<td>獨立試次</td>
+<td>說明重置／回復背景後重新執行，不把同次連續讀值當獨立試次；0.5 分。</td>
+</tr>
+<tr>
+<td>（三）5</td>
+<td>隨機順序</td>
+<td>提出可執行的亂數、抽籤或隨機區集方法；0.5 分。</td>
+</tr>
+<tr>
+<td>（三）6</td>
+<td>避免設限</td>
+<td>提出較高量程儀器或正式實驗前統一調低兩組輸出等不依結果改動的可行方法；0.5 分。</td>
+</tr>
+</tbody>
+</table></div>
+<h3>部分給分與答案傳播</h3>
+<ul>
+<li>（一）若只發生單一步驟算術錯誤，但納入／排除、設限方向、公式與後續代入均一致，可在受影響的 1 分格給 0.5 分。</li>
+<li>（二）1 若沿用學生在（一）算錯的百分比，但比較方向及「最低／至少」概念正確，可保留 0.5 分；同一算術錯誤不重複全扣。</li>
+<li>合理等價的戶外限制與實驗方案均可得分，不要求與示例逐字相同。</li>
+</ul>
+<h2>三、常見錯誤與診斷</h2>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>常見錯誤</th>
+<th>反映的迷思／診斷</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>因 300 與其他值差很大才刪 D4</td>
+<td>以結果挑資料；未使用預先規則與控制變因。</td>
+</tr>
+<tr>
+<td>把所有 999 當作真值恰為 999</td>
+<td>未理解儀器上限造成的右設限。</td>
+</tr>
+<tr>
+<td>把 D4 納入 D 平均</td>
+<td>忽略已明定且含端點的資料品質規則。</td>
+</tr>
+<tr>
+<td>寫「降低 56.9%」而不寫至少／最低</td>
+<td>把下限估計誤當精確效果量。</td>
+</tr>
+<tr>
+<td>由風洞直接下結論「所有戶外情況都有效」</td>
+<td>混淆模型內部證據與外部效度。</td>
+</tr>
+<tr>
+<td>後續實驗只做 A 一次、D 一次</td>
+<td>未處理試次變異與執行順序偏差。</td>
+</tr>
+<tr>
+<td>為避免 999 而只把 999 改記成 1000</td>
+<td>竄改資料，沒有改善量測範圍。</td>
+</tr>
+<tr>
+<td>用燃燒方式製造真實 PM2.5</td>
+<td>忽略安全與健康邊界；本題只規畫安全水霧風洞。</td>
+</tr>
+</tbody>
+</table></div>
+<h2>四、命題藍圖</h2>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>小題</th>
+<th>構念與可觀察證據</th>
+<th>Bloom</th>
+<th>作答歷程</th>
+<th style="text-align: right;">時間</th>
+<th style="text-align: right;">分數</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>（一）</td>
+<td>依預先規則處理異常試次；運算設限資料的平均下限與最低減幅</td>
+<td>應用／分析</td>
+<td>資料清理＋計算</td>
+<td style="text-align: right;">3–4 分</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td>（二）</td>
+<td>形成有條件的保守結論；評估外部效度</td>
+<td>評鑑</td>
+<td>證據解讀＋模型評鑑</td>
+<td style="text-align: right;">2–3 分</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>（三）</td>
+<td>補完控制、重複、獨立、隨機與量程設計</td>
+<td>創造</td>
+<td>探究規畫</td>
+<td style="text-align: right;">3–4 分</td>
+<td style="text-align: right;">3</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li>108 課綱學習表現：<code>pa-Ⅴc-1</code>、<code>pa-Ⅴc-2</code>（運用數學整理資料、由數據形成解釋）、<code>tc-Ⅴc-1</code>（判斷資料解釋與程序合理性）、<code>pe-Ⅴc-1</code>（辨明變因、規畫適當次數與可能失敗原因）、<code>pc-Ⅴc-1</code>（評核數據信效度並提出改善）。[5]</li>
+<li>公平性：題內定義 PM2.5 單位、右設限、品質規則、端點、公式與取位；不要求知道統計檢定或原報告內容。</li>
+<li>安全：只做紙上規畫；日後實作禁止燃燒與真實 PM2.5，光源須封閉且由受訓人員操作。</li>
+</ul>
+<h2>Sources</h2>
+<p>[2] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-051910.pdf" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-051910.pdf</a> — 攔截PM2.5－自創EcoPIV技術應用於空汙阻隔研究
+[5] <a href="https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg024209/ch05/type2/gov40/num12/images/BB.pdf" rel="noopener noreferrer" target="_blank">https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg024209/ch05/type2/gov40/num12/images/BB.pdf</a> — 十二年國民基本教育課程綱要：自然科學領域</p></article>
+<nav class="item-pagination" aria-label="依日期切換題目"><a href="../2026-09-15/teacher.html">← 前一題 · 2026-09-15</a><a href="../2026-09-17/teacher.html">後一題 · 2026-09-17 →</a></nav></main><footer class="footer wrap">PhAI 命題集 · 收錄截至 2026-10-29 的既有命題版本。<br>本集為教學改編，非科教館官方試題；原研究著作權屬原作者。公開版不含學生個資、內部審查檔或研究原始 PDF。<br>教師解析公開可讀，並非保密考試系統。使用時請保留出處與安全界線。</footer>
+<dialog id="zoom" aria-label="題圖原尺寸檢視"><button type="button" id="zoom-close">關閉大圖</button><div class="zoom-pan"><img id="zoom-img" alt=""></div></dialog></body></html>

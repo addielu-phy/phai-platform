@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>一個轉速，夠驗證模型嗎？｜PhAI 命題集</title><meta name="description" content="一個轉速，夠驗證模型嗎？">
+<meta name="theme-color" content="#191e33"><meta property="og:title" content="一個轉速，夠驗證模型嗎？｜PhAI 命題集">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://addielu-phy.github.io/phai-platform/daily/items/2026-09-18/index.html"><link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../vendor/katex.min.css">
+<script src="../../vendor/katex.min.js" defer></script><script src="../../vendor/auto-render.min.js" defer></script><script src="../../page.js" defer></script></head>
+<body class="edition-student"><a class="skip" href="#main">跳至主要內容</a><header class="top"><nav class="nav wrap" aria-label="主要導覽"><a class="brand" href="../../index.html"><strong>PhAI</strong><span>每日精緻命題</span></a><a href="../../index.html">題目總覽</a><a class="parent-link" href="../../../index.html">資源館 ↗</a></nav></header>
+<main id="main" class="reader wrap"><a class="back" href="../../index.html">← 返回全部題目</a>
+<div class="item-meta"><time datetime="2026-09-18">2026-09-18</time><span class="subject">物理</span><span>學生題目</span></div>
+<h1>一個轉速，夠驗證模型嗎？</h1><p class="domain">物理 × 數據素養 × 探究與實作</p>
+<nav class="edition" aria-label="題目版本"><a href="index.html" aria-current="page">學生題目</a><a href="teacher.html" >答案與評分規準</a></nav>
+<div class="reader-tools"><button type="button" data-print>列印題目</button><a href="student.md" download>下載學生原稿 .md</a><button type="button" data-share>複製本題連結</button><span class="share-state" role="status"></span></div>
+<p class="student-note">本頁只顯示原學生題目。建議先完成紙筆作答，再開啟答案與評分規準。</p>
+<article class="prose"><h2 class="original-heading">今日一題｜一個轉速，夠驗證模型嗎？</h2>
+<blockquote>
+<p>高一自然科／探究與實作｜建議 8–12 分鐘｜共 10 分｜可使用計算機</p>
+<p>本題資料節錄並重新編排自第 65 屆全國中小學科學展覽會高中組物理與天文學科作品 051816；不要求另讀原報告。[1][2]</p>
+</blockquote>
+<p>研究者在光碟上沿同一圓周<strong>均勻</strong>鑽出 \(h\) 個孔，讓光碟以 \(R\) rpm（每分鐘轉數）旋轉，並以固定氣流吹向孔洞。氣流被孔洞週期性截斷而產生聲音。</p>
+<p>本題採用以下理想「孔洞脈衝模型」：每轉一圈，每個孔恰好通過氣流一次，因此每圈共有 \(h\) 次等時間間隔的壓力脈衝。令基頻為 \(f\)，單位 Hz（\(1\ \mathrm{Hz}=1\) 次／秒），則</p>
+<p>\[
+f_{\text{model}}=\frac{hR}{60}。
+\]</p>
+<p>研究報告把多個轉速下量得的基頻，以直線</p>
+<p>\[
+f_{\text{fit}}=A_{\text{meas}}R+B
+\]</p>
+<p>擬合；其中斜率 \(A_{\text{meas}}\) 的單位是 \(\mathrm{Hz/rpm}\)，截距 \(B\) 的單位是 Hz。下表數值為報告列出的擬合結果：</p>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th style="text-align: right;">均勻孔數 \(h\)</th>
+<th style="text-align: right;">實測擬合斜率 \(A_{\text{meas}}\)（Hz/rpm）</th>
+<th style="text-align: right;">截距 \(B\)（Hz）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0.1008</td>
+<td style="text-align: right;">−2.2796</td>
+</tr>
+<tr>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.1412</td>
+<td style="text-align: right;">−20.736</td>
+</tr>
+<tr>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">0.1985</td>
+<td style="text-align: right;">+0.3604</td>
+</tr>
+</tbody>
+</table></div>
+<p>為避免看完結果才改標準，本題<strong>預先</strong>採用兩個不同層次的命題判準：</p>
+<ul>
+<li><strong>斜率判準：</strong>\(E\leq 3.0\%\)（含端點）才稱該組斜率與孔洞脈衝模型一致，其中
+  \[
+  A_{\text{ideal}}=\frac{h}{60},\qquad
+  E=\frac{|A_{\text{meas}}-A_{\text{ideal}}|}{A_{\text{ideal}}}\times100\%。
+  \]</li>
+<li><strong>單點判準：</strong>在指定轉速，\(P\leq 1.0\%\)（含端點）才稱該點與模型一致，其中
+  \[
+  P=\frac{|f_{\text{fit}}-f_{\text{model}}|}{f_{\text{model}}}\times100\%。
+  \]</li>
+</ul>
+<h2>問題</h2>
+<p><strong>（一）模型預測（2 分）</strong>  由 \(f_{\text{model}}=A_{\text{ideal}}R\)，計算 6、8、12 孔的 \(A_{\text{ideal}}\)。</p>
+<p><strong>（二）找出異常組（3 分）</strong>  分別計算三組的斜率差異率 \(E\)，再依斜率判準指出哪些組「一致」、哪些組「不一致」。</p>
+<p><strong>（三）一個轉速能代表整條直線嗎？（3 分）</strong>  只檢查 8 孔光碟在 \(R=3000\ \mathrm{rpm}\) 時：</p>
+<ol>
+<li>分別計算 \(f_{\text{model}}\) 與 \(f_{\text{fit}}\)；</li>
+<li>計算單點差異率 \(P\)，並依單點判準判定該點是否一致；</li>
+<li>有同學因此主張：「8 孔組在整個轉速範圍都支持孔洞脈衝模型。」這項主張是否充分？請結合第（二）題的斜率結果，以及 \(A\)、\(B\) 在直線中的角色，寫出理由。</li>
+</ol>
+<p><strong>（四）規畫覆驗（2 分）</strong>  8 孔組的斜率異常，可能來自「原本那一片光碟的孔距或製作誤差」，也可能是「8 孔條件下普遍出現、而非單一試片造成的現象」。請規畫一個可區分兩種解釋的覆驗，答案須各寫出：</p>
+<ol>
+<li>試片、對照、重複量測，以及至少一項須控制或隨機化條件的安排；</li>
+<li>兩種解釋各自預期看到的結果型態。</li>
+</ol>
+<h2>作答與取位規則</h2>
+<ul>
+<li>\(A_{\text{ideal}}\)：取到小數第 4 位；\(E\)、\(P\)：取到小數第 1 位；頻率：取至整數 Hz。</li>
+<li>中間計算保留未取位數值，只在各小題最終答案取位。</li>
+<li>若前題算術錯誤但後續方法正確，後續仍依方法給分。</li>
+<li>「一致」只表示符合本題預定判準，不表示模型已被證明。</li>
+</ul>
+<blockquote>
+<p><strong>安全邊界：</strong>第（四）題只要求紙筆規畫，不要求學生製作或操作。若日後實作，鑽孔須由受訓教師處理；旋轉光碟須先檢查裂損、置於完整防護罩內、不超過設備核定轉速，並讓人員避開光碟旋轉平面、佩戴護目鏡。</p>
+</blockquote>
+<h2>Sources</h2>
+<p>[1] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/senior.html" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/senior.html</a> — 第65屆全國中小學科學展覽會高級中等學校組
+[2] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-051816.pdf" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-051816.pdf</a> — 頻率窺秘：轉速遇見CD孔數的樂章</p></article>
+<nav class="item-pagination" aria-label="依日期切換題目"><a href="../2026-09-17/index.html">← 前一題 · 2026-09-17</a><a href="../2026-09-19/index.html">後一題 · 2026-09-19 →</a></nav></main><footer class="footer wrap">PhAI 命題集 · 收錄截至 2026-10-29 的既有命題版本。<br>本集為教學改編，非科教館官方試題；原研究著作權屬原作者。公開版不含學生個資、內部審查檔或研究原始 PDF。<br>教師解析公開可讀，並非保密考試系統。使用時請保留出處與安全界線。</footer>
+<dialog id="zoom" aria-label="題圖原尺寸檢視"><button type="button" id="zoom-close">關閉大圖</button><div class="zoom-pan"><img id="zoom-img" alt=""></div></dialog></body></html>

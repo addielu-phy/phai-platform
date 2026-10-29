@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>群震後 200 天的「機率」，能直接當預警嗎？ · 教師解析｜PhAI 命題集</title><meta name="description" content="群震後 200 天的「機率」，能直接當預警嗎？ · 教師解析">
+<meta name="theme-color" content="#191e33"><meta property="og:title" content="群震後 200 天的「機率」，能直接當預警嗎？ · 教師解析｜PhAI 命題集">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://addielu-phy.github.io/phai-platform/daily/items/2026-10-28/teacher.html"><link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../vendor/katex.min.css">
+<script src="../../vendor/katex.min.js" defer></script><script src="../../vendor/auto-render.min.js" defer></script><script src="../../page.js" defer></script></head>
+<body class="edition-teacher"><a class="skip" href="#main">跳至主要內容</a><header class="top"><nav class="nav wrap" aria-label="主要導覽"><a class="brand" href="../../index.html"><strong>PhAI</strong><span>每日精緻命題</span></a><a href="../../index.html">題目總覽</a><a class="parent-link" href="../../../index.html">資源館 ↗</a></nav></header>
+<main id="main" class="reader wrap"><a class="back" href="../../index.html">← 返回全部題目</a>
+<div class="item-meta"><time datetime="2026-10-28">2026-10-28</time><span class="subject">地科</span><span>教師解析</span></div>
+<h1>群震後 200 天的「機率」，能直接當預警嗎？</h1><p class="domain">地球與行星科學（地震資料）× 數據品質 × 探究與實作</p>
+<nav class="edition" aria-label="題目版本"><a href="index.html" >學生題目</a><a href="teacher.html" aria-current="page">答案與評分規準</a></nav>
+<div class="reader-tools"><button type="button" data-print>列印解析</button><a href="teacher.md" download>下載教師原稿 .md</a><button type="button" data-share>複製本題連結</button><span class="share-state" role="status"></span></div>
+<p class="teacher-note">教師區｜下列包含答案、評分規準與教學診斷；轉發學生時請改用「學生題目」頁。</p>
+<article class="prose"><h2 class="original-heading">教師答案與評分規準｜群震後 200 天的「機率」，能直接當預警嗎？</h2>
+<h2>一、標準答案與完整推理</h2>
+<h3>（一）先重算，再相信表格（2 分）</h3>
+<ul>
+<li>選定區域：<code>23 ÷ 235 × 100% = 9.787234…%</code>，取兩位小數為 <strong>9.79%</strong>。</li>
+<li>東北部：<code>28 ÷ 366 × 100% = 7.650273…%</code>，取兩位小數為 <strong>7.65%</strong>。</li>
+<li>東部：<code>7 ÷ 112 × 100% = 6.25%</code>，取兩位小數為 <strong>6.25%</strong>。</li>
+<li>依題定四捨五入規則，原報告的 <strong>9.78%</strong> 與 <strong>7.56%</strong> 都不相符；<code>6.25%</code> 相符。<code>9.78%</code> 像是截斷而非指定取位，<code>7.56%</code> 則與獨立重算不一致，可能是數字轉置，但不能在沒有原始工作檔時直接斷言原因。[1]</li>
+</ul>
+<h3>（二）哪一區的模型最接近實際占比？（2 分）</h3>
+<ul>
+<li>選定區域：<code>E = |9.86 − 9.787234…| = 0.072765…</code>，為 <strong>0.07 個百分點</strong>。</li>
+<li>東北部：<code>E = |12.06 − 7.650273…| = 4.409726…</code>，為 <strong>4.41 個百分點</strong>。</li>
+<li>東部：<code>E = |6.41 − 6.25| = 0.16</code>，為 <strong>0.16 個百分點</strong>。</li>
+<li>依本題定義，<strong>選定區域</strong>的誤差最小，因此最接近重算後的 <code>R</code>。</li>
+</ul>
+<h3>（三）同一份報告，區域數值對調了嗎？（1 分）</h3>
+<p><strong>答案：D。</strong>報告 PDF p.15 的東北部結果段寫 <code>6.41%</code>，PDF p.21 的東部結果段寫 <code>12.06%</code>；PDF p.25 的表 4 與摘要則把兩值配置為東北部 <code>12.06%</code>、東部 <code>6.41%</code>。僅憑文件內部無法判定哪一處才對，不能靠版面位置、取平均或猜測修正；應回查原始程式、分區資料與 KDE 積分輸出。[1]</p>
+<h3>（四）能直接拿來發布地震預警嗎？（3 分）</h3>
+<ol>
+<li><strong>不支持。</strong><code>R=a/b</code> 的分母 <code>b</code> 是報告所計數的「群震後大地震總數」，不是「發布了幾次群震預警」。因此 <code>R</code> 是被計數的大地震中落在前 200 天的占比，不能直接給出「每次群震預警後至少發生一次大地震」的命中率，也不能給出誤報率。[1]</li>
+<li>可接受的資料驗證須同時包含：
+   - <strong>預警表現：</strong>在未參與建模、事前鎖定的新時段中，每次群震建立一個不重複或明訂重疊處理的 200 天時窗。令 <code>N</code> 為預警時窗數、<code>m</code> 為其中至少發生一次 <code>M ≥ 5.0</code> 地震的時窗數；命中比例為 <code>m/N</code>，誤報比例為 <code>(N−m)/N</code>。
+   - <strong>背景對照：</strong>在相同區域、相同季節或年份結構中，抽取等長且未發生群震的 200 天時窗；令 <code>M</code> 為對照時窗數、<code>r</code> 為其中至少發生一次門檻地震的時窗數，比較 <code>m/N</code> 與 <code>r/M</code>。若沒有優於背景、或誤報過高，就不能稱為實用預警。時窗抽樣、重疊處理與判定門檻應事前決定。</li>
+</ol>
+<h2>二、分項評分規準</h2>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>小題</th>
+<th>可見要求</th>
+<th style="text-align: right;">配分</th>
+<th>給分要點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>（一）</td>
+<td>三式、三結果、顯示值判定</td>
+<td style="text-align: right;">2</td>
+<td>三個 <code>R</code> 各 0.5 分；完整指出 <code>9.78%</code>、<code>7.56%</code> 都不符合題定取位，共 0.5 分。只寫答案而無方法，每個結果最多 0.25 分。</td>
+</tr>
+<tr>
+<td>（二）</td>
+<td>三個 <code>E</code> 與最接近區域</td>
+<td style="text-align: right;">2</td>
+<td><code>0.07</code>、<code>4.41</code>、<code>0.16</code> 各 0.5 分；選定區域 0.5 分。沿用（一）未取位數值且方法正確者不重複扣分。</td>
+</tr>
+<tr>
+<td>（三）</td>
+<td>單選</td>
+<td style="text-align: right;">1</td>
+<td>選 D 得 1 分；其餘 0 分。</td>
+</tr>
+<tr>
+<td>（四）1</td>
+<td>verdict＋分母理由</td>
+<td style="text-align: right;">1</td>
+<td>不支持 0.5 分；指出 <code>b</code> 不是預警次數、故不能得命中／誤報率 0.5 分。只說「資料不足」最多 0.5 分。</td>
+</tr>
+<tr>
+<td>（四）2</td>
+<td>新時段預警驗證＋無群震對照</td>
+<td style="text-align: right;">2</td>
+<td>用新時段列 <code>N,m</code> 並計命中／誤報 1 分；設計同區域、等長、未發生群震的對照時窗並比較背景風險 1 分。</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>總分：8 分。</strong></p>
+<h2>三、迷思／誘答分析</h2>
+<ul>
+<li><strong>把截斷當四捨五入：</strong>保留來源的 <code>9.78%</code>，未依題定取位重算。</li>
+<li><strong>數字形似就不重算：</strong>把 <code>28/366</code> 誤認為 <code>7.56%</code>，忽略獨立計算可檢出轉置型錯誤。</li>
+<li><strong>模型值越大就越準：</strong>直接選 <code>12.06%</code>，未以同區 <code>R</code> 計算絕對誤差。</li>
+<li><strong>摘要權威偏誤：</strong>選 A，認為摘要必然比正文正確。</li>
+<li><strong>折衷一定合理：</strong>選 C，用平均掩蓋資料標籤衝突，卻沒有科學理由。</li>
+<li><strong>事件占比等於預警命中率：</strong>忽略兩者分母不同，也未計算無事件預警造成的誤報。</li>
+<li><strong>只看群震後、不看背景：</strong>沒有未發生群震的等長對照，無法知道觀察到的地震是否高於背景風險。</li>
+</ul>
+<h2>四、命題定位</h2>
+<ul>
+<li><strong>預估時間：</strong>閱讀與定義 2–3 分鐘；（一）2 分鐘；（二）2 分鐘；（三）1 分鐘；（四）3 分鐘；合計約 10–11 分鐘。</li>
+<li><strong>課綱學習表現：</strong><code>tc-Ⅴc-1</code>（比較科學資料解釋與程序合理性）、<code>pa-Ⅴc-1/2</code>（數學整理、比較與相互檢核）、<code>pc-Ⅴc-1</code>（評核數據信效度並提出改善）。自然科學領綱的核心要求包含「能比較與判斷自己及他人對於科學資料的解釋在方法及程序上的合理性，並能提出問題或意見」。[4]</li>
+<li><strong>Bloom：</strong>（一）應用；（二）分析；（三）評鑑；（四）評鑑＋創造。</li>
+<li><strong>公平性：</strong>所有非例行符號、公式、單位、取位、門檻與時窗均在題幹定義；不要求先備統計術語或地震預測冷知識。</li>
+<li><strong>安全／隱私／著作權：</strong>只分析公開歷史資料；不進行危險操作；不重製原圖、學生／指導者姓名、照片或學校資訊。</li>
+</ul>
+<h2>Sources</h2>
+<p>[1] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-051903.pdf" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-051903.pdf</a> — 第65屆全國中小學科展〈臺灣東部群震週期與大地震機率的分析〉
+[4] <a href="https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg024209/ch05/type2/gov40/num12/images/BB.pdf" rel="noopener noreferrer" target="_blank">https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg024209/ch05/type2/gov40/num12/images/BB.pdf</a> — 十二年國民基本教育課程綱要—自然科學領域</p></article>
+<nav class="item-pagination" aria-label="依日期切換題目"><a href="../2026-10-27/teacher.html">← 前一題 · 2026-10-27</a><a href="../2026-10-29/teacher.html">後一題 · 2026-10-29 →</a></nav></main><footer class="footer wrap">PhAI 命題集 · 收錄截至 2026-10-29 的既有命題版本。<br>本集為教學改編，非科教館官方試題；原研究著作權屬原作者。公開版不含學生個資、內部審查檔或研究原始 PDF。<br>教師解析公開可讀，並非保密考試系統。使用時請保留出處與安全界線。</footer>
+<dialog id="zoom" aria-label="題圖原尺寸檢視"><button type="button" id="zoom-close">關閉大圖</button><div class="zoom-pan"><img id="zoom-img" alt=""></div></dialog></body></html>

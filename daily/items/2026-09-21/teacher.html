@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>紫色越深，數字就越可信嗎？ · 教師解析｜PhAI 命題集</title><meta name="description" content="紫色越深，數字就越可信嗎？ · 教師解析">
+<meta name="theme-color" content="#191e33"><meta property="og:title" content="紫色越深，數字就越可信嗎？ · 教師解析｜PhAI 命題集">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://addielu-phy.github.io/phai-platform/daily/items/2026-09-21/teacher.html"><link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../vendor/katex.min.css">
+<script src="../../vendor/katex.min.js" defer></script><script src="../../vendor/auto-render.min.js" defer></script><script src="../../page.js" defer></script></head>
+<body class="edition-teacher"><a class="skip" href="#main">跳至主要內容</a><header class="top"><nav class="nav wrap" aria-label="主要導覽"><a class="brand" href="../../index.html"><strong>PhAI</strong><span>每日精緻命題</span></a><a href="../../index.html">題目總覽</a><a class="parent-link" href="../../../index.html">資源館 ↗</a></nav></header>
+<main id="main" class="reader wrap"><a class="back" href="../../index.html">← 返回全部題目</a>
+<div class="item-meta"><time datetime="2026-09-21">2026-09-21</time><span class="subject">化學</span><span>教師解析</span></div>
+<h1>紫色越深，數字就越可信嗎？</h1><p class="domain">化學 × 影像量測 × 探究與實作</p>
+<nav class="edition" aria-label="題目版本"><a href="index.html" >學生題目</a><a href="teacher.html" aria-current="page">答案與評分規準</a></nav>
+<div class="reader-tools"><button type="button" data-print>列印解析</button><a href="teacher.md" download>下載教師原稿 .md</a><button type="button" data-share>複製本題連結</button><span class="share-state" role="status"></span></div>
+<p class="teacher-note">教師區｜下列包含答案、評分規準與教學診斷；轉發學生時請改用「學生題目」頁。</p>
+<article class="prose"><h2 class="original-heading">教師版｜紫色越深，數字就越可信嗎？</h2>
+<blockquote>
+<p>對應學生版：<code>01_student_question.md</code>｜總分 9 分｜建議 8–12 分鐘</p>
+</blockquote>
+<h2>一、標準答案與完整推理</h2>
+<h3>（一）由原始通道值重算（2 分）</h3>
+<p>0.50% 樣本的 \((R,G,B)=(178,150,140)\)：</p>
+<p>\[
+\begin{aligned}
+\mathrm{Gray}
+&amp;=0.299(178)+0.587(150)+0.114(140)\\
+&amp;=53.222+88.050+15.960\\
+&amp;=157.232\\
+&amp;\rightarrow\boxed{157.2}.
+\end{aligned}
+\]</p>
+<p>Gray 是由 0–255 通道值加權得到的指標，本題不附物理單位。</p>
+<h3>（二）來源數值稽核（2 分）</h3>
+<ol>
+<li>\(|118.302-157.232|=38.930&gt;0.1\)，所以判定為 <strong><code>FAIL</code></strong>。</li>
+<li>後續應採 <strong>由原始 \(R,G,B\) 依題定公式重算的 157.2</strong>。理由：原始三通道值與明示公式形成可重現的計算鏈；來源顯示值 118.302 無法由同一列資料與公式重現。這不表示原始影像一定毫無量測誤差，只表示該衍生欄位未通過算術一致性檢查。</li>
+</ol>
+<h3>（三）趨勢不等於可靠鑑別（2 分）</h3>
+<p>0.45% 樣本：</p>
+<p>\[
+\begin{aligned}
+\mathrm{Gray}_{0.45\%}
+&amp;=0.299(178)+0.587(159)+0.114(150)\\
+&amp;=53.222+93.333+17.100\\
+&amp;=163.655\rightarrow\boxed{163.7}.
+\end{aligned}
+\]</p>
+<p>差值用未取位值計算：</p>
+<p>\[
+\Delta\mathrm{Gray}=163.655-157.232=6.423\rightarrow\boxed{6.4}.
+\]</p>
+<p>這一輪資料的方向確實是 0.50% 比 0.45% 暗，但「已能可靠分辨」<strong>尚未獲充分支持</strong>。每個濃度目前只有一組通道值，沒有獨立重複、組內變異、試紙批次差或拍攝誤差，因此無法知道 6.4 的組間差是否大於日常量測波動。</p>
+<h3>（四）規畫確認性實驗（3 分）</h3>
+<p>範例方案：</p>
+<ol>
+<li><strong>樣本與重複：</strong>取同一批不含水楊酸、且其他成分固定的基質，分別加入水楊酸配成 0.45% 與 0.50%；每一濃度至少獨立配製或獨立取樣 3 份，每份使用不同試紙並重新拍照。更佳作法是跨至少兩批試紙重複，以涵蓋批次差。</li>
+<li><strong>量測控制：</strong>固定 400 lx、同一手機與相機設定（鎖定曝光與白平衡）、相同背景與距離、相同滴液體積、相同讀取時間與同一取色區域；把兩濃度的測量順序隨機化，避免時間漂移與先後效應。</li>
+<li><strong>判斷準則：</strong>事先規定以各組平均數或中位數表示中心位置，以標準差或全距表示組內變異；只有在多次重複中 0.50% 的 Gray 持續較低，且組間差相對於組內波動達到預設門檻（例如兩組觀測全距不重疊，或以事先設定的分類界值在另一次重複測試中達到目標正確率）時，才判定能可靠分辨。若兩組觀測分布明顯重疊，就只能說單次資料呈現方向，不能宣稱可靠鑑別。</li>
+</ol>
+<p>其他等效方案可給分，但必須同時處理基質一致性、獨立重複、量測控制及「組間差相對於組內變異」的事前判準。</p>
+<h2>二、分項評分規準</h2>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>部分</th>
+<th>可觀察作答要素</th>
+<th style="text-align: right;">分數</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>（一）代入</td>
+<td>正確寫出 \(0.299(178)+0.587(150)+0.114(140)\)</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（一）結果</td>
+<td>得到 157.232 並依規則寫 157.2</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（二）判定</td>
+<td>以差值大於 0.1 判為 <code>FAIL</code></td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（二）可重現性</td>
+<td>選重算值，並指出原始通道＋公式可重現、118.302 不可由其重現</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（三）計算</td>
+<td>得 0.45% 的 163.7，並以未取位值求 \(\Delta\mathrm{Gray}=6.4\)</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（三）證據界線</td>
+<td>判定不足以宣稱可靠分辨，並指出沒有獨立重複／組內變異等具體限制</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（四）樣本與重複</td>
+<td>相同基質的 0.45%／0.50% 兩組；每組至少 3 次真正獨立重複</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（四）量測控制</td>
+<td>至少兩項具體固定條件，或一項固定條件加測量順序隨機化</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>（四）判斷準則</td>
+<td>比較中心位置與組內變異，且提出事先可操作的可靠鑑別準則</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>總分：9 分。</strong>第（三）若沿用第（一）的錯誤 Gray，但差值計算與證據界線合理，可給後續方法分；不得因連鎖算術錯誤重複扣除概念分。</p>
+<h2>三、來源忠實性與數學更正</h2>
+<p>原作品以固定光源下的手機 \(R,G,B\) 分析試紙，並明列 \(\mathrm{Gray}=0.299R+0.587G+0.114B\)。[1]學生表逐列轉錄原報告 PDF 第 23 頁中 0.45% 與 0.50% 兩組 \(t=0\) 的 \(R,G,B\)；官方高中組索引確認作品編號、完整題名、科別與佳作身分。[1][2]</p>
+<p>原報告第 23 頁把 0.50% 的 Gray 顯示為 118.302；以同列 \((178,150,140)\) 及原報告自己的公式獨立重算，得到 157.232。本題保留 118.302 作為「待稽核的來源顯示值」，但標準答案與後續推理採可重現的 157.232（依題意顯示為 157.2）。其餘來源 Gray 顯示值亦未由本題當成正確答案；完整逐列稽核見 <code>qa/independent_recalculation.json</code>。</p>
+<p>第（四）的同基質加標、重複、隨機化與判準是<strong>命題要求的確認性實驗</strong>，不是原作者已完成的實驗或結論。</p>
+<h2>四、常見錯誤與診斷</h2>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>常見錯誤</th>
+<th>診斷意義</th>
+<th>回饋重點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>把 \(R+G+B\) 直接除以 3</td>
+<td>忽略題定加權公式</td>
+<td>三個權重不同，但總和為 1</td>
+</tr>
+<tr>
+<td>把 118.302 當權威答案</td>
+<td>以出版值取代可重現計算</td>
+<td>衍生值也要回到原始欄位與公式稽核</td>
+</tr>
+<tr>
+<td>中間先四捨五入</td>
+<td>造成差值累積誤差</td>
+<td>保留未取位值到最後一步</td>
+</tr>
+<tr>
+<td>看見 0.50% Gray 較低就宣稱「可靠」</td>
+<td>把單次方向與重複性混為一談</td>
+<td>可靠性需要獨立重複與組內變異</td>
+</tr>
+<tr>
+<td>同一照片取色 3 次當 3 次獨立重複</td>
+<td>低估樣本、試紙與拍攝變異</td>
+<td>每次須重新取樣、換試紙、重新拍攝</td>
+</tr>
+<tr>
+<td>兩品牌產品直接互比</td>
+<td>濃度與配方基質同時改變</td>
+<td>用同一基質加標，隔離濃度差異</td>
+</tr>
+<tr>
+<td>只寫「控制其他變因」</td>
+<td>規畫不可操作</td>
+<td>明列照度、曝光、時間、滴量、距離等</td>
+</tr>
+</tbody>
+</table></div>
+<h2>五、命題藍圖摘要</h2>
+<ul>
+<li><strong>intended construct／證據：</strong>依定義重算衍生指標、稽核來源算術一致性、區分單次趨勢與可靠鑑別、規畫能估計組內變異的確認性實驗。</li>
+<li><strong>作答歷程：</strong>計算＋證據評鑑＋來源錯誤處理＋探究規畫。</li>
+<li><strong>108 課綱學習表現：</strong><code>tr-Ⅴc-1</code>（以數理與證據提出論點限制）、<code>tc-Ⅴc-1</code>（判斷資料解釋與程序合理性）、<code>pe-Ⅴc-1</code>（辨明變項與規畫探究）、<code>pa-Ⅴc-1</code>、<code>pa-Ⅴc-2</code>（以數學整理數據、比較資訊並相互檢核）。官方自然科學領綱見 pp.33–34。[5]</li>
+<li><strong>Bloom：</strong>（一）應用；（二）分析／評鑑；（三）分析／評鑑；（四）創造。</li>
+<li><strong>預估時間：</strong>讀題 2 分鐘；（一）2 分鐘；（二）1–2 分鐘；（三）2 分鐘；（四）2–3 分鐘；合計約 9–11 分鐘。</li>
+<li><strong>公平與安全：</strong>公式、通道範圍、方向、照度、取位及容許誤差都已提供；不要求影像處理冷知識。只做紙筆規畫，不讓學生接觸濃酸、不明萃取液或進行人體測試。</li>
+</ul>
+<h2>Sources</h2>
+<p>[1] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-050217.pdf" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-050217.pdf</a> — 就這樣「紫」-建立簡易水楊酸定量法應用於市售洗面乳
+[2] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/senior.html" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/senior.html</a> — 第65屆全國中小學科學展覽會高級中等學校組
+[5] <a href="https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg024209/ch05/type2/gov40/num12/images/BB.pdf" rel="noopener noreferrer" target="_blank">https://gazette.nat.gov.tw/EG_FileManager/eguploadpub/eg024209/ch05/type2/gov40/num12/images/BB.pdf</a> — 十二年國民基本教育課程綱要：自然科學領域</p></article>
+<nav class="item-pagination" aria-label="依日期切換題目"><a href="../2026-09-20/teacher.html">← 前一題 · 2026-09-20</a><a href="../2026-09-22/teacher.html">後一題 · 2026-09-22 →</a></nav></main><footer class="footer wrap">PhAI 命題集 · 收錄截至 2026-10-29 的既有命題版本。<br>本集為教學改編，非科教館官方試題；原研究著作權屬原作者。公開版不含學生個資、內部審查檔或研究原始 PDF。<br>教師解析公開可讀，並非保密考試系統。使用時請保留出處與安全界線。</footer>
+<dialog id="zoom" aria-label="題圖原尺寸檢視"><button type="button" id="zoom-close">關閉大圖</button><div class="zoom-pan"><img id="zoom-img" alt=""></div></dialog></body></html>

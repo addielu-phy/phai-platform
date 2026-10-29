@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>資料筆數為什麼不等於經過時間？｜PhAI 命題集</title><meta name="description" content="資料筆數為什麼不等於經過時間？">
+<meta name="theme-color" content="#191e33"><meta property="og:title" content="資料筆數為什麼不等於經過時間？｜PhAI 命題集">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="canonical" href="https://addielu-phy.github.io/phai-platform/daily/items/2026-09-20/index.html"><link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../style.css"><link rel="stylesheet" href="../../vendor/katex.min.css">
+<script src="../../vendor/katex.min.js" defer></script><script src="../../vendor/auto-render.min.js" defer></script><script src="../../page.js" defer></script></head>
+<body class="edition-student"><a class="skip" href="#main">跳至主要內容</a><header class="top"><nav class="nav wrap" aria-label="主要導覽"><a class="brand" href="../../index.html"><strong>PhAI</strong><span>每日精緻命題</span></a><a href="../../index.html">題目總覽</a><a class="parent-link" href="../../../index.html">資源館 ↗</a></nav></header>
+<main id="main" class="reader wrap"><a class="back" href="../../index.html">← 返回全部題目</a>
+<div class="item-meta"><time datetime="2026-09-20">2026-09-20</time><span class="subject">地科</span><span>學生題目</span></div>
+<h1>資料筆數為什麼不等於經過時間？</h1><p class="domain">地球與行星科學 × 數據素養 × 探究與實作</p>
+<nav class="edition" aria-label="題目版本"><a href="index.html" aria-current="page">學生題目</a><a href="teacher.html" >答案與評分規準</a></nav>
+<div class="reader-tools"><button type="button" data-print>列印題目</button><a href="student.md" download>下載學生原稿 .md</a><button type="button" data-share>複製本題連結</button><span class="share-state" role="status"></span></div>
+<p class="student-note">本頁只顯示原學生題目。建議先完成紙筆作答，再開啟答案與評分規準。</p>
+<article class="prose"><h2 class="original-heading">今日一題｜資料筆數為什麼不等於經過時間？</h2>
+<blockquote>
+<p>高一自然科／探究與實作｜建議 8–12 分鐘｜共 10 分｜可使用計算機</p>
+<p>本題情境改編自第 65 屆全國中小學科學展覽會高中組地球與行星科學科作品 051907〈熱島抬升了嗎?-臺灣都市熱島效應的長期變化趨勢〉；不要求另讀原報告。[1][2]</p>
+</blockquote>
+<p>研究者以 1960–2022 年的網格化氣溫資料估算都市熱島。對每一城市、每一年，先只保留海拔不超過 100 m 的網格，再定義</p>
+<p>\[
+I=T_{\max}-T_{\min},
+\]</p>
+<p>其中 \(T_{\max}\) 與 \(T_{\min}\) 分別是保留網格中的最高、最低月均溫，\(I\) 稱為熱島效應指數，單位為 ℃。原研究再以直線模型描述年平均 \(I\) 的長期變化。[1]</p>
+<p>本題把時間明確定義為 \(t=\text{西元年}-1960\)，因此 1960 年為 \(t=0\)；其他年份的 \(t\) 皆依此定義計算。直線模型為</p>
+<p>\[
+\hat I=at+b,
+\]</p>
+<p>其中 \(a\) 的單位是 ℃／年；\(R^2\) 介於 0 與 1，表示這條直線能描述資料年間變異的比例，越接近 1 代表線性描述越貼近資料。<strong>本題只把 \(R^2\) 當作線性貼合程度；它本身不等於因果證據，也不等於統計顯著性檢定。</strong></p>
+<p>下表的 \(a\) 與 \(R^2\) 轉錄自原報告的四城市結果；表中未提供斜率的不確定度或 \(p\) 值。[1]</p>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>城市</th>
+<th style="text-align: right;">斜率 \(a\)（℃／年）</th>
+<th style="text-align: right;">\(R^2\)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>臺北</td>
+<td style="text-align: right;">+0.01600</td>
+<td style="text-align: right;">0.607</td>
+</tr>
+<tr>
+<td>臺中</td>
+<td style="text-align: right;">+0.01010</td>
+<td style="text-align: right;">0.415</td>
+</tr>
+<tr>
+<td>臺南</td>
+<td style="text-align: right;">−0.00564</td>
+<td style="text-align: right;">0.060</td>
+</tr>
+<tr>
+<td>高雄</td>
+<td style="text-align: right;">+0.00194</td>
+<td style="text-align: right;">0.006</td>
+</tr>
+</tbody>
+</table></div>
+<h2>問題</h2>
+<h3>（一）先把「資料筆數」與「經過時間」分清楚（3 分）</h3>
+<p>用</p>
+<p>\[
+\Delta \hat I=a(t_{2022}-t_{1960})
+\]</p>
+<p>計算四城市由 1960 到 2022 的模型預測變化量，均取到小數第 2 位並保留正負號與單位。（2 分）</p>
+<p>再用一句話說明：為何 1960–2022（含首尾）共有 63 個年度資料點，卻不能把 63 直接當作式中的時間差？（1 分）</p>
+<h3>（二）這張表能支持什麼？（2 分）</h3>
+<p>下列應選 <strong>2 項</strong>。每選對 1 項得 1 分；選超過 2 項，本小題 0 分；未超選時不倒扣。</p>
+<p>A. 在四條直線模型中，臺北的預測上升量最大。<br/>
+B. 四城市都有 63 筆年資料，所以可判定四城市的熱島效應都顯著增強。<br/>
+C. 臺南的模型斜率為負；但只憑此表仍不能判定下降是否達統計顯著。<br/>
+D. 高雄的 \(R^2=0.006\)，證明高雄不存在都市熱島。</p>
+<h3>（三）建設前後變熱，都是建設造成的嗎？（3 分）</h3>
+<blockquote>
+<p><strong>以下全部是命題改編數據，不是原報告數值。</strong></p>
+</blockquote>
+<p>某城市在 1995 年啟用大型園區。研究者比較「園區周邊區」與事先選定、土地利用相近的「對照區」之夏季平均 \(I\)：</p>
+<div aria-label="資料表，可左右捲動" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>區域</th>
+<th style="text-align: right;">建設前平均（℃）</th>
+<th style="text-align: right;">建設後平均（℃）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>園區周邊區</td>
+<td style="text-align: right;">1.80</td>
+<td style="text-align: right;">2.55</td>
+</tr>
+<tr>
+<td>對照區</td>
+<td style="text-align: right;">1.50</td>
+<td style="text-align: right;">2.05</td>
+</tr>
+</tbody>
+</table></div>
+<p>定義差異中的差異</p>
+<p>\[
+D=(\text{周邊區後}-\text{周邊區前})-(\text{對照區後}-\text{對照區前})。
+\]</p>
+<ol>
+<li>計算 \(D\)，取到小數第 2 位並寫單位；再比較它與只看周邊區前後差所得的數值。（2 分）</li>
+<li>若研究者想把算得的 \(D\) 解讀為園區的因果效果，仍寫出 <strong>1 項</strong>必須再檢查的假設或可能混淆因素。（1 分）</li>
+</ol>
+<h3>（四）檢查指標會不會「追著極端值跑」（2 分）</h3>
+<p>原方法每年都以當年最熱、最冷的網格代表「都市」與「郊區」，兩個位置可能逐年改變；原報告也把此事列為方法限制。[1]</p>
+<p>請規畫一個<strong>紙筆上的穩健性檢查</strong>，答案須各寫出：</p>
+<ol>
+<li>一套在看溫度結果前就固定的都市／郊區網格分類規則；（1 分）</li>
+<li>一個重新計算的指標，以及用來判斷原方法所得「各城市長期斜率的正負方向與由大到小排序」是否穩健的比較準則。（1 分）</li>
+</ol>
+<h2>作答與取位規則</h2>
+<ul>
+<li>第（一）、（三）的最終數值取到小數第 2 位；中間計算不先取位。</li>
+<li>正負號與 ℃ 都是答案的一部分。</li>
+<li>若前一步算術錯誤、但後續方法與解讀合理，後續分數仍依方法給分。</li>
+<li>第（四）只要求規畫，不要求實際蒐集資料或進行戶外量測。</li>
+</ul>
+<blockquote>
+<p><strong>資料與安全邊界：</strong>若日後實作，僅使用合法公開、去識別化的網格資料；不得為取得溫度自行進入工業區、電廠、屋頂、道路或其他限制／危險區域。</p>
+</blockquote>
+<h2>Sources</h2>
+<p>[1] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-051907.pdf" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/pdf/NPHSF2025-051907.pdf</a> — 熱島抬升了嗎?-臺灣都市熱島效應的長期變化趨勢
+[2] <a href="https://twsf.ntsec.gov.tw/activity/race-1/65/senior.html" rel="noopener noreferrer" target="_blank">https://twsf.ntsec.gov.tw/activity/race-1/65/senior.html</a> — 第65屆全國中小學科學展覽會高級中等學校組</p></article>
+<nav class="item-pagination" aria-label="依日期切換題目"><a href="../2026-09-19/index.html">← 前一題 · 2026-09-19</a><a href="../2026-09-21/index.html">後一題 · 2026-09-21 →</a></nav></main><footer class="footer wrap">PhAI 命題集 · 收錄截至 2026-10-29 的既有命題版本。<br>本集為教學改編，非科教館官方試題；原研究著作權屬原作者。公開版不含學生個資、內部審查檔或研究原始 PDF。<br>教師解析公開可讀，並非保密考試系統。使用時請保留出處與安全界線。</footer>
+<dialog id="zoom" aria-label="題圖原尺寸檢視"><button type="button" id="zoom-close">關閉大圖</button><div class="zoom-pan"><img id="zoom-img" alt=""></div></dialog></body></html>
