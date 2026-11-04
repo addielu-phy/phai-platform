@@ -1204,6 +1204,42 @@ window.PHAI_RESOURCES = [
       "講義",
       "分享錄影"
     ]
+  },
+  {
+    "id": "PHAI-0033",
+    "status": "已公開",
+    "title": "聊天室紀錄（11/4 AI 解題影片實作）",
+    "summary": "蕭妤真老師分享時在 Meet 聊天室貼出的完整「AI 做解題影片」提示詞範本",
+    "description": "11/4 第二十三場分享的 Google Meet 聊天室紀錄。內含蕭妤真老師提供、可直接改用的「AI 把講義計算題做成解題影片」提示詞範本：先列答案與理由表核對、用 Python 與免費工具產生畫面＋中文配音＋字幕、影片要「教懂」（先講觀念 → 畫圖／動畫 → 每步講為什麼 → 提醒常見錯誤 → 最後給答案）、先做 3 支樣品、上傳 YouTube 後把 QR Code 放回講義，並維護工作紀錄方便接續。",
+    "author_display": "蕭妤真",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "提示詞範本",
+      "分享紀錄"
+    ],
+    "physics_topic": [
+      "解題教學"
+    ],
+    "ai_tools": [
+      "Prompt",
+      "Python",
+      "YouTube"
+    ],
+    "audience": [
+      "教師備課",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/1vk_P2MYZpoIkjCHZimGYb1EBdW7skvFf/view",
+    "license_scope": "Google Drive 分享文字檔",
+    "privacy_note": "Meet 聊天室紀錄；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "11/4 第二十三場分享",
+    "tags": [
+      "解題影片",
+      "提示詞",
+      "QR Code",
+      "講義",
+      "聊天室紀錄"
+    ]
   }
 ];
 
