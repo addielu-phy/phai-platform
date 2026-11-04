@@ -1169,6 +1169,41 @@ window.PHAI_RESOURCES = [
       "段考試卷",
       "聊天室紀錄"
     ]
+  },
+  {
+    "id": "PHAI-0032",
+    "status": "已公開",
+    "title": "AI 解題影片實作：從題目到講義中的 QR Code",
+    "summary": "蕭妤真老師示範讓 AI 把講義計算題做成有動畫、配音與字幕的解題影片，上傳 YouTube 後把 QR Code 放回講義",
+    "description": "11/4 第二十三場分享錄影：蕭妤真老師分享「AI 解題影片實作：從題目到講義中的 QR Code」，從準備題目與講義、選擇工具開始，示範讓 AI 用 Python 與免費工具自動產生有動畫、中文配音和字幕的解題影片（先講觀念、畫圖、逐步說明為什麼、提醒常見錯誤，最後才給答案），上傳 YouTube 後把每支影片的 QR Code 整合進講義，讓學生掃碼預習和複習。",
+    "author_display": "蕭妤真",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "錄影／教學示範"
+    ],
+    "physics_topic": [
+      "解題教學"
+    ],
+    "ai_tools": [
+      "Python",
+      "YouTube"
+    ],
+    "audience": [
+      "教師備課",
+      "課堂教學",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/1H5Zd9Lo65HLeaKX0GQOcf1eySi_Zwz4R/view",
+    "license_scope": "公開 Google Drive 分享錄影",
+    "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "11/4 第二十三場分享",
+    "tags": [
+      "解題影片",
+      "AI 動畫",
+      "QR Code",
+      "講義",
+      "分享錄影"
+    ]
   }
 ];
 
@@ -1349,5 +1384,13 @@ window.PHAI_SESSIONS = [
     "title": "AI 輔助命題實作：從學習單到段考試卷",
     "speaker": "趙晉鴻",
     "resource_id": "PHAI-0030"
+  },
+  {
+    "no": 23,
+    "date": "2026-11-04",
+    "label": "11/4",
+    "title": "AI 解題影片實作：從題目到講義中的 QR Code",
+    "speaker": "蕭妤真",
+    "resource_id": "PHAI-0032"
   }
 ];
