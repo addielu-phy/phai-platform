@@ -1206,6 +1206,42 @@ window.PHAI_RESOURCES = [
     ]
   },
   {
+    "id": "PHAI-0035",
+    "status": "已公開",
+    "title": "簡報（11/4 AI 解題影片實作）",
+    "summary": "蕭妤真老師 11/4 分享簡報：AI 使用心法、AI 聊天室 vs AI 代理人，以及製作解題影片的提示詞與流程",
+    "description": "11/4 第二十三場分享簡報（17 頁）：蕭妤真老師從解題影片使用情境、AI 聊天室 vs AI 代理人、「我的教學需要訂閱嗎？」談起，整理 AI 使用心法（像主管交辦事項、不會寫提示詞就請 AI 寫、想省力就用最聰明的 AI），並附上原始提示詞與整理自 265 支影片經驗的進階版提示詞，說明配音選擇、上傳 YouTube 與建立 QR Code 的步驟。",
+    "author_display": "蕭妤真",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "簡報",
+      "提示詞範本"
+    ],
+    "physics_topic": [
+      "解題教學"
+    ],
+    "ai_tools": [
+      "Claude",
+      "Codex",
+      "YouTube"
+    ],
+    "audience": [
+      "教師備課",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/15453eArKJ5R6QuNoj6AznywblQhJ0CoO/view",
+    "license_scope": "Google Drive 分享簡報 PDF",
+    "privacy_note": "講者分享簡報；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "11/4 第二十三場分享",
+    "tags": [
+      "解題影片",
+      "提示詞",
+      "QR Code",
+      "講義",
+      "簡報"
+    ]
+  },
+  {
     "id": "PHAI-0033",
     "status": "已公開",
     "title": "聊天室紀錄（11/4 AI 解題影片實作）",
