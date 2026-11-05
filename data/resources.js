@@ -1280,10 +1280,10 @@ window.PHAI_RESOURCES = [
   {
     "id": "PHAI-0034",
     "status": "已公開",
-    "title": "不會寫程式也能做！用 AI 把講義計算題變成解題影片｜老師實作教學",
+    "title": "AI 解題影片教學（YouTube）",
     "summary": "YouTube 教學影片：不會寫程式也能用 AI 把講義計算題做成解題影片，可搭配 11/4 分享參考",
-    "description": "YouTube 頻道 HHPhysics 的教學影片「不會寫程式也能做！用 AI 把講義計算題變成解題影片｜老師實作教學」，以 Claude 製作，示範老師如何用 AI 把講義上的計算題變成解題影片，可作為 11/4 第二十三場「AI 解題影片實作」的延伸參考。",
-    "author_display": "HHPhysics",
+    "description": "蕭妤真老師（YouTube 頻道 HHPhysics）的教學影片「不會寫程式也能做！用 AI 把講義計算題變成解題影片｜老師實作教學」，以 Claude 製作，示範老師如何用 AI 把講義上的計算題變成解題影片，可作為 11/4 第二十三場「AI 解題影片實作」的延伸參考。",
+    "author_display": "蕭妤真",
     "author_visibility": "可公開",
     "resource_type": [
       "錄影／教學示範"
