@@ -1309,6 +1309,39 @@ window.PHAI_RESOURCES = [
       "講義",
       "教學影片"
     ]
+  },
+  {
+    "id": "PHAI-0036",
+    "status": "已公開",
+    "title": "從生活到教學，AI到底該不該訂閱？",
+    "summary": "陳偉昌老師從生活與教學的實際使用經驗，談 AI 工具到底值不值得付費訂閱",
+    "description": "11/11 第二十四場分享錄影：陳偉昌老師（阿偉的物理 x AI實驗室）分享「從生活到教學，AI到底該不該訂閱？」，從日常生活到課堂教學的使用情境，討論各種 AI 工具免費與付費版本的差異與取捨，並現場示範讓學生連線參與的 AI 互動課堂網站。",
+    "author_display": "陳偉昌",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "錄影／教學示範"
+    ],
+    "physics_topic": [
+      "AI 工具應用"
+    ],
+    "ai_tools": [
+      "ChatGPT"
+    ],
+    "audience": [
+      "教師備課",
+      "課堂教學",
+      "社群共學"
+    ],
+    "url": "https://drive.google.com/file/d/1UNqV9Hs9o0ypmwLv4Ur6MhhBgs6k-zLS/view",
+    "license_scope": "公開 Google Drive 分享錄影",
+    "privacy_note": "公開分享錄影；引用時請保留講者與 PhAI 共學圈來源",
+    "source_event": "11/11 第二十四場分享",
+    "tags": [
+      "AI 訂閱",
+      "AI 工具選擇",
+      "生活應用",
+      "分享錄影"
+    ]
   }
 ];
 
@@ -1497,5 +1530,13 @@ window.PHAI_SESSIONS = [
     "title": "AI 解題影片實作：從題目到講義中的 QR Code",
     "speaker": "蕭妤真",
     "resource_id": "PHAI-0032"
+  },
+  {
+    "no": 24,
+    "date": "2026-11-11",
+    "label": "11/11",
+    "title": "從生活到教學，AI到底該不該訂閱？",
+    "speaker": "陳偉昌",
+    "resource_id": "PHAI-0036"
   }
 ];
