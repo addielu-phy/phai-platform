@@ -1311,6 +1311,114 @@ window.PHAI_RESOURCES = [
     ]
   },
   {
+    "id": "PHAI-0037",
+    "status": "已公開",
+    "title": "用 AI 做劇情闖關理化遊戲（YouTube）",
+    "summary": "兩個國中理化劇情遊戲都是用 AI 做出來的教學示範影片，可搭配 11/4 分享參考",
+    "description": "蕭妤真老師（YouTube 頻道 HHPhysics）的教學影片「不會寫程式、寫不出劇本也能做！用 AI 做劇情闖關理化遊戲」。影片說明兩個國中理化劇情遊戲都是用 AI 做出來的，並於 2026/11/11 分享到 PhAI 共學圈。可作為 11/4 第二十三場「AI 解題影片實作」的延伸參考。",
+    "author_display": "蕭妤真",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "錄影／教學示範",
+      "遊戲化學習"
+    ],
+    "physics_topic": [
+      "AI 教學工作流",
+      "跨領域"
+    ],
+    "ai_tools": [
+      "YouTube"
+    ],
+    "audience": [
+      "教師備課",
+      "社群共學"
+    ],
+    "url": "https://www.youtube.com/watch?v=O0s1Ya8bBpU",
+    "thumbnail_url": "https://i.ytimg.com/vi/O0s1Ya8bBpU/hqdefault.jpg",
+    "license_scope": "公開 YouTube 影片",
+    "privacy_note": "公開 YouTube 影片；引用時請保留原頻道來源",
+    "source_event": "11/4 第二十三場分享",
+    "tags": [
+      "劇情闖關",
+      "理化遊戲",
+      "教學影片",
+      "YouTube"
+    ]
+  },
+  {
+    "id": "PHAI-0038",
+    "status": "已公開",
+    "title": "秦宇的愛情（八上理化穿越遊戲）",
+    "summary": "八上理化穿越劇情遊戲，有 AI 聲優與背景音樂",
+    "description": "蕭妤真老師以 AI 製作的國中理化劇情闖關遊戲《秦宇的愛情》。內容對應八年級上學期理化，採穿越劇情，並有 AI 聲優與背景音樂。可作為 11/4 第二十三場分享的延伸教材，搭配教學影片「用 AI 做劇情闖關理化遊戲」一起使用。",
+    "author_display": "蕭妤真",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "遊戲化學習",
+      "模擬／互動教材"
+    ],
+    "physics_topic": [
+      "跨領域"
+    ],
+    "ai_tools": [
+      "Web App",
+      "HTML",
+      "遊戲化"
+    ],
+    "audience": [
+      "學生自學",
+      "教師教學",
+      "課堂教學"
+    ],
+    "url": "https://w49341203-oss.github.io/qinyu-love/",
+    "license_scope": "公開網站資源",
+    "privacy_note": "公開網站遊戲；引用時請保留作者與來源連結",
+    "source_event": "11/4 第二十三場分享",
+    "tags": [
+      "秦宇的愛情",
+      "八上理化",
+      "穿越",
+      "劇情闖關",
+      "AI 聲優"
+    ]
+  },
+  {
+    "id": "PHAI-0039",
+    "status": "已公開",
+    "title": "氧心殿（八下氧化還原）",
+    "summary": "八下氧化還原主題的劇情闖關遊戲",
+    "description": "蕭妤真老師以 AI 製作的國中理化劇情闖關遊戲《氧心殿》。內容對應八年級下學期氧化還原。可作為 11/4 第二十三場分享的延伸教材，搭配教學影片「用 AI 做劇情闖關理化遊戲」一起使用。",
+    "author_display": "蕭妤真",
+    "author_visibility": "可公開",
+    "resource_type": [
+      "遊戲化學習",
+      "模擬／互動教材"
+    ],
+    "physics_topic": [
+      "跨領域"
+    ],
+    "ai_tools": [
+      "Web App",
+      "HTML",
+      "遊戲化"
+    ],
+    "audience": [
+      "學生自學",
+      "教師教學",
+      "課堂教學"
+    ],
+    "url": "https://w49341203-oss.github.io/yangxin-palace/",
+    "license_scope": "公開網站資源",
+    "privacy_note": "公開網站遊戲；引用時請保留作者與來源連結",
+    "source_event": "11/4 第二十三場分享",
+    "tags": [
+      "氧心殿",
+      "八下理化",
+      "氧化還原",
+      "劇情闖關"
+    ]
+  },
+  {
     "id": "PHAI-0036",
     "status": "已公開",
     "title": "從生活到教學，AI到底該不該訂閱？",
